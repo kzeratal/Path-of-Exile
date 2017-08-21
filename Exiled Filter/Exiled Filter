@@ -1,0 +1,401 @@
+#=================================================================================================================================
+#
+#	Exiled Filter : made for Path of Exile
+#
+#=================================================================================================================================
+#
+#	Always set borders as highlight to pick.
+#	Borders' Color will follow the item's rarity.
+#	Valuable items and currencies will also set alert sound, make sure you have turn the filter sound on.
+#	
+#	Made by Jimmyee Kao since 2017/06/26
+#	Updated to Harbinger League.
+#
+#=================================================================================================================================
+#
+#	Normal items' rules
+#
+#=================================================================================================================================
+#------------------------------------
+#	6-linked items
+#------------------------------------
+Show
+	LinkedSockets 6
+	Rarity Normal
+	SetFontSize 45
+	SetBorderColor 200 200 200
+	PlayAlertSound 8 300
+#------------------------------------
+#	6-socket items
+#------------------------------------
+Show
+	Sockets 6
+	Rarity Normal
+	SetBorderColor 200 200 200
+	PlayAlertSound 6 300
+#------------------------------------
+#	Item level is no matter
+#------------------------------------
+Show
+	BaseType "Crystal Belt" "Leather Belt" "Opal Ring" "Sorcerer Boots" "Steel Ring"
+	Rarity Normal
+	SetBorderColor 200 200 200
+#==============================================
+#	Item level 84+ armours
+#==============================================
+#------------------------------------
+#	Body armours
+#------------------------------------
+Show
+	BaseType  "Titanium Spirit Shield" "Vaal Regalia"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#------------------------------------
+#	Gloves
+#------------------------------------
+Show
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#------------------------------------
+#	Helmets
+#------------------------------------
+Show
+	BaseType "Hubris Circlet"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#------------------------------------
+#	Shields
+#------------------------------------
+Show
+	BaseType "Titanium Spirit Shield"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#==============================================
+#	Item level 84+ jewelry
+#==============================================	
+#------------------------------------
+#	Amulets
+#------------------------------------
+Show
+	BaseType "Marble Amulet"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#------------------------------------
+#	Rings
+#------------------------------------
+Show
+	BaseType "Diamond Ring"
+	Rarity Normal
+	ItemLevel >= 84
+	SetBorderColor 200 200 200
+#==============================================
+#	Item level 83 weapons
+#==============================================	
+#------------------------------------
+#	Bows
+#------------------------------------
+Show
+	BaseType "Harbinger Bow" "Maraketh Bow"
+	Rarity Normal
+	ItemLevel 83
+	SetBorderColor 200 200 200
+#------------------------------------
+#	Daggers
+#------------------------------------
+Show
+	BaseType "Ambusher"
+	Rarity Normal
+	ItemLevel 83
+	SetBorderColor 200 200 200
+#==============================================
+#	Hide normal items
+#==============================================
+#------------------------------------
+#	One handed weapons
+#------------------------------------
+Hide
+	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Rarity Normal
+#------------------------------------
+#	Two handed weapons
+#------------------------------------
+Hide
+	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
+	Rarity Normal
+#------------------------------------
+#	Armours
+#------------------------------------
+Hide
+	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
+	Rarity Normal
+#------------------------------------
+#	Jewelry
+#------------------------------------
+Hide
+	Class "Amulets" "Belts" "Rings"
+	Rarity Normal
+#------------------------------------
+#	Flasks
+#------------------------------------
+Hide
+	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+	Rarity Normal
+#==============================================
+#	Magic items' rules
+#==============================================
+#------------------------------------
+#	6-linked items
+#------------------------------------
+Show
+	LinkedSockets 6
+	Rarity Magic
+	SetFontSize 45
+	SetBorderColor 136 136 255
+	PlayAlertSound 8 300
+#------------------------------------
+#	6-socket items
+#------------------------------------
+Show
+	Sockets 6
+	Rarity Magic
+	SetBorderColor 136 136 255
+	PlayAlertSound 6 300
+#------------------------------------
+#	Item level is no matter
+#------------------------------------
+Show
+	BaseType "Crystal Belt" "Opal Ring" "Steel Ring"
+	Rarity Magic
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Item level 84+ armors
+#------------------------------------
+Show
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titanium Spirit Shield" "Vaal Regalia"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Item level 84+ jewelry
+#------------------------------------
+Show
+	BaseType "Diamond Ring" "Marble Amulet"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Item level 83 weapons
+#------------------------------------
+Show
+	BaseType "Ambusher" "Harbinger Bow" "Maraketh Bow"
+	Rarity Magic
+	ItemLevel 83
+	SetBorderColor 136 136 255
+#==============================================
+#	Hide magic items
+#==============================================
+#------------------------------------
+#	One handed weapons
+#------------------------------------
+Hide
+	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Rarity Magic
+#------------------------------------
+#	Two handed weapons
+#------------------------------------
+Hide
+	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
+	Rarity Magic
+#------------------------------------
+#	Armors
+#------------------------------------
+Hide
+	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
+	Rarity Magic
+#------------------------------------
+#	Jewelry
+#------------------------------------
+Hide
+	Class "Amulets" "Belts" "Rings"
+	Rarity Magic
+#------------------------------------
+#	Flasks
+#------------------------------------
+Hide
+	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+	Rarity Magic
+#==============================================
+#	Rare items' rules
+#==============================================
+#------------------------------------
+#	6-linked items
+#------------------------------------
+Show
+	LinkedSockets 6
+	Rarity Rare
+	SetFontSize 45
+	SetBorderColor 255 255 119
+	PlayAlertSound 8 300
+#------------------------------------
+#	6-socket items
+#------------------------------------
+Show
+	Sockets 6
+	Rarity Rare
+	SetBorderColor 255 255 119
+	PlayAlertSound 6 300
+#------------------------------------
+#	Item level is no matter
+#------------------------------------
+Show
+	BaseType "Crystal Belt" "Opal Ring" "Steel Ring"
+	Rarity Rare
+	SetBorderColor 255 255 119
+#------------------------------------
+#	Item level 84+ armors
+#------------------------------------
+Show
+	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Hubris Circlet" "Murder Mitts" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titanium Spirit Shield" "Vaal Regalia"
+	Rarity Rare
+	ItemLevel >= 84
+	SetBorderColor 255 255 119
+#------------------------------------
+#	Item level 84+ jewelry
+#------------------------------------
+Show
+	BaseType "Agate Amulet" "Citrine Amulet" "Diamond Ring" "Lapis Amulet" "Leather Belt" "Marble Amulet" "Moonstone Ring" "Onyx Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Vanguard Belt"
+	Rarity Rare
+	ItemLevel >= 84
+	SetBorderColor 255 255 119
+#------------------------------------
+#	Hide rare items
+#------------------------------------
+#Hide
+	Class "Bow" "Claw" "Dagger" "One Hand" "Two Hand" "Sceptre" "Stave" "Wand" "Body Armour" "Boots" "Gloves" "Helmet" "Quiver" "Shield" "Amulet" "Belt" "Ring" "Flask"
+	Rarity Rare
+#==============================================
+#	Currencies' rules
+#==============================================
+#------------------------------------
+#	Regular currency
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Orb of Augmentation" "Orb of Transmutation"
+	SetBorderColor 170 158 130
+Show
+	Class "Currency"
+	BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Chance" "Silver Coin"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+Show
+	Class "Currency"
+	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Jeweller's Orb" "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+	PlayAlertSound 2 300
+Show
+	Class "Currency"
+	BaseType "Exalted Orb" "Divine Orb"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+	PlayAlertSound 3 300
+#------------------------------------
+#	Cartographer's sextant
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+	PlayAlertSound 14 300
+#------------------------------------
+#	Breach currency
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Splinter of Chayula" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetTextColor 114 0 83
+	SetBorderColor 114 0 83
+Show
+	Class "Currency"
+	BaseType "Blessing of Chayula" "Blessing of Esh" "Blessing of Tul" "Blessing of Uul-Netol" "Blessing of Xoph"
+	SetFontSize 45
+	SetTextColor 114 0 83
+	SetBorderColor 114 0 83
+#=================================================================================================================================
+#
+#	SKill Gems' rules
+#
+#=================================================================================================================================
+#------------------------------------
+#	Hide regular skill gems
+#------------------------------------
+Hide
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality 0
+#=================================================================================================================================
+#
+#	Special items' rules
+#
+#=================================================================================================================================
+#------------------------------------
+#	Fishing rods
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Albino Rhoa Feather"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 4 300
+#------------------------------------
+#	Fishing rods
+#------------------------------------
+Show
+	Class "Fishing Rods"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 4 300
+#------------------------------------
+#	Mirror of Kalandra
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Mirror of Kalandra"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 4 300
+#=================================================================================================================================
+#
+#	General rules
+#
+#=================================================================================================================================
+#------------------------------------
+#	Harbinger league
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Ancient Shard" "Exalted Shard"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+	PlayAlertSound 2 300
+Show
+	Class "Currency"
+	BaseType "Mirror Shard"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 4 300
