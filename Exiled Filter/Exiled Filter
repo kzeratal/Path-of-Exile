@@ -251,6 +251,13 @@ Show
 	SetBorderColor 255 255 119
 	PlayAlertSound 6 300
 #------------------------------------
+#       Good base helmet
+#------------------------------------
+Show
+	BaseType "Bone Helmet" "Eternal Burgonet" "Ezomyte Burgonet" "Fluted Bascinet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Prophet Crown" "Royal Burgonet" "Samite Helmet" "Silken Hood" "Sinner Tricorne" "Ursine Pelt"
+	Rarity Rare
+	SetBackgroundColor 255 0 0 50
+#------------------------------------
 #	Item level is no matter
 #------------------------------------
 Show
