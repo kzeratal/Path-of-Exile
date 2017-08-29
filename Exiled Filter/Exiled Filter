@@ -256,7 +256,14 @@ Show
 Show
 	BaseType "Bone Helmet" "Eternal Burgonet" "Ezomyte Burgonet" "Fluted Bascinet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Prophet Crown" "Royal Burgonet" "Samite Helmet" "Silken Hood" "Sinner Tricorne" "Ursine Pelt"
 	Rarity Rare
-	SetBackgroundColor 255 0 0 50
+	SetBackgroundColor 100 0 0
+#------------------------------------
+#       Good base body armour
+#------------------------------------
+Show
+	BaseType "Assassin's Garb" "Astral Plate" "Crusader Plate" "Destiny Leather" "Elegant Ringmail" "Exquisite Leather" "Full Dragonscale" "General's Brigandine" "Gladiator Plate" "Glorious Plate" "Saintly Chainmail" "Saint's Hauberk" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
+	Rarity Rare
+	SetBackgroundColor 100 0 0
 #------------------------------------
 #	Item level is no matter
 #------------------------------------
