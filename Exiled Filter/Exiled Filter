@@ -33,11 +33,16 @@ Show
 	Rarity Normal
 	SetBorderColor 200 200 200
 	PlayAlertSound 6 300
+#==============================================
+#       Item level is no matter
+#==============================================
 #------------------------------------
-#	Item level is no matter
+#	Rings
 #------------------------------------
 Show
-	BaseType "Crystal Belt" "Leather Belt" "Opal Ring" "Sorcerer Boots" "Steel Ring"
+	BaseType "Opal Ring" "Steel Ring"
+Show
+	BaseType "Crystal Belt" "Leather Belt" "Sorcerer Boots"
 	Rarity Normal
 	SetBorderColor 200 200 200
 #==============================================
