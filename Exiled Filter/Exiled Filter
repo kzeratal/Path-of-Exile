@@ -17,7 +17,7 @@
 #
 #=================================================================================================================================
 #------------------------------------
-#	6-linked items
+#	6-linked item
 #------------------------------------
 Show
 	LinkedSockets 6
@@ -47,6 +47,7 @@ Show
 #	Body armours
 #------------------------------------
 Show
+	Class "Body Armours"
 	BaseType  "Titanium Spirit Shield" "Vaal Regalia"
 	Rarity Normal
 	ItemLevel >= 84
@@ -55,6 +56,7 @@ Show
 #	Gloves
 #------------------------------------
 Show
+	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
 	Rarity Normal
 	ItemLevel >= 84
@@ -173,8 +175,19 @@ Show
 	BaseType "Crystal Belt" "Opal Ring" "Steel Ring"
 	Rarity Magic
 	SetBorderColor 136 136 255
+#==============================================
+#	Item level 84+ armours
+#==============================================
 #------------------------------------
-#	Item level 84+ armors
+#       Gloves
+#------------------------------------
+Show
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Gloves
 #------------------------------------
 Show
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titanium Spirit Shield" "Vaal Regalia"
@@ -251,19 +264,26 @@ Show
 	SetBorderColor 255 255 119
 	PlayAlertSound 6 300
 #------------------------------------
-#       Good base helmet
+#       Good base helmets
 #------------------------------------
 Show
 	BaseType "Bone Helmet" "Eternal Burgonet" "Ezomyte Burgonet" "Fluted Bascinet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Prophet Crown" "Royal Burgonet" "Samite Helmet" "Silken Hood" "Sinner Tricorne" "Ursine Pelt"
 	Rarity Rare
-	SetBackgroundColor 100 0 0
+	SetBackgroundColor 80 0 0
 #------------------------------------
-#       Good base body armour
+#       Good base body armours
 #------------------------------------
 Show
 	BaseType "Assassin's Garb" "Astral Plate" "Crusader Plate" "Destiny Leather" "Elegant Ringmail" "Exquisite Leather" "Full Dragonscale" "General's Brigandine" "Gladiator Plate" "Glorious Plate" "Saintly Chainmail" "Saint's Hauberk" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
 	Rarity Rare
-	SetBackgroundColor 100 0 0
+	SetBackgroundColor 80 0 0
+#------------------------------------
+#       Good base weapons
+#------------------------------------
+Show
+	Class
+	Rarity Rare
+	
 #------------------------------------
 #	Item level is no matter
 #------------------------------------
