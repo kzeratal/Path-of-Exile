@@ -34,15 +34,30 @@ Show
 	SetBorderColor 200 200 200
 	PlayAlertSound 6 300
 #==============================================
-#       Item level is no matter
+#       Item level is no matter armours
 #==============================================
+#------------------------------------
+#	Boots
+#------------------------------------
+Show
+	BaseType "Sorcerer Boots"
+	Rarity Normal
+	SetBorderColor 200 200 200
+#==============================================
+#       Item level is no matter jewelry
+#==============================================
+#------------------------------------
+#	Belts
+#------------------------------------
+Show
+	BaseType "Crystal Belt" "Leather Belt"
+	Rarity Normal
+	SetBorderColor 200 200 200
 #------------------------------------
 #	Rings
 #------------------------------------
 Show
 	BaseType "Opal Ring" "Steel Ring"
-Show
-	BaseType "Crystal Belt" "Leather Belt" "Sorcerer Boots"
 	Rarity Normal
 	SetBorderColor 200 200 200
 #==============================================
@@ -70,6 +85,7 @@ Show
 #	Helmets
 #------------------------------------
 Show
+	Class "Helmets"
 	BaseType "Hubris Circlet"
 	Rarity Normal
 	ItemLevel >= 84
@@ -78,6 +94,7 @@ Show
 #	Shields
 #------------------------------------
 Show
+	Class "Shields"
 	BaseType "Titanium Spirit Shield"
 	Rarity Normal
 	ItemLevel >= 84
@@ -89,6 +106,7 @@ Show
 #	Amulets
 #------------------------------------
 Show
+	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Normal
 	ItemLevel >= 84
@@ -97,44 +115,35 @@ Show
 #	Rings
 #------------------------------------
 Show
+	Class "Rings"
 	BaseType "Diamond Ring"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
 #==============================================
-#	Item level 83 weapons
+#	Item level 83+ weapons
 #==============================================	
 #------------------------------------
 #	Bows
 #------------------------------------
 Show
+	Class "Bows"
 	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Normal
-	ItemLevel 83
+	ItemLevel >= 83
 	SetBorderColor 200 200 200
 #------------------------------------
 #	Daggers
 #------------------------------------
 Show
+	Class "Daggers"
 	BaseType "Ambusher"
 	Rarity Normal
-	ItemLevel 83
+	ItemLevel >= 83
 	SetBorderColor 200 200 200
 #==============================================
 #	Hide normal items
 #==============================================
-#------------------------------------
-#	One handed weapons
-#------------------------------------
-Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
-	Rarity Normal
-#------------------------------------
-#	Two handed weapons
-#------------------------------------
-Hide
-	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
-	Rarity Normal
 #------------------------------------
 #	Armours
 #------------------------------------
@@ -146,6 +155,18 @@ Hide
 #------------------------------------
 Hide
 	Class "Amulets" "Belts" "Rings"
+	Rarity Normal
+#------------------------------------
+#	One handed weapons
+#------------------------------------
+Hide
+	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Rarity Normal
+#------------------------------------
+#	Two handed weapons
+#------------------------------------
+Hide
+	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
 	Rarity Normal
 #------------------------------------
 #	Flasks
@@ -184,52 +205,95 @@ Show
 #	Item level 84+ armours
 #==============================================
 #------------------------------------
+#       Body armours
+#------------------------------------
+Show
+	Class "Body Armours"
+	BaseType "Vaal Regalia"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#------------------------------------
 #       Gloves
 #------------------------------------
 Show
+	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
 #------------------------------------
-#	Gloves
+#	Helmets
 #------------------------------------
 Show
-	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titanium Spirit Shield" "Vaal Regalia"
+	Class "Helmets"
+	BaseType "Hubris Circlet"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
 #------------------------------------
+#	Boots
+#------------------------------------
+Show
+	Class "Boots"
+	BaseType "Sorcerer Boots"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Shields
+#------------------------------------
+Show
+	Class "Shields"
+	BaseType "Titanium Spirit Shield"
+	Rarity Magic
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#==============================================
 #	Item level 84+ jewelry
+#==============================================
+#------------------------------------
+#	Amulets
 #------------------------------------
 Show
-	BaseType "Diamond Ring" "Marble Amulet"
+	Class "Amulets"
+	BaseType "Marble Amulet"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
 #------------------------------------
-#	Item level 83 weapons
+#	Rings
 #------------------------------------
 Show
-	BaseType "Ambusher" "Harbinger Bow" "Maraketh Bow"
+	Class "Rings"
+	BaseType "Diamond Ring"
 	Rarity Magic
-	ItemLevel 83
+	ItemLevel >= 84
+	SetBorderColor 136 136 255
+#==============================================
+#	Item level 83+ weapons
+#==============================================
+#------------------------------------
+#	Bows
+#------------------------------------
+Show
+	Class "Bows"
+	BaseType "Harbinger Bow" "Maraketh Bow"
+	Rarity Magic
+	ItemLevel >= 83
+	SetBorderColor 136 136 255
+#------------------------------------
+#	Daggers
+#------------------------------------
+Show
+	Class "Daggers"
+	BaseType "Ambusher"
+	Rarity Magic
+	ItemLevel >= 83
 	SetBorderColor 136 136 255
 #==============================================
 #	Hide magic items
 #==============================================
-#------------------------------------
-#	One handed weapons
-#------------------------------------
-Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
-	Rarity Magic
-#------------------------------------
-#	Two handed weapons
-#------------------------------------
-Hide
-	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
-	Rarity Magic
 #------------------------------------
 #	Armors
 #------------------------------------
@@ -241,6 +305,18 @@ Hide
 #------------------------------------
 Hide
 	Class "Amulets" "Belts" "Rings"
+	Rarity Magic
+#------------------------------------
+#	One handed weapons
+#------------------------------------
+Hide
+	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Rarity Magic
+#------------------------------------
+#	Two handed weapons
+#------------------------------------
+Hide
+	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
 	Rarity Magic
 #------------------------------------
 #	Flasks
@@ -282,13 +358,6 @@ Show
 	BaseType "Assassin's Garb" "Astral Plate" "Crusader Plate" "Destiny Leather" "Elegant Ringmail" "Exquisite Leather" "Full Dragonscale" "General's Brigandine" "Gladiator Plate" "Glorious Plate" "Saintly Chainmail" "Saint's Hauberk" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
 	Rarity Rare
 	SetBackgroundColor 80 0 0
-#------------------------------------
-#       Good base weapons
-#------------------------------------
-Show
-	Class
-	Rarity Rare
-	
 #------------------------------------
 #	Item level is no matter
 #------------------------------------
