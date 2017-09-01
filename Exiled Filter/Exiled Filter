@@ -1,6 +1,6 @@
 #=================================================================================================================================
 #
-#	Exiled Filter : made for Path of Exile
+#	<0000>		Exiled Filter : Made For Path of Exile
 #
 #=================================================================================================================================
 #
@@ -11,458 +11,989 @@
 #	Made by Jimmyee Kao since 2017/06/26
 #	Updated to Harbinger League.
 #
+#========================================================================
+#	<0100>		Menu : Normal Items
+#========================================================================
+#
+#	[1000]	<Normal Items>
+#
+#	<1000>	<Normal Items> <General Rules>
+#	 1000	<Normal Items> <General Rules> <6-Linked Items>
+#	 1001	<Normal Items> <General Rules> <6-Socket Items>
+#
+#	<1100>	<Normal Items> <Item Level No Matter (Armours)>
+#	 1100	<Normal Items> <Item Level No Matter (Armours)> <Boots>
+#	<1110>	<Normal Items> <Item Level No Matter (Jewelry)>
+#	 1110	<Normal Items> <Item Level No Matter (Jewelry)> <Amulets>
+#	 1111	<Normal Items> <Item Level No Matter (Jewelry)> <Belts>
+#	 1112	<Normal Items> <Item Level No Matter (Jewelry)> <Rings>
+#
+#	<1200>	<Normal Items> <Item Level 84+ (Armours)>
+#	 1200	<Normal Items> <Item Level 84+ (Armours)> <Body Armours>
+#	 1201	<Normal Items> <Item Level 84+ (Armours)> <Gloves>
+#	 1202	<Normal Items> <Item Level 84+ (Armours)> <Helmets>
+#	 1203	<Normal Items> <Item Level 84+ (Armours)> <Shields>
+#	<1210>	<Normal Items> <Item Level 84+ (Jewelry)>
+#	 1210	<Normal Items> <Item Level 84+ (Jewelry)> <Rings>
+#
+#	<1300>	<Normal Items> <Item Level 83+ (1H Weapons)>
+#	 1300	<Normal Items> <Item Level 83+ (1H Weapons)> <Daagers>
+#	<1310>	<Normal Items> <Item Level 83+ (2H Weapons)>
+#	 1310	<Normal Items> <Item Level 83+ (2H Weapons)> <Bows>
+#
+#	<1900>	<Normal Items> <Hide Garbage (1H Weapons)>
+#	 1900	<Normal Items> <Hide Garbage (1H Weapons)> <Claws>
+#	 1901	<Normal Items> <Hide Garbage (1H Weapons)> <Daggers>
+#	 1902	<Normal Items> <Hide Garbage (1H Weapons)> <One Hand Axes>
+#	 1903	<Normal Items> <Hide Garbage (1H Weapons)> <One Hand Maces>
+#	 1904	<Normal Items> <Hide Garbage (1H Weapons)> <One Hand Swords>
+#	 1905	<Normal Items> <Hide Garbage (1H Weapons)> <Sceptres>
+#	 1906	<Normal Items> <Hide Garbage (1H Weapons)> <Wands>
+#	<1910>	<Normal Items> <Hide Garbage (2H Weapons)>
+#	 1910	<Normal Items> <Hide Garbage (2H Weapons)> <Bows>
+#	 1911	<Normal Items> <Hide Garbage (2H Weapons)> <Staves>
+#	 1912	<Normal Items> <Hide Garbage (2H Weapons)> <Two Hand Axes>
+#	 1913	<Normal Items> <Hide Garbage (2H Weapons)> <Two Hand Maces>
+#	 1914	<Normal Items> <Hide Garbage (2H Weapons)> <Two Hand Swords>
+#	<1920>	<Normal Items> <Hide Garbage (Armours)>
+#	 1920	<Normal Items> <Hide Garbage (Armours)> <Body Armours>
+#	 1921	<Normal Items> <Hide Garbage (Armours)> <Boots>
+#	 1922	<Normal Items> <Hide Garbage (Armours)> <Gloves>
+#	 1923	<Normal Items> <Hide Garbage (Armours)> <Helmets>
+#	 1924	<Normal Items> <Hide Garbage (Armours)> <Quivers>
+#	 1925	<Normal Items> <Hide Garbage (Armours)> <Shields>
+#	<1930>	<Normal Items> <Hide Garbage (Jewelry)>
+#	 1930	<Normal Items> <Hide Garbage (Jewelry)> <Amulets>
+#	 1931	<Normal Items> <Hide Garbage (Jewelry)> <Belts>
+#	 1932	<Normal Items> <Hide Garbage (Jewelry)> <Rings>
+#	<1940>	<Normal Items> <Hide Garbage (Flasks)>
+#	 1940	<Normal Items> <Hide Garbage (Flasks)> <Life Flasks>
+#	 1941	<Normal Items> <Hide Garbage (Flasks)> <Mana Flasks>
+#	 1942	<Normal Items> <Hide Garbage (Flasks)> <Hybrid Flasks>
+#
+#========================================================================
+#	<0200>		Menu : Magic Items
+#========================================================================
+#
+#	[2000]	<Magic Items>
+#
+#	<2000>	<Magic Items> <General Rules>
+#	 2000	<Magic Items> <General Rules> <6-Linked Items>
+#	 2001	<Magic Items> <General Rules> <6-Socket Items>
+#
+#	<2100>	<Magic Items> <Item Level No Matter (Jewelry)>
+#	 2100	<Magic Items> <Item Level No Matter (Jewelry)> <Belts>
+#	 2101	<Magic Items> <Item Level No Matter (Jewelry)> <Rings>
+#
+#	<2200>	<Magic Items> <Item Level 84+ (Armours)>
+#	 2200	<Magic Items> <Item Level 84+ (Armours)> <Body Armours>
+#	 2201	<Magic Items> <Item Level 84+ (Armours)> <Boots>
+#	 2202	<Magic Items> <Item Level 84+ (Armours)> <Gloves>
+#	 2203	<Magic Items> <Item Level 84+ (Armours)> <Helmets>
+#	 2204	<Magic Items> <Item Level 84+ (Armours)> <Shields>
+#	<2210>	<Magic Items> <Item Level 84+ (Jewelry)>
+#	 2210	<Magic Items> <Item Level 84+ (Jewelry)> <Amulets>
+#	 2211	<Magic Items> <Item Level 84+ (Jewelry)> <Rings>
+#
+#	<2300>	<Magic Items> <Item Level 83+ (1H Weapons)>
+#	 2300	<Magic Items> <Item Level 83+ (1H Weapons)> <Daggers>
+#	<2310>	<Magic Items> <Item Level 83+ (2H Weapons)>
+#	 2310	<Magic Items> <Item Level 83+ (2H Weapons)> <Bows>
+#
+#	<2900>	<Magic Items> <Hide Garbage (1H Weapons)>
+#	 2900	<Magic Items> <Hide Garbage (1H Weapons)> <Claws>
+#	 2901	<Magic Items> <Hide Garbage (1H Weapons)> <Daggers>
+#	 2902	<Magic Items> <Hide Garbage (1H Weapons)> <One Hand Axes>
+#	 2903	<Magic Items> <Hide Garbage (1H Weapons)> <One Hand Maces>
+#	 2904	<Magic Items> <Hide Garbage (1H Weapons)> <One Hand Swords>
+#	 2905	<Magic Items> <Hide Garbage (1H Weapons)> <Sceptres>
+#	 2906	<Magic Items> <Hide Garbage (1H Weapons)> <Wands>
+#	<2910>	<Magic Items> <Hide Garbage (2H Weapons)>
+#	 2910	<Magic Items> <Hide Garbage (2H Weapons)> <Bows>
+#	 2911	<Magic Items> <Hide Garbage (2H Weapons)> <Staves>
+#	 2912	<Magic Items> <Hide Garbage (2H Weapons)> <Two Hand Axes>
+#	 2913	<Magic Items> <Hide Garbage (2H Weapons)> <Two Hand Maces>
+#	 2914	<Magic Items> <Hide Garbage (2H Weapons)> <Two Hand Swords>
+#	<2920>	<Magic Items> <Hide Garbage (Armours)>
+#	 2920	<Magic Items> <Hide Garbage (Armours)> <Body Armours>
+#	 2921	<Magic Items> <Hide Garbage (Armours)> <Boots>
+#	 2922	<Magic Items> <Hide Garbage (Armours)> <Gloves>
+#	 2923	<Magic Items> <Hide Garbage (Armours)> <Helmets>
+#	 2924	<Magic Items> <Hide Garbage (Armours)> <Quivers>
+#	 2925	<Magic Items> <Hide Garbage (Armours)> <Shields>
+#	<2930>	<Magic Items> <Hide Garbage (Jewelry)>
+#	 2930	<Magic Items> <Hide Garbage (Jewelry)> <Amulets>
+#	 2931	<Magic Items> <Hide Garbage (Jewelry)> <Belts>
+#	 2932	<Magic Items> <Hide Garbage (Jewelry)> <Rings>
+#	<2940>	<Magic Items> <Hide Garbage (Flasks)>
+#	 2940	<Magic Items> <Hide Garbage (Flasks)> <Life Flasks>
+#	 2941	<Magic Items> <Hide Garbage (Flasks)> <Mana Flasks>
+#	 2942	<Magic Items> <Hide Garbage (Flasks)> <Hybrid Flasks>
+#
+#========================================================================
+#	<0300>		Menu : Rare Items
+#========================================================================
+#
+#	[2000]	<Rare Items>
+#
+#	<3000>	<Rare Items> <General Rules>
+#	 3000	<Rare Items> <General Rules> <6-Linked Items>
+#	 3001	<Rare Items> <General Rules> <6-Socket Items>
+#
+#	<3100>	<Rare Items> <Good Base To Identify (1H Weapons)>
+#	 3100	<Rare Items> <Good Base To Identify (1H Weapons)> <Claws>
+#	 3101	<Rare Items> <Good Base To Identify (1H Weapons)> <Daggers>
+#	 3102	<Rare Items> <Good Base To Identify (1H Weapons)> <One Hand Axes>
+#	 3103	<Rare Items> <Good Base To Identify (1H Weapons)> <One Hand Maces>
+#	 3104	<Rare Items> <Good Base To Identify (1H Weapons)> <One Hand Swords>
+#	 3105	<Rare Items> <Good Base To Identify (1H Weapons)> <Sceptres>
+#	 3106	<Rare Items> <Good Base To Identify (1H Weapons)> <Wands>
+#	<3110>	<Rare Items> <Good Base To Identify (2H Weapons)>
+#	 3110	<Rare Items> <Good Base To Identify (2H Weapons)> <Bows>
+#	 3111	<Rare Items> <Good Base To Identify (2H Weapons)> <Staves>
+#	 3112	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Axes>
+#	 3113	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Maces>
+#	 3114	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Swords>
+#
+#	<3900>	<Rare Items> <Hide Garbage (1H Weapons)>
+#	 3900	<Rare Items> <Hide Garbage (1H Weapons)> <Claws>
+#	 3901	<Rare Items> <Hide Garbage (1H Weapons)> <Daggers>
+#	 3902	<Rare Items> <Hide Garbage (1H Weapons)> <One Hand Axes>
+#	 3903	<Rare Items> <Hide Garbage (1H Weapons)> <One Hand Maces>
+#	 3904	<Rare Items> <Hide Garbage (1H Weapons)> <One Hand Swords>
+#	 3905	<Rare Items> <Hide Garbage (1H Weapons)> <Sceptres>
+#	 3906	<Rare Items> <Hide Garbage (1H Weapons)> <Wands>
+#	<3910>	<Rare Items> <Hide Garbage (2H Weapons)>
+#	 3910	<Rare Items> <Hide Garbage (2H Weapons)> <Bows>
+#	 3911	<Rare Items> <Hide Garbage (2H Weapons)> <Staves>
+#	 3912	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Axes>
+#	 3913	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Maces>
+#	 3914	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Swords>
+
 #=================================================================================================================================
 #
-#	Normal items' rules
+#	[1000]		Normal Items
 #
 #=================================================================================================================================
-#------------------------------------
-#	6-linked item
-#------------------------------------
+#========================================================================
+#	<1000>		General Rules
+#========================================================================
+#-----------------------------------------
+#	 1000		6-Linked Items
+#-----------------------------------------
 Show
 	LinkedSockets 6
 	Rarity Normal
 	SetFontSize 45
 	SetBorderColor 200 200 200
 	PlayAlertSound 8 300
-#------------------------------------
-#	6-socket items
-#------------------------------------
+#-----------------------------------------
+#	 1001		6-Socket Items
+#-----------------------------------------
 Show
 	Sockets 6
 	Rarity Normal
 	SetBorderColor 200 200 200
 	PlayAlertSound 6 300
-#==============================================
-#       Item level is no matter armours
-#==============================================
-#------------------------------------
-#	Boots
-#------------------------------------
+#========================================================================
+#	<1100>		Item Level No Matter (Armours)
+#========================================================================
+#-----------------------------------------
+#	 1100		Boots
+#-----------------------------------------
 Show
 	Class "Boots"
 	BaseType "Sorcerer Boots"
 	Rarity Normal
 	SetBorderColor 200 200 200
-#==============================================
-#       Item level is no matter jewelry
-#==============================================
-#------------------------------------
-#	Belts
-#------------------------------------
+#========================================================================
+#	<1110>		Item Level No Matter (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 1110		Amulets
+#-----------------------------------------
+Show
+	Class "Amulets"
+	BaseType "Marble Amulet"
+	Rarity Normal
+	SetBorderColor 200 200 200
+#-----------------------------------------
+#	 1111		Belts
+#-----------------------------------------
 Show
 	Class "Belts"
 	BaseType "Crystal Belt" "Leather Belt"
 	Rarity Normal
 	SetBorderColor 200 200 200
-#------------------------------------
-#	Rings
-#------------------------------------
+#-----------------------------------------
+#	 1112		Rings
+#-----------------------------------------
 Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Normal
 	SetBorderColor 200 200 200
-#==============================================
-#	Item level 84+ armours
-#==============================================
-#------------------------------------
-#	Body armours
-#------------------------------------
+#========================================================================
+#	<1200>		Item Level 84+ (Armours)
+#========================================================================
+#-----------------------------------------
+#	 1200		Body Armours
+#-----------------------------------------
 Show
 	Class "Body Armours"
-	BaseType  "Titanium Spirit Shield" "Vaal Regalia"
+	BaseType "Vaal Regalia"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
-#------------------------------------
-#	Gloves
-#------------------------------------
+#-----------------------------------------
+#	 1201		Gloves
+#-----------------------------------------
 Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
-#------------------------------------
-#	Helmets
-#------------------------------------
+#-----------------------------------------
+#	 1202		Helmets
+#-----------------------------------------
 Show
 	Class "Helmets"
 	BaseType "Hubris Circlet"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
-#------------------------------------
-#	Shields
-#------------------------------------
+#-----------------------------------------
+#	 1203		Shields
+#-----------------------------------------
 Show
 	Class "Shields"
 	BaseType "Titanium Spirit Shield"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
-#==============================================
-#	Item level 84+ jewelry
-#==============================================	
-#------------------------------------
-#	Amulets
-#------------------------------------
-Show
-	Class "Amulets"
-	BaseType "Marble Amulet"
-	Rarity Normal
-	ItemLevel >= 84
-	SetBorderColor 200 200 200
-#------------------------------------
-#	Rings
-#------------------------------------
+#========================================================================
+#	<1210>		Item Level 84+ (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 1210		Rings
+#-----------------------------------------
 Show
 	Class "Rings"
 	BaseType "Diamond Ring"
 	Rarity Normal
 	ItemLevel >= 84
 	SetBorderColor 200 200 200
-#==============================================
-#	Item level 83+ weapons
-#==============================================	
-#------------------------------------
-#	Bows
-#------------------------------------
-Show
-	Class "Bows"
-	BaseType "Harbinger Bow" "Maraketh Bow"
-	Rarity Normal
-	ItemLevel >= 83
-	SetBorderColor 200 200 200
-#------------------------------------
-#	Daggers
-#------------------------------------
+#========================================================================
+#	<1300>		Item Level 83+ (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 1300		Daggers
+#-----------------------------------------
 Show
 	Class "Daggers"
 	BaseType "Ambusher"
 	Rarity Normal
 	ItemLevel >= 83
 	SetBorderColor 200 200 200
-#==============================================
-#	Hide normal items
-#==============================================
-#------------------------------------
-#	Armours
-#------------------------------------
-Hide
-	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
+#========================================================================
+#	<1310>		Item Level 83+ (2H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 1310		Bows
+#-----------------------------------------
+Show
+	Class "Bows"
+	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Normal
-#------------------------------------
-#	Jewelry
-#------------------------------------
+	ItemLevel >= 83
+	SetBorderColor 200 200 200
+#========================================================================
+#	<1900>		Hide Garbage (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 1900		Claws
+#-----------------------------------------
 Hide
-	Class "Amulets" "Belts" "Rings"
+	Class "Claws"
 	Rarity Normal
-#------------------------------------
-#	One handed weapons
-#------------------------------------
+#-----------------------------------------
+#	 1901		Daggers
+#-----------------------------------------
 Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Class "Daggers"
 	Rarity Normal
-#------------------------------------
-#	Two handed weapons
-#------------------------------------
+#-----------------------------------------
+#	 1902		One Hand Axes
+#-----------------------------------------
 Hide
-	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
+	Class "One Hand Axes"
 	Rarity Normal
-#------------------------------------
-#	Flasks
-#------------------------------------
+#-----------------------------------------
+#	 1903		One Hand Maces
+#-----------------------------------------
 Hide
-	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+	Class "One Hand Maces"
+	Rarity Normal
+#-----------------------------------------
+#	 1904		One Hand Swords
+#-----------------------------------------
+Hide
+	Class "One Hand Swords"
+	Rarity Normal
+#-----------------------------------------
+#	 1905		Sceptres
+#-----------------------------------------
+Hide
+	Class "Sceptres"
+	Rarity Normal
+#-----------------------------------------
+#	 1906		Wands
+#-----------------------------------------
+Hide
+	Class "Wands"
+	Rarity Normal
+#========================================================================
+#	<1910>		Hide Garbage (2H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 1910		Bows
+#-----------------------------------------
+Hide
+	Class "Bows"
+	Rarity Normal
+#-----------------------------------------
+#	 1911		Staves
+#-----------------------------------------
+Hide
+	Class "Staves"
+	Rarity Normal
+#-----------------------------------------
+#	 1912		Two Hand Axes
+#-----------------------------------------
+Hide
+	Class "Two Hand Axes"
+	Rarity Normal
+#-----------------------------------------
+#	 1913		Two Hand Maces
+#-----------------------------------------
+Hide
+	Class "Two Hand Maces"
+	Rarity Normal
+#-----------------------------------------
+#	 1914		Two Hand Swords
+#-----------------------------------------
+Hide
+	Class "Two Hand Swords"
+	Rarity Normal
+#========================================================================
+#	<1920>		Hide Garbage (Armours)
+#========================================================================
+#-----------------------------------------
+#	 1920		Body Armours
+#-----------------------------------------
+Hide
+	Class "Body Armours"
+	Rarity Normal
+#-----------------------------------------
+#	 1921		Boots
+#-----------------------------------------
+Hide
+	Class "Boots"
+	Rarity Normal
+#-----------------------------------------
+#	 1922		Gloves
+#-----------------------------------------
+Hide
+	Class "Gloves"
+	Rarity Normal
+#-----------------------------------------
+#	 1923		Helmets
+#-----------------------------------------
+Hide
+	Class "Helmets"
+	Rarity Normal
+#-----------------------------------------
+#	 1924		Quivers
+#-----------------------------------------
+Hide
+	Class "Quivers"
+	Rarity Normal
+#-----------------------------------------
+#	 1925		Shields
+#-----------------------------------------
+Hide
+	Class "Shields"
+	Rarity Normal
+#========================================================================
+#	<1930>		Hide Garbage (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 1930		Amulets
+#-----------------------------------------
+Hide
+	Class "Amulets"
+	Rarity Normal
+#-----------------------------------------
+#	 1931		Belts
+#-----------------------------------------
+Hide
+	Class "Belts"
+	Rarity Normal
+#-----------------------------------------
+#	 1932		Rings
+#-----------------------------------------
+Hide
+	Class "Rings"
+	Rarity Normal
+#========================================================================
+#	<1940>		Hide Garbage (Flasks)
+#========================================================================
+#-----------------------------------------
+#	 1940		Life Flasks
+#-----------------------------------------
+Hide
+	Class "Life Flasks"
+	Rarity Normal
+#-----------------------------------------
+#	 1941		Mana Flasks
+#-----------------------------------------
+Hide
+	Class "Mana Flasks"
+	Rarity Normal
+#-----------------------------------------
+#	 1942		Hybrid Flasks
+#-----------------------------------------
+Hide
+	Class "Hybrid Flasks"
 	Rarity Normal
 #=================================================================================================================================
 #
-#	Magic items' rules
+#	[2000]		Magic Items
 #
 #=================================================================================================================================
-#------------------------------------
-#	6-linked items
-#------------------------------------
+#========================================================================
+#	<2000>		General Rules
+#========================================================================
+#-----------------------------------------
+#	 2000		6-Linked Items
+#-----------------------------------------
 Show
 	LinkedSockets 6
 	Rarity Magic
 	SetFontSize 45
 	SetBorderColor 136 136 255
 	PlayAlertSound 8 300
-#------------------------------------
-#	6-socket items
-#------------------------------------
+#-----------------------------------------
+#	 2001		6-Socket Items
+#-----------------------------------------
 Show
 	Sockets 6
 	Rarity Magic
 	SetBorderColor 136 136 255
 	PlayAlertSound 6 300
-#==============================================
-#       Item level is no matter jewelry
-#==============================================
-#------------------------------------
-#	Belts
-#------------------------------------
+#========================================================================
+#	<2100>		Item Level No Matter (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 2100		Belts
+#-----------------------------------------
 Show
 	Class "Belts"
 	BaseType "Crystal Belt"
 	Rarity Magic
 	SetBorderColor 136 136 255
-#------------------------------------
-#	Rings
-#------------------------------------
+#-----------------------------------------
+#	 2101		Rings
+#-----------------------------------------
 Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Magic
 	SetBorderColor 136 136 255
-#==============================================
-#	Item level 84+ armours
-#==============================================
-#------------------------------------
-#       Body armours
-#------------------------------------
+#========================================================================
+#	<2200>		Item Level 84+ (Armours)
+#========================================================================
+#-----------------------------------------
+#	 2200		Body Armours
+#-----------------------------------------
 Show
 	Class "Body Armours"
 	BaseType "Vaal Regalia"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#------------------------------------
-#	Boots
-#------------------------------------
+#-----------------------------------------
+#	 2201		Boots
+#-----------------------------------------
 Show
 	Class "Boots"
 	BaseType "Sorcerer Boots"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#------------------------------------
-#       Gloves
-#------------------------------------
+#-----------------------------------------
+#	 2202		Gloves
+#-----------------------------------------
 Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#------------------------------------
-#	Helmets
-#------------------------------------
+#-----------------------------------------
+#	 2203		Helmets
+#-----------------------------------------
 Show
 	Class "Helmets"
 	BaseType "Hubris Circlet"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#------------------------------------
-#	Shields
-#------------------------------------
+#-----------------------------------------
+#	 2204		Shields
+#-----------------------------------------
 Show
 	Class "Shields"
 	BaseType "Titanium Spirit Shield"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#==============================================
-#	Item level 84+ jewelry
-#==============================================
-#------------------------------------
-#	Amulets
-#------------------------------------
+#========================================================================
+#	<2210>		Item Level 84+ (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 2210		Amulets
+#-----------------------------------------
 Show
 	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#------------------------------------
-#	Rings
-#------------------------------------
+#-----------------------------------------
+#	 2211		Rings
+#-----------------------------------------
 Show
 	Class "Rings"
 	BaseType "Diamond Ring"
 	Rarity Magic
 	ItemLevel >= 84
 	SetBorderColor 136 136 255
-#==============================================
-#	Item level 83+ weapons
-#==============================================
-#------------------------------------
-#	Bows
-#------------------------------------
-Show
-	Class "Bows"
-	BaseType "Harbinger Bow" "Maraketh Bow"
-	Rarity Magic
-	ItemLevel >= 83
-	SetBorderColor 136 136 255
-#------------------------------------
-#	Daggers
-#------------------------------------
+#========================================================================
+#	<2300>		Item Level 83+ (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 2300		Daggers
+#-----------------------------------------
 Show
 	Class "Daggers"
 	BaseType "Ambusher"
 	Rarity Magic
 	ItemLevel >= 83
 	SetBorderColor 136 136 255
-#==============================================
-#	Hide magic items
-#==============================================
-#------------------------------------
-#	Armors
-#------------------------------------
-Hide
-	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
+#========================================================================
+#	<2310>		Item Level 83+ (2H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 2310		Bows
+#-----------------------------------------
+Show
+	Class "Bows"
+	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Magic
-#------------------------------------
-#	Jewelry
-#------------------------------------
+	ItemLevel >= 83
+	SetBorderColor 136 136 255
+#========================================================================
+#	<2900>		Hide Garbage (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 2900		Claws
+#-----------------------------------------
 Hide
-	Class "Amulets" "Belts" "Rings"
+	Class "Claws"
 	Rarity Magic
-#------------------------------------
-#	One handed weapons
-#------------------------------------
+#-----------------------------------------
+#	 2901		Daggers
+#-----------------------------------------
 Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
+	Class "Daggers"
 	Rarity Magic
-#------------------------------------
-#	Two handed weapons
-#------------------------------------
+#-----------------------------------------
+#	 2902		One Hand Axes
+#-----------------------------------------
 Hide
-	Class "Bows" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Staves"
+	Class "One Hand Axes"
 	Rarity Magic
-#------------------------------------
-#	Flasks
-#------------------------------------
+#-----------------------------------------
+#	 2903		One Hand Maces
+#-----------------------------------------
 Hide
-	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+	Class "One Hand Maces"
+	Rarity Magic
+#-----------------------------------------
+#	 2904		One Hand Swords
+#-----------------------------------------
+Hide
+	Class "One Hand Swords"
+	Rarity Magic
+#-----------------------------------------
+#	 2905		Sceptres
+#-----------------------------------------
+Hide
+	Class "Sceptres"
+	Rarity Magic
+#-----------------------------------------
+#	 2906		Wands
+#-----------------------------------------
+Hide
+	Class "Wands"
+	Rarity Magic
+#========================================================================
+#	<2910>		Hide Garbage (2H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 2910		Bows
+#-----------------------------------------
+Hide
+	Class "Bows"
+	Rarity Magic
+#-----------------------------------------
+#	 2911		Staves
+#-----------------------------------------
+Hide
+	Class "Staves"
+	Rarity Magic
+#-----------------------------------------
+#	 2912		Two Hand Axes
+#-----------------------------------------
+Hide
+	Class "Two Hand Axes"
+	Rarity Magic
+#-----------------------------------------
+#	 2913		Two Hand Maces
+#-----------------------------------------
+Hide
+	Class "Two Hand Maces"
+	Rarity Magic
+#-----------------------------------------
+#	 2914		Two Hand Swords
+#-----------------------------------------
+Hide
+	Class "Two Hand Swords"
+	Rarity Magic
+#========================================================================
+#	<2920>		Hide Garbage (Armours)
+#========================================================================
+#-----------------------------------------
+#	 2920		Body Armours
+#-----------------------------------------
+Hide
+	Class "Body Armours"
+	Rarity Magic
+#-----------------------------------------
+#	 2921		Boots
+#-----------------------------------------
+Hide
+	Class "Boots"
+	Rarity Magic
+#-----------------------------------------
+#	 2922		Gloves
+#-----------------------------------------
+Hide
+	Class "Gloves"
+	Rarity Magic
+#-----------------------------------------
+#	 2923		Helmets
+#-----------------------------------------
+Hide
+	Class "Helmets"
+	Rarity Magic
+#-----------------------------------------
+#	 2924		Quivers
+#-----------------------------------------
+Hide
+	Class "Quivers"
+	Rarity Magic
+#-----------------------------------------
+#	 2925		Shields
+#-----------------------------------------
+Hide
+	Class "Shields"
+	Rarity Magic
+#========================================================================
+#	<2930>		Hide Garbage (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 2930		Amulets
+#-----------------------------------------
+Hide
+	Class "Amulets"
+	Rarity Magic
+#-----------------------------------------
+#	 2931		Belts
+#-----------------------------------------
+Hide
+	Class "Belts"
+	Rarity Magic
+#-----------------------------------------
+#	 2932		Rings
+#-----------------------------------------
+Hide
+	Class "Rings"
+	Rarity Magic
+#========================================================================
+#	<2940>		Hide Garbage (Flasks)
+#========================================================================
+#-----------------------------------------
+#	 2940		Life Flasks
+#-----------------------------------------
+Hide
+	Class "Life Flasks"
+	Rarity Magic
+#-----------------------------------------
+#	 2941		Mana Flasks
+#-----------------------------------------
+Hide
+	Class "Mana Flasks"
+	Rarity Magic
+#-----------------------------------------
+#	 2942		Hybrid Flasks
+#-----------------------------------------
+Hide
+	Class "Hybrid Flasks"
 	Rarity Magic
 #=================================================================================================================================
 #
-#	Rare items' rules
+#	[3000]		Rare Items
 #
 #=================================================================================================================================
-#------------------------------------
-#	6-linked items
-#------------------------------------
+#========================================================================
+#	<3000>		General Rules
+#========================================================================
+#-----------------------------------------
+#	 3000		6-Linked Items
+#-----------------------------------------
 Show
 	LinkedSockets 6
 	Rarity Rare
 	SetFontSize 45
 	SetBorderColor 255 255 119
 	PlayAlertSound 8 300
-#------------------------------------
-#	6-socket items
-#------------------------------------
+#-----------------------------------------
+#	 3001		6-Socket Items
+#-----------------------------------------
 Show
 	Sockets 6
 	Rarity Rare
 	SetBorderColor 255 255 119
 	PlayAlertSound 6 300
-#==============================================
-#	Item level is no matter jewelry
-#==============================================
-#------------------------------------
-#	Belts
-#------------------------------------
+#========================================================================
+#	<3100>		Good Base To Identify (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 3100		Claws
+#-----------------------------------------
+Show
+	Class "Claws"
+	BaseType "Gemini Claw" "Imperial Claw"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3101		Daggers
+#-----------------------------------------
+Show
+	Class "Daggers"
+	BaseType "Ambusher" "Demon Dagger" "Imperial Skean" "Slaughter Knife"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3102		One Hand Axes
+#-----------------------------------------
+Show
+	Class "One Hand Axes"
+	BaseType "Siege Axe"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3103		One Hand Maces
+#-----------------------------------------
+Show
+	Class "One Hand Maces"
+	BaseType "Behemoth Mace"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3104		One Hand Swords
+#-----------------------------------------
+Show
+	Class "One Hand Swords"
+	BaseType "Corsair Sword" "Dragoon Sword" "Eternal Sword" "Harpy Rapier" "Jewelled Foil" "Midnight Blade" "Tiger Hook"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3105		Sceptres
+#-----------------------------------------
+Show
+	Class "Sceptres"
+	BaseType "Opal Sceptre" "Void Sceptre"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3106		Wands
+#-----------------------------------------
+Show
+	Class "Wands"
+	BaseType "Imbued Wand"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#========================================================================
+#	<3110>		Good Base To Identify (2H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 3110		Bows
+#-----------------------------------------
+Show
+	Class "Bows"
+	BaseType "Harbinger Bow" "Maraketh Bow"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3111		Staves
+#-----------------------------------------
+Show
+	Class "Staves"
+	BaseType "Eclipse Staff"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3112		Two Hand Axes
+#-----------------------------------------
+Show
+	Class "Two Hand Axes"
+	BaseType "Fleshripper" "Vaal Axe"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3113		Two Hand Maces
+#-----------------------------------------
+Show
+	Class "Two Hand Maces"
+	BaseType "Colossus Mallet" "Coronal Maul" "Terror Maul"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3113		Two Hand Swords
+#-----------------------------------------
+Show
+	Class "Two Hand Swords"
+	BaseType "Exquisite Blade"
+	Rarity Rare
+	SetBackgroundColor 100 100 0
+#========================================================================
+#	<3120>		Good Base To Identify (Armours)
+#========================================================================
+#========================================================================
+#	<3130>		Good Base To Identify (Jewelry)
+#========================================================================
+#-----------------------------------------
+#	 3130		Belts
+#-----------------------------------------
 Show
 	Class "Belts"
 	BaseType "Crystal Belt"
 	Rarity Rare
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Rings
-#------------------------------------
+	SetBackgroundColor 100 100 0
+#-----------------------------------------
+#	 3131		Rings
+#-----------------------------------------
 Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Rare
-	SetBorderColor 255 255 119
-#==============================================
-#	Item level 84+ armours
-#==============================================
-#------------------------------------
-#	Helmets
-#------------------------------------
-Show
-	Class "Helmets"
-	BaseType "Hubris Circlet"
+	SetBackgroundColor 100 100 0
+#========================================================================
+#	<3900>		Hide Garbage (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 3900		Claws
+#-----------------------------------------
+Hide
+	Class "Claws"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Body armours
-#------------------------------------
-Show
-	Class "Body Armours"
-	BaseType "Vaal Regalia"
+#-----------------------------------------
+#	 3901		Daggers
+#-----------------------------------------
+Hide
+	Class "Daggers"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Boots
-#------------------------------------
-Show
-	Class "Boots"
-	BaseType "Sorcerer Boots" 
+#-----------------------------------------
+#	 3902		One Hand Axes
+#-----------------------------------------
+Hide
+	Class "One Hand Axes"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Gloves
-#------------------------------------
-Show
-	Class "Gloves"
-	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
+#-----------------------------------------
+#	 3903		One Hand Maces
+#-----------------------------------------
+Hide
+	Class "One Hand Maces"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Shields
-#------------------------------------
-Show
-	Class "Shields"
-	BaseType "Titanium Spirit Shield" 
+#-----------------------------------------
+#	 3904		One Hand Swords
+#-----------------------------------------
+Hide
+	Class "One Hand Swords"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#==============================================
-#	Item level 84+ jewelry
-#==============================================
-#------------------------------------
-#	Amulet
-#------------------------------------
-Show
-	BaseType "Agate Amulet" "Citrine Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet"
+#-----------------------------------------
+#	 3905		Sceptres
+#-----------------------------------------
+Hide
+	Class "Sceptres"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Belts
-#------------------------------------
-Show
-	BaseType "Leather Belt"
+#-----------------------------------------
+#	 3906		Wands
+#-----------------------------------------
+Hide
+	Class "Wands"
+	DropLevel < 55
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#------------------------------------
-#	Rings
-#------------------------------------
-Show
-	BaseType "Diamond Ring"
+#========================================================================
+#	<3910>		Hide Garbage (1H Weapons)
+#========================================================================
+#-----------------------------------------
+#	 3910		Bows
+#-----------------------------------------
+Hide
+	Class "Bows"
 	Rarity Rare
-	ItemLevel >= 84
-	SetBorderColor 255 255 119
-#==============================================
-#	Hide rare items
-#==============================================
+#-----------------------------------------
+#	 3911		Staves
+#-----------------------------------------
+Hide
+	Class "Staves"
+	Rarity Rare
+#-----------------------------------------
+#	 3912		Two Hand Axes
+#-----------------------------------------
+Hide
+	Class "Two Hand Axes"
+	Rarity Rare
+#-----------------------------------------
+#	 3913		Two Hand Maces
+#-----------------------------------------
+Hide
+	Class "Two Hand Maces"
+	Rarity Rare
+#-----------------------------------------
+#	 3914		Two Hand Swords
+#-----------------------------------------
+Hide
+	Class "Two Hand Swords"
+	Rarity Rare
 #=================================================================================================================================
 #
-#	Currencies' rules
+#	<4000>		Currencies' rules
 #
 #=================================================================================================================================
 #==============================================
@@ -551,7 +1082,7 @@ Hide
 #------------------------------------
 Hide
 	Class "Maps"
-	DropLevel < 71
+	DropLevel < 73
 #=================================================================================================================================
 #
 #	Special items' rules
