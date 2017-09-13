@@ -1,6 +1,6 @@
 #=================================================================================================================================
 #
-#	<0000>		Exiled Filter : Made For Path of Exile
+#	[0000]		Exiled Filter : Made For Path of Exile
 #
 #=================================================================================================================================
 #
@@ -134,7 +134,7 @@
 #	<0300>		Menu : Rare Items
 #========================================================================
 #
-#	[2000]	<Rare Items>
+#	[3000]	<Rare Items>
 #
 #	<3000>	<Rare Items> <General Rules>
 #	 3000	<Rare Items> <General Rules> <6-Linked Items>
@@ -154,6 +154,17 @@
 #	 3112	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Axes>
 #	 3113	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Maces>
 #	 3114	<Rare Items> <Good Base To Identify (2H Weapons)> <Two Hand Swords>
+#	<3120>	<Rare Items> <Good Base To Identify (Armours)>
+#	 3120	<Rare Items> <Good Base To Identify (Armours)> <Body Armours>
+#	 3121	<Rare Items> <Good Base To Identify (Armours)> <Boots>
+#	 3122	<Rare Items> <Good Base To Identify (Armours)> <Gloves>
+#	 3123	<Rare Items> <Good Base To Identify (Armours)> <Helmets>
+#	 3124	<Rare Items> <Good Base To Identify (Armours)> <Quivers>
+#	 3125	<Rare Items> <Good Base To Identify (Armours)> <Shields>
+#	<3130>	<Rare Items> <Good Base To Identify (Jewelry)>
+#	 3130	<Rare Items> <Good Base To Identify (Jewelry)> <Belts>
+#	 3131	<Rare Items> <Good Base To Identify (Jewelry)> <Jewel>
+#	 3132	<Rare Items> <Good Base To Identify (Jewelry)> <Rings>
 #
 #	<3900>	<Rare Items> <Hide Garbage (1H Weapons)>
 #	 3900	<Rare Items> <Hide Garbage (1H Weapons)> <Claws>
@@ -169,7 +180,15 @@
 #	 3912	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Axes>
 #	 3913	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Maces>
 #	 3914	<Rare Items> <Hide Garbage (2H Weapons)> <Two Hand Swords>
-
+#	<3920>	<Rare Items> <Hide Garbage (Armours)>
+#	 3920	<Rare Items> <Hide Garbage (Armours)> <Body Armours>
+#	 3921	<Rare Items> <Hide Garbage (Armours)> <Quivers>
+#	 3922	<Rare Items> <Hide Garbage (Armours)> <Shields>
+#
+#========================================================================
+#	<0400>		Menu : Currencies
+#========================================================================
+#
 #=================================================================================================================================
 #
 #	[1000]		Normal Items
@@ -201,7 +220,7 @@ Show
 #-----------------------------------------
 #	 1100		Boots
 #-----------------------------------------
-Show
+#Show
 	Class "Boots"
 	BaseType "Sorcerer Boots"
 	Rarity Normal
@@ -798,15 +817,15 @@ Show
 	Class "Claws"
 	BaseType "Gemini Claw" "Imperial Claw"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3101		Daggers
 #-----------------------------------------
 Show
 	Class "Daggers"
-	BaseType "Ambusher" "Demon Dagger" "Imperial Skean" "Slaughter Knife"
+	BaseType "Ambusher" "Demon Dagger" "Imperial Skean"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3102		One Hand Axes
 #-----------------------------------------
@@ -814,7 +833,7 @@ Show
 	Class "One Hand Axes"
 	BaseType "Siege Axe"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3103		One Hand Maces
 #-----------------------------------------
@@ -822,7 +841,7 @@ Show
 	Class "One Hand Maces"
 	BaseType "Behemoth Mace"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3104		One Hand Swords
 #-----------------------------------------
@@ -830,7 +849,7 @@ Show
 	Class "One Hand Swords"
 	BaseType "Corsair Sword" "Dragoon Sword" "Eternal Sword" "Harpy Rapier" "Jewelled Foil" "Midnight Blade" "Tiger Hook"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3105		Sceptres
 #-----------------------------------------
@@ -838,7 +857,7 @@ Show
 	Class "Sceptres"
 	BaseType "Opal Sceptre" "Void Sceptre"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3106		Wands
 #-----------------------------------------
@@ -846,7 +865,7 @@ Show
 	Class "Wands"
 	BaseType "Imbued Wand"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #========================================================================
 #	<3110>		Good Base To Identify (2H Weapons)
 #========================================================================
@@ -857,7 +876,7 @@ Show
 	Class "Bows"
 	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3111		Staves
 #-----------------------------------------
@@ -865,7 +884,7 @@ Show
 	Class "Staves"
 	BaseType "Eclipse Staff"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3112		Two Hand Axes
 #-----------------------------------------
@@ -873,7 +892,7 @@ Show
 	Class "Two Hand Axes"
 	BaseType "Fleshripper" "Vaal Axe"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3113		Two Hand Maces
 #-----------------------------------------
@@ -881,7 +900,7 @@ Show
 	Class "Two Hand Maces"
 	BaseType "Colossus Mallet" "Coronal Maul" "Terror Maul"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
 #	 3113		Two Hand Swords
 #-----------------------------------------
@@ -889,10 +908,58 @@ Show
 	Class "Two Hand Swords"
 	BaseType "Exquisite Blade"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #========================================================================
 #	<3120>		Good Base To Identify (Armours)
 #========================================================================
+#-----------------------------------------
+#	 3120		Body Armours
+#-----------------------------------------
+Show
+	Class "Body Armours"
+	BaseType "Assassin's Garb" "Exquisite Leather" "Glorious Plate" "Saintly Chainmail" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3121		Boots
+#-----------------------------------------
+Show
+	Class "Boots"
+	BaseType "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Slink Boots" "Sorcerer Boots" "Stealth Boots" "Titan Greaves" "Two-Toned Boots" "Vaal Greaves"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3122		Gloves
+#-----------------------------------------
+Show
+	Class "Gloves"
+	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Stealth Gloves" "Titan Gauntlets" "Vaal Gauntlets"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3123		Helmets
+#-----------------------------------------
+Show
+	Class "Helmets"
+	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3124		Quivers
+#-----------------------------------------
+Show
+	Class "Quivers"
+	BaseType "Broadhead Arrow Quiver" "Spike-Point Arrow Quiver"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3124		Shields
+#-----------------------------------------
+Show
+	Class "Shields"
+	BaseType "Archon Kite Shield" "Champion Kite Shield" "Colossal Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
 #========================================================================
 #	<3130>		Good Base To Identify (Jewelry)
 #========================================================================
@@ -901,17 +968,24 @@ Show
 #-----------------------------------------
 Show
 	Class "Belts"
-	BaseType "Crystal Belt"
+	BaseType "Crystal Belt" "Leather Belt"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #-----------------------------------------
-#	 3131		Rings
+#	 3131		Jewel
+#-----------------------------------------
+Show
+	Class "Jewel"
+	Rarity Rare
+	SetBackgroundColor 254 170 0
+#-----------------------------------------
+#	 3132		Rings
 #-----------------------------------------
 Show
 	Class "Rings"
-	BaseType "Opal Ring" "Steel Ring"
+	BaseType "Diamond Ring" "Two-Stone Ring" "Opal Ring" "Steel Ring"
 	Rarity Rare
-	SetBackgroundColor 100 100 0
+	SetBackgroundColor 254 170 0
 #========================================================================
 #	<3900>		Hide Garbage (1H Weapons)
 #========================================================================
@@ -991,35 +1065,75 @@ Hide
 Hide
 	Class "Two Hand Swords"
 	Rarity Rare
+#========================================================================
+#	<3920>		Hide Garbage (Armours)
+#========================================================================
+#-----------------------------------------
+#	 3920		Body Armours
+#-----------------------------------------
+Hide
+	Class "Body Armours"
+	DropLevel < 50
+	Rarity Rare
+#-----------------------------------------
+#	 3921		Quivers
+#-----------------------------------------
+Hide
+	Class "Quivers"
+	Rarity Rare
+#-----------------------------------------
+#	 3922		Shields
+#-----------------------------------------
+Hide
+	Class "Shields"
+	Rarity Rare
 #=================================================================================================================================
 #
-#	<4000>		Currencies' rules
+#	[4000]		Currencies
 #
 #=================================================================================================================================
-#==============================================
-#	Regular Currencies
-#==============================================
-#------------------------------------
-#	Crafting currencies
-#------------------------------------
+#========================================================================
+#	<4000>		Craft Socket 
+#========================================================================
+#-----------------------------------------
+#	 4000		Low Value
+#-----------------------------------------
+#========================================================================
+#	<4000>		Craft Magic Mod
+#========================================================================
+#-----------------------------------------
+#	 4000		Low Value
+#-----------------------------------------
 Show
 	Class "Currency"
 	BaseType "Orb of Augmentation" "Orb of Transmutation"
 	SetBorderColor 170 158 130
+
+#-----------------------------------------
+#	 4001		Mid Value
+#-----------------------------------------
+Show
+	Class "Currency"
+	BaseType "Orb of Alteration"
+	SetFontSize 40
+	SetBorderColor 170 158 130
+
 #------------------------------------
-#	Low valuable currencies
+#	 4001		Low Valuable
 #------------------------------------
 Show
 	Class "Currency"
-	BaseType "Chromatic Orb" "Glassblower's Bauble" "Orb of Alteration" "Orb of Chance" "Silver Coin"
+	BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Silver Coin"
 	SetFontSize 45
 	SetBorderColor 170 158 130
+
+
 #------------------------------------
 #	Middle valuable currencies
 #------------------------------------
 Show
 	Class "Currency"
-	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Jeweller's Orb" "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
+	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Orb of Alchemy" "Orb of Chance" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
 	SetFontSize 45
 	SetBorderColor 170 158 130
 	PlayAlertSound 2 300
@@ -1028,7 +1142,7 @@ Show
 #------------------------------------
 Show
 	Class "Currency"
-	BaseType "Exalted Orb" "Divine Orb"
+	BaseType "Exalted Orb" "Divine Orb" "Eternal Orb"
 	SetFontSize 45
 	SetBorderColor 170 158 130
 	PlayAlertSound 3 300
@@ -1041,9 +1155,9 @@ Show
 	SetFontSize 45
 	SetBorderColor 170 158 130
 	PlayAlertSound 14 300
-#==============================================
+#========================================================================
 #	Breach currency
-#==============================================
+#========================================================================
 #------------------------------------
 #	Breach Splinter
 #------------------------------------
@@ -1061,11 +1175,38 @@ Show
 	SetFontSize 45
 	SetTextColor 114 0 83
 	SetBorderColor 114 0 83
+#========================================================================
+#	<4900>		Hide Currencies
+#========================================================================
+#-----------------------------------------
+#	 4900		Shard
+#-----------------------------------------
+Hide
+	Class "Currency"
+	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
+#-----------------------------------------
+#	 4901		Scroll Of Wisdom
+#-----------------------------------------
+Hide
+	Class "Currency"
+	BaseType "Scroll of Wisdom"
 #=================================================================================================================================
 #
 #	SKill Gems' rules
 #
 #=================================================================================================================================
+#------------------------------------
+#	Show	regular skill gems
+#------------------------------------
+Show
+	Class "Support Skill Gems"
+	BaseType "Enhance Support" "Enlighten Support" "Empower Support"
+#------------------------------------
+#	Show	Vaal gems
+#------------------------------------
+Show
+	Class "Active Skill Gems"
+	BaseType "Vaal"
 #------------------------------------
 #	Hide regular skill gems
 #------------------------------------
@@ -1074,11 +1215,42 @@ Hide
 	Quality 0
 #=================================================================================================================================
 #
-#	Maps' rules
+#	Maps Rules
 #
 #=================================================================================================================================
 #------------------------------------
-#	Hide maps lower than tier 2
+#	Unique Maps
+#------------------------------------
+Show
+	Class "Maps"
+	Rarity Unique
+	SetFontSize 45
+	SetTextColor 175 96 37
+	SetBorderColor 255 255 255
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 7 300
+
+#------------------------------------
+#	High Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 78
+	SetFontSize 40
+	SetTextColor 150 0 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 7 300
+#------------------------------------
+#	Low Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 73
+	SetTextColor 42 42 42
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 7 300
+#------------------------------------
+#	Hide maps lower than tier 5
 #------------------------------------
 Hide
 	Class "Maps"
