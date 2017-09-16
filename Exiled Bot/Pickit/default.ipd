@@ -318,3 +318,50 @@
 [Type] == "Sacrifice at Dusk" # [StashItem] == "true"
 [Type] == "Sacrifice at Midnight" # [StashItem] == "true"
 [Type] == "Sacrifice at Noon" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		The Shaper's Realm
+//=======================================================================
+
+[Type] == "Fragment of the Chimera" # [StashItem] == "true"
+[Type] == "Fragment of the Hydra" # [StashItem] == "true"
+[Type] == "Fragment of the Minotaur" # [StashItem] == "true"
+[Type] == "Fragment of the Phoenix" # [StashItem] == "true"
+
+//================================================================================================================================
+//
+//	[0000]		League Items	3.0.0
+//
+//================================================================================================================================
+//=======================================================================
+//	<2200>		Breach
+//=======================================================================
+//----------------------------------------
+//	 1943		Blessing
+//----------------------------------------
+
+[Type] == "Blessing of Chayula" # [StashItem] == "true"
+[Type] == "Blessing of Esh" # [StashItem] == "true"
+[Type] == "Blessing of Tul" # [StashItem] == "true"
+[Type] == "Blessing of Uul-Netol" # [StashItem] == "true"
+[Type] == "Blessing of Xoph" # [StashItem] == "true"
+
+//----------------------------------------
+//	 1943		Breachstone
+//----------------------------------------
+
+[Type] == "Chayula's Breachstone" # [StashItem] == "true"
+[Type] == "Esh's Breachstone" # [StashItem] == "true"
+[Type] == "Tul's Breachstone" # [StashItem] == "true"
+[Type] == "Uul-Netol's Breachstone" # [StashItem] == "true"
+[Type] == "Xoph's Breachstone" # [StashItem] == "true"
+
+//----------------------------------------
+//	 1943		Splinter
+//----------------------------------------
+
+[Type] == "Splinter of Chayula" # [StashItem] == "true"
+[Type] == "Splinter of Esh" # [StashItem] == "true"
+[Type] == "Splinter of Tul" # [StashItem] == "true"
+[Type] == "Splinter of Uul-Netol" # [StashItem] == "true"
+[Type] == "Splinter of Xoph" # [StashItem] == "true"
