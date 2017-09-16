@@ -1,137 +1,27 @@
-/////////////////////////////////////////////////////////////////////////////////////
-//                                                                                 //
-//                                   Map To Run                                    //
-//                                                                                 //
-/////////////////////////////////////////////////////////////////////////////////////
+//================================================================================================================================
+//
+//	[0000]		Map To Run
+//
+//================================================================================================================================
+//=======================================================================
+//	<2200>		Tier 2
+//=======================================================================
 
-//////  Tier 1   ////////////////////////
+[Type] == "Oasis Map" # [UpgradeToRare] == "true" && [UpgradeToMagic] == "true" && [RunMap] == "true"
 
-[Type] == "Arcade Map" # [RunMap] == "true"
-[Type] == "Desert Map" # [RunMap] == "true"
-[Type] == "Jungle Valley Map" # [RunMap] == "true"
-
-//////  Tier 6   ////////////////////////
-
-[Type] == "Shaped Arcade Map" # [RunMap] == "true"
-[Type] == "Shaped Desert Map" # [RunMap] == "true"
-[Type] == "Shaped Jungle Valley Map" # [RunMap] == "true"
-
-[Type] == "Canyon Map" # [RunMap] == "true"
-[Type] == "Racecourse Map" # [RunMap] == "true"
-[Type] == "Spider Forest Map" # [RunMap] == "true"
-[Type] == "Strand Map" # [RunMap] == "true"
-[Type] == "Thicket Map" # [RunMap] == "true"
-[Type] == "Vaal City Map" # [RunMap] == "true"
-[Type] == "Wharf Map" # [RunMap] == "true"
-
-//////  Tier 7   ////////////////////////
-
-[Type] == "Shaped Beach Map" # [RunMap] == "true"
-[Type] == "Shaped Oasis Map" # [RunMap] == "true"
-
-[Type] == "Arachnid Tomb Map" # [RunMap] == "true"
-[Type] == "Armory Map" # [RunMap] == "true"
-[Type] == "Ashen Wood Map" # [RunMap] == "true"
-//-[Type] == "Castle Ruins Map" # [RunMap] == "true"
-[Type] == "Catacombs Map" # [RunMap] == "true"
-[Type] == "Mud Geyser Map" # [RunMap] == "true"
-
-//////  Tier 8   ////////////////////////
-
-[Type] == "Shaped Channel Map" # [RunMap] == "true"
-[Type] == "Shaped Sewer Map" # [RunMap] == "true"
-
-[Type] == "Atoll Map" # [RunMap] == "true"
-// [Type] == "Arachnid Nest Map" # [RunMap] == "true"
-[Type] == "Bog Map" # [RunMap] == "true"
-[Type] == "Cemetery Map" # [RunMap] == "true"
-[Type] == "Shore Map" # [RunMap] == "true"
-
-//////  Tier 9   ////////////////////////
-
-[Type] == "Shaped Waste Pool Map" # [RunMap] == "true"
-
-[Type] == "Coves Map" # [RunMap] == "true"
-[Type] == "Crypt Map" # [RunMap] == "true"
-[Type] == "Museum Map" # [RunMap] == "true"
-[Type] == "Overgrown Shrine Map" # [RunMap] == "true"
-[Type] == "Promenade Map" # [RunMap] == "true"
-[Type] == "Reef Map" # [RunMap] == "true"
-
-//////  Tier 10  ////////////////////////
-
-[Type] == "Shaped Dunes Map" # [RunMap] == "true"
-
-[Type] == "Arsenal Map" # [RunMap] == "true"
-[Type] == "Colonnade Map" # [RunMap] == "true"
-[Type] == "Terrace Map" # [RunMap] == "true"
-
-/////////////////////////////////////////////////////////////////////////////////////
-//                                                                                 //
-//                               General Settings                                  //
-//                                                                                 //
-/////////////////////////////////////////////////////////////////////////////////////
+//================================================================================================================================
+//
+//	[0000]		Map Settings
+//
+//================================================================================================================================
+//=======================================================================
+//	<2200>		Ignore Unique Map
+//=======================================================================
 
 [Rarity] == "Unique" # [IgnoreMap] == "true"
 
-// [MapTier] >= "1" && [MapTier] <= "8" && [Rarity] == "Normal" # [UpgradeToMagic] == "true"
-[MapTier] >= "1" && [MapTier] <= "11" && [Rarity] == "Normal" # [UpgradeToRare] == "true"
+//=======================================================================
+//	<2200>		Augment Magic Map
+//=======================================================================
 
-/////////////////////////////////////////////////////////////////////////////////////
-//                                                                                 //
-//                                    Map Mod                                      //
-//                                                                                 //
-/////////////////////////////////////////////////////////////////////////////////////
-
-[map_player_has_blood_magic_keystone] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"
-[map_player_has_blood_magic_keystone] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"
-
-[map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"
-// [map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] ==  "Rare" # [IgnoreMap] == "true"
-
-[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true"
-[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true"
-
-/////////////////////////////////////////////////////////////////////////////////////
-//                                                                                 //
-//                                MAP UPGRADE TIER                                 //
-//                                                                                 //
-/////////////////////////////////////////////////////////////////////////////////////
-
-//////  Tier 1   ////////////////////////
-[Type] == "Arcade Map" # [UpgradeMapTier] == "true"
-[Type] == "Crystal Ore Map" # [UpgradeMapTier] == "true"
-[Type] == "Desert Map" # [UpgradeMapTier] == "true"
-[Type] == "Jungle Valley Map" # [UpgradeMapTier] == "true"
-
-//////  Tier 5   ////////////////////////
-[Type] == "Burial Chambers Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Mesa Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Peninsula Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Primordial Pool Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Spider Lair Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Tower Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-
-//////  Tier 6   ////////////////////////
-[Type] == "Canyon Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Quarry Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Ramparts Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Spider Forest Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Thicket Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Vaal City Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-
-//////  Tier 7   ////////////////////////
-[Type] == "Castle Ruins Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Cells Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-
-//////  Tier 8   ////////////////////////
-[Type] == "Barrows Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Pier Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-
-//////  Tier 9   ////////////////////////
-[Type] == "Orchard Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Temple Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-
-//////  Tier 10  ////////////////////////
-[Type] == "Malformation Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
-[Type] == "Quay Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true"
+[Rarity] == "Magic" # [AugmentIfPossible] == "true"
