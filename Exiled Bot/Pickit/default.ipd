@@ -7,7 +7,7 @@
 //	<2200>		Six Linked
 //=======================================================================
 
-[Sockets] == "6" && [Linked] == "6" # [StashItem] =="true"
+[Sockets] == "6" && [Linked] == "6" # [StashItem] == "true"
 
 //=======================================================================
 //	<2200>		Six Sockets
@@ -33,6 +33,91 @@
 //================================================================================================================================
 
 [Rarity] == "Unique" # [StashItem] == "true"
+
+//================================================================================================================================
+//
+//	[0000]		Currency	3.0.0
+//
+//================================================================================================================================
+
+[Type] == "Ancient Orb" # [StashItem] == "true"
+[Type] == "Armourer's Scrap" # [StashItem] == "true"
+[Type] == "Blacksmith's Whetstone" # [StashItem] == "true"
+[Type] == "Blessed Orb" # [StashItem] == "true"
+[Type] == "Cartographer's Chisel" # [StashItem] == "true"
+[Type] == "Chaos Orb" # [StashItem] == "true"
+[Type] == "Chromatic Orb" # [StashItem] == "true"
+[Type] == "Divine Orb" # [StashItem] == "true"
+[Type] == "Engineer's Orb" # [StashItem] == "true"
+[Type] == "Exalted Orb" # [StashItem] == "true"
+[Type] == "Gemcutter's Prism" # [StashItem] == "true"
+[Type] == "Glassblower's Bauble" # [StashItem] == "true"
+[Type] == "Harbinger's Orb" # [StashItem] == "true"
+[Type] == "Jeweller's Orb" # [StashItem] == "true"
+[Type] == "Mirror of Kalandra" # [StashItem] == "true"
+[Type] == "Orb of Alchemy" # [StashItem] == "true"
+[Type] == "Orb of Alteration" # [StashItem] == "true"
+[Type] == "Orb of Annulment" # [StashItem] == "true"
+[Type] == "Orb of Augmentation" # [StashItem] == "true"
+[Type] == "Orb of Binding" # [StashItem] == "true"
+[Type] == "Orb of Chance" # [StashItem] == "true"
+[Type] == "Orb of Fusing" # [StashItem] == "true"
+[Type] == "Orb of Horizons" # [StashItem] == "true"
+[Type] == "Orb of Regret" # [StashItem] == "true"
+[Type] == "Orb of Scouring" # [StashItem] == "true"
+[Type] == "Orb of Transmutation" # [StashItem] == "true"
+[Type] == "Perandus Coin" # [StashItem] == "true"
+[Type] == "Regal Orb" # [StashItem] == "true"
+[Type] == "Silver Coin" # [StashItem] == "true"
+[Type] == "Stacked Deck" # [StashItem] == "true"
+[Type] == "Unshaping Orb" # [StashItem] == "true"
+[Type] == "Vaal Orb" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		Albino Rhoa Feather
+//=======================================================================
+
+[Type] == "Albino Rhoa Feather" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		Cartographer's Seal
+//=======================================================================
+
+[Type] == "Apprentice Cartographer's Seal" # [StashItem] == "true"
+[Type] == "Journeyman Cartographer's Seal" # [StashItem] == "true"
+[Type] == "Master Cartographer's Seal" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		Cartographer's Sextant
+//=======================================================================
+
+[Type] == "Apprentice Cartographer's Sextant" # [StashItem] == "true"
+[Type] == "Journeyman Cartographer's Sextant" # [StashItem] == "true"
+[Type] == "Master Cartographer's Sextant" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		Offering to the Goddess
+//=======================================================================
+
+[Type] == "Offering to the Goddess" # [StashItem] == "true"
+
+//=======================================================================
+//	<2200>		Shards
+//=======================================================================
+
+[Type] == "Alchemy Shard" # [StashItem] == "true"
+[Type] == "Alteration Shard" # [StashItem] == "true"
+[Type] == "Ancient Shard" # [StashItem] == "true"
+[Type] == "Annulment Shard" # [StashItem] == "true"
+[Type] == "Binding Shard" # [StashItem] == "true"
+[Type] == "Chaos Shard" # [StashItem] == "true"
+[Type] == "Engineer's Shard" # [StashItem] == "true"
+[Type] == "Exalted Shard" # [StashItem] == "true"
+[Type] == "Harbinger's Shard" # [StashItem] == "true"
+[Type] == "Horizon Shard" # [StashItem] == "true"
+[Type] == "Mirror Shard" # [StashItem] == "true"
+[Type] == "Regal Shard" # [StashItem] == "true"
+[Type] == "Scroll Fragment" # [StashItem] == "true"
 
 //================================================================================================================================
 //
@@ -233,6 +318,3 @@
 [Type] == "Sacrifice at Dusk" # [StashItem] == "true"
 [Type] == "Sacrifice at Midnight" # [StashItem] == "true"
 [Type] == "Sacrifice at Noon" # [StashItem] == "true"
-
-
-
