@@ -303,9 +303,9 @@
 //
 //================================================================================================================================
 
-[Type] == "Empower Support"
-[Type] == "Enlighten Support"
-[Type] == "Item Quantity Support"
+[Type] == "Empower Support" # [StashItem] == "true"
+[Type] == "Enlighten Support" # [StashItem] == "true"
+[Type] == "Item Quantity Support" # [StashItem] == "true"
 
 //================================================================================================================================
 //
