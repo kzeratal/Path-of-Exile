@@ -42,7 +42,7 @@
 [Type] == "Wand" && [Rarity] == "Rare" # [spell_damage_+%] >= "70" && ([cast_speed_+%] >= "20" || [spell_critical_strike_chance_+%] >= "80" || [base_critical_strike_multiplier_+] >= "30") && [StashItem] == "true"
 [Type] == "Wand" && [Rarity] == "Rare" # [spell_damage_+%] >= "60" && [base_cast_speed_+%] >= "11" && ([cold_damage_+%] >= "27" || [fire_damage_+%] >= "27" || [lightning_damage_+%] >= "27") && [StashItem] == "true"
 [Type] == "Wand" && [Rarity] == "Rare" # [spell_damage_+%] >= "35" && [spell_critical_strike_chance_+%] >= "80" && [base_critical_strike_multiplier_+] >= "25" && [StashItem] == "true"
-[Type] == "Wand" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "100" && [base_critical_strike_multiplier_+] >= "30" && [base_cast_speed_+%] >= "10" [StashItem] == "true"
+[Type] == "Wand" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "100" && [base_critical_strike_multiplier_+] >= "30" && [base_cast_speed_+%] >= "10" && [StashItem] == "true"
 
 //================================================================================================================================
 //
