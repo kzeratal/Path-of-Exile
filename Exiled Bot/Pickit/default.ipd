@@ -55,6 +55,19 @@
 [Rarity] == "Unique" # [StashItem] == "true"
 
 //=======================================================================
+//	<2200>		Helmets
+//=======================================================================
+
+[Type] == "Gilded Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Silken Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Vine Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Visored Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//=======================================================================
 //	<2200>		Shields
 //=======================================================================
 
