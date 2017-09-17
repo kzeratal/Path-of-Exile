@@ -46,6 +46,14 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 
+//=======================================================================
+//	<2200>		Shields
+//=======================================================================
+
+[Type] == "Painted Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Studded Round Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
 //================================================================================================================================
 //
 //	[0000]		Unique Items	3.0.0
