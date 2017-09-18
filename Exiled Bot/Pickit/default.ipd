@@ -372,7 +372,43 @@
 //
 //================================================================================================================================
 
-[Category] == "Map" # [StashItem] == "true"
+//[Category] == "Map" # [StashItem] == "true"
+
+//----------------------------------------
+//	 1943		Tier 1
+//----------------------------------------
+
+[Type] == "Arcade Map" # [StashItem] == "true"
+[Type] == "Desert Map" # [StashItem] == "true"
+
+[MapTier] >= "4" # [StashItem] == "true"
+//----------------------------------------
+//	 1943		Tier 2
+//----------------------------------------
+
+[Type] == "Beach Map" # [StashItem] == "true"
+[Type] == "Factory Map" # [StashItem] == "true"
+[Type] == "Ghetto Map" # [StashItem] == "true"
+[Type] == "Oasis Map" # [StashItem] == "true"
+
+//----------------------------------------
+//	 1943		Tier 3
+//----------------------------------------
+
+[Type] == "Arid Lake Map" # [StashItem] == "true"
+[Type] == "Cavern Map" # [StashItem] == "true"
+[Type] == "Channel Map" # [StashItem] == "true"
+[Type] == "Grotto Map" # [StashItem] == "true"
+[Type] == "Marshes Map" # [StashItem] == "true"
+[Type] == "Sewer Map" # [StashItem] == "true"
+
+//----------------------------------------
+//	 1943		Tier 4
+//----------------------------------------
+
+//[Type] == "Academy Map" # [StashItem] == "true"
+//[Type] == "Dungeon Map" # [StashItem] == "true"
+//[Type] == "Villa Map" # [StashItem] == "true"
 
 //=======================================================================
 //	<2200>		Divine Vessel
