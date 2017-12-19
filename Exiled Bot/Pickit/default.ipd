@@ -822,7 +822,7 @@
 [Type] == "Terror Claw" && [Rarity] == "Unique" # [local_chance_to_bleed_on_hit_%] == "25" && [ForceSellItem] == "true"
 [Type] == "Timeworn Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Thresher Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Throat Stabber" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Throat Stabber" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
