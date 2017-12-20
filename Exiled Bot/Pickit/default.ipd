@@ -362,7 +362,9 @@
 //		腰帶
 //----------------------------------------
 
-[Category] == "Belt" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //		珠寶
@@ -371,6 +373,10 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+
+//----------------------------------------
+//    箭袋
+//----------------------------------------
 
 //----------------------------------------
 //		戒指
@@ -393,7 +399,7 @@
 //		護甲
 //----------------------------------------
 
-[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [stashItem] == "true"
+//[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [stashItem] == "true"
 
 //----------------------------------------
 //		頭盔
@@ -415,11 +421,26 @@
 //		盾牌
 //----------------------------------------
 
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
 //		武器
 //=======================================================================
+//----------------------------------------
+//		弓
+//----------------------------------------
+
+[Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
+[Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
+
+[Type] == "Imperial Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "300" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
+
+[Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
+
 //----------------------------------------
 //		爪
 //----------------------------------------
@@ -447,6 +468,34 @@
 
 [Type] == "Vaal Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Vaal Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+//----------------------------------------
+//		匕首
+//----------------------------------------
+
+[Type] == "Ambusher" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Ambusher" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Demon Dagger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Demon Dagger" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Ezomyte Dagger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Ezomyte Dagger" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Gutting Knife" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Gutting Knife" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Imperial Skean" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Platinum Kris" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Platinum Kris" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Sai" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Sai" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
+[Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
 //		單手斧
@@ -532,6 +581,13 @@
 [Type] == "Vaal Rapier" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Vaal Rapier" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
+//----------------------------------------
+//    法杖
+//----------------------------------------
+
+[Type] == "Imbued Wand" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
+[Type] == "Imbued Wand" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+
 //================================================================================================================================
 //
 //		傳奇物品	3.0.0
@@ -565,7 +621,7 @@
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [crits_have_culling_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_purity_level] == "10" && [ForceSellItem] == "true"
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [global_critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "112" && [ForceSellItem] == "true"
