@@ -991,7 +991,7 @@
 [Type] == "Xoph's Breachstone" # [StashItem] == "true"
 
 //----------------------------------------
-//		碎片
+//    裂痕碎片
 //----------------------------------------
 
 [Type] == "Splinter of Chayula" # [StashItem] == "true"
@@ -1001,10 +1001,10 @@
 [Type] == "Splinter of Xoph" # [StashItem] == "true"
 
 //=======================================================================
-//		精隨
+//		精隨聯盟
 //=======================================================================
 //----------------------------------------
-//		汙染器皿
+//		遺忘的汙染器皿
 //----------------------------------------
 
 [Type] == "Remnant of Corruption" # [StashItem] == "true"
@@ -1107,7 +1107,7 @@
 [Type] == "Essence of Insanity" # [StashItem] == "true"
 
 //=======================================================================
-//		神諭
+//		神諭聯盟
 //=======================================================================
 //----------------------------------------
 //		通貨
@@ -1119,6 +1119,17 @@
 [Type] == "Orb of Annulment" # [StashItem] == "true"
 [Type] == "Orb of Binding" # [StashItem] == "true"
 [Type] == "Orb of Horizons" # [StashItem] == "true"
+
+//----------------------------------------
+//		通貨碎片
+//----------------------------------------
+
+[Type] == "Ancient Shard" # [StashItem] == "true"
+[Type] == "Annulment Shard" # [StashItem] == "true"
+[Type] == "Binding Shard" # [StashItem] == "true"
+[Type] == "Engineer's Shard" # [StashItem] == "true"
+[Type] == "Harbinger's Shard" # [StashItem] == "true"
+[Type] == "Horizon Shard" # [StashItem] == "true"
 
 //----------------------------------------
 //		裝備碎片
@@ -1142,14 +1153,3 @@
 [Type] == "Third Piece of Storms" # [StashItem] == "true"
 [Type] == "Third Piece of the Arcane" # [StashItem] == "true"
 [Type] == "Third Piece of Time" # [StashItem] == "true"
-
-//----------------------------------------
-//		碎片
-//----------------------------------------
-
-[Type] == "Ancient Shard" # [StashItem] == "true"
-[Type] == "Annulment Shard" # [StashItem] == "true"
-[Type] == "Binding Shard" # [StashItem] == "true"
-[Type] == "Engineer's Shard" # [StashItem] == "true"
-[Type] == "Harbinger's Shard" # [StashItem] == "true"
-[Type] == "Horizon Shard" # [StashItem] == "true"
