@@ -1,10 +1,10 @@
 //================================================================================================================================
 //
-//		通貨
+//		Currency
 //
 //================================================================================================================================
 //----------------------------------------
-//		白化的羽毛
+//		Albino Rhoa Feather
 //----------------------------------------
 
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true"
@@ -77,7 +77,7 @@
 [Type] == "Silver Coin" # [StashItem] == "true"
 
 //----------------------------------------
-//		還原玉
+//		Unshaping Orb
 //----------------------------------------
 
 [Type] == "Unshaping Orb" # [StashItem] == "true"
@@ -382,7 +382,9 @@
 //		戒指
 //----------------------------------------
 
-[Category] == "Ring" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
 //		裝備
