@@ -3,6 +3,10 @@
 //		Map To Run
 //
 //================================================================================================================================
+
+[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToRare] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+
 //=======================================================================
 //		Tier 1
 //=======================================================================
@@ -10,23 +14,17 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Arcade Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Desert Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
-[Type] == "Arcade Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Desert Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Beach Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Dungeon Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Graveyard Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
 //----------------------------------------
 //		Upgrade Tier
 //----------------------------------------
-
-[Type] == "Arcade Map" # [UpgradeMapTier] == "true"
-[Type] == "Desert Map" # [UpgradeMapTier] == "true"
-
 //=======================================================================
 //		Tier 2
 //=======================================================================
@@ -34,22 +32,17 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Ghetto Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
-[Type] == "Ghetto Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Oasis Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Arid Lake Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Desert Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Marshes Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
 //----------------------------------------
 //		Upgrade Tier
 //----------------------------------------
-
-[Type] == "Arcade Map" # [UpgradeMapTier] == "true"
-[Type] == "Desert Map" # [UpgradeMapTier] == "true"
-
 //=======================================================================
 //		Tier 3
 //=======================================================================
@@ -57,18 +50,20 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Cavern Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Grotto Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Sewer Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
-[Type] == "Cavern Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Grotto Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Sewer Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Arcade Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Cells Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Excavation Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Peninsula Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Port Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Springs Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
+//----------------------------------------
+//		Upgrade Tier
+//----------------------------------------
 //=======================================================================
 //		Tier 4
 //=======================================================================
@@ -76,18 +71,19 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Acid Lakes Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Graveyard Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Waste Pool Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
-[Type] == "Acid Lakes Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Graveyard Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Waste Pool Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Canyon Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Chateau Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Gorge Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Grotto Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Strand Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
+//----------------------------------------
+//		Upgrade Tier
+//----------------------------------------
 //=======================================================================
 //		Tier 5
 //=======================================================================
@@ -95,22 +91,19 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Dunes Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Mesa Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Peninsula Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Primordial Pool Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Spider Lair Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
-[Type] == "Dunes Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Mesa Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Peninsula Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Primordial Pool Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Barrows Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Channel Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Ivory Temple Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[Type] == "Maze Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 [Type] == "Spider Lair Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
+//----------------------------------------
+//		Upgrade Tier
+//----------------------------------------
 //=======================================================================
 //		Tier 6
 //=======================================================================
@@ -118,31 +111,17 @@
 //		Upgrade to Rare
 //----------------------------------------
 
-[Type] == "Spider Forest Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-
-//----------------------------------------
-//		Upgrade to Magic
-//----------------------------------------
-
-[Type] == "Spider Forest Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-
-//=======================================================================
-//		Tier 7
-//=======================================================================
-//----------------------------------------
-//		Upgrade to Rare
-//----------------------------------------
-
 [Type] == "Ashen Wood Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[Type] == "Shaped Beach Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
 
 //----------------------------------------
 //		Upgrade to Magic
 //----------------------------------------
 
 [Type] == "Ashen Wood Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[Type] == "Shaped Beach Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
+//----------------------------------------
+//		Upgrade Tier
+//----------------------------------------
 //================================================================================================================================
 //
 //		Map Settings
@@ -151,6 +130,9 @@
 //=======================================================================
 //		Ignore Map
 //=======================================================================
+
+[Type] == "Barrows Map" # [IgnoreMap] == "true"
+
 //----------------------------------------
 //		Bad Mods
 //----------------------------------------
