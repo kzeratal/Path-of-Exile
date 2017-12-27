@@ -372,6 +372,10 @@
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //----------------------------------------
