@@ -694,6 +694,7 @@
 [Type] == "Ironscale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Legion Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mesh Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Plated Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Scholar Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shagreen Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -747,6 +748,7 @@
 
 [Type] == "Arcanist Glvoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Bronze Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Chain Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1016,7 +1018,7 @@
 
 //================================================================================================================================
 //
-//		League Only Items	3.0.0
+//		League Only Items	3.1.0
 //
 //================================================================================================================================
 //=======================================================================
