@@ -10,23 +10,7 @@
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true"
 
 //----------------------------------------
-//		製圖封印
-//----------------------------------------
-
-[Type] == "Apprentice Cartographer's Seal" # [StashItem] == "true"
-[Type] == "Journeyman Cartographer's Seal" # [StashItem] == "true"
-[Type] == "Master Cartographer's Seal" # [StashItem] == "true"
-
-//----------------------------------------
-//		製圖六分儀
-//----------------------------------------
-
-[Type] == "Apprentice Cartographer's Sextant" # [StashItem] == "true"
-[Type] == "Journeyman Cartographer's Sextant" # [StashItem] == "true"
-[Type] == "Master Cartographer's Sextant" # [StashItem] == "true"
-
-//----------------------------------------
-//		奧術師通貨
+//		Arcanist's Currency
 //----------------------------------------
 
 [Type] == "Blessed Orb" # [StashItem] == "true"
@@ -48,7 +32,7 @@
 [Type] == "Vaal Orb" # [StashItem] == "true"
 
 //----------------------------------------
-//		奧術師通貨碎片
+//		Arcanist's Currency Shards
 //----------------------------------------
 
 [Type] == "Alchemy Shard" # [StashItem] == "true"
@@ -60,7 +44,7 @@
 [Type] == "Scroll Fragment" # [StashItem] == "true"
 
 //----------------------------------------
-//		工匠通貨
+//		Artisan's Currency
 //----------------------------------------
 
 [Type] == "Armourer's Scrap" # [StashItem] == "true"
@@ -70,7 +54,23 @@
 [Type] == "Cartographer's Chisel" # [StashItem] == "true"
 
 //----------------------------------------
-//		普通通貨
+//		Cartographer's Seal
+//----------------------------------------
+
+[Type] == "Apprentice Cartographer's Seal" # [StashItem] == "true"
+[Type] == "Journeyman Cartographer's Seal" # [StashItem] == "true"
+[Type] == "Master Cartographer's Seal" # [StashItem] == "true"
+
+//----------------------------------------
+//		Cartographer's Sextant
+//----------------------------------------
+
+[Type] == "Apprentice Cartographer's Sextant" # [StashItem] == "true"
+[Type] == "Journeyman Cartographer's Sextant" # [StashItem] == "true"
+[Type] == "Master Cartographer's Sextant" # [StashItem] == "true"
+
+//----------------------------------------
+//		Normal Currency
 //----------------------------------------
 
 [Type] == "Perandus Coin" # [StashItem] == "true"
@@ -84,12 +84,9 @@
 
 //================================================================================================================================
 //
-//		命運卡
+//		Divine Cards
 //
 //================================================================================================================================
-//----------------------------------------
-//		普通命運卡
-//----------------------------------------
 
 [Type] == "A Mother's Parting Gift" # [StashItem] == "true"
 [Type] == "Abandoned Wealth" # [StashItem] == "true"
@@ -244,30 +241,39 @@
 [Type] == "Wealth and Power" # [StashItem] == "true"
 
 //----------------------------------------
-//		豐裕牌組
+//		Stacked Deck
 //----------------------------------------
 
 [Type] == "Stacked Deck" # [StashItem] == "true"
 
 //================================================================================================================================
 //
-//		地圖
+//		Maps
 //
 //================================================================================================================================
+
+[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"
+
 //----------------------------------------
-//		眾神聖器
+//    Abandoned Maps
+//----------------------------------------
+
+[Category] == "Map" # [map_monsters_reflect_%_physical_damage] >= "1" && [map_players_block_chance_+%] < "0" && [ForceSellItem] == "true"
+
+//----------------------------------------
+//		Divine Vessel
 //----------------------------------------
 
 [Type] == "Divine Vessel" # [StashItem] == "true"
 
 //----------------------------------------
-//		女神祭品
+//		Offering to the Goddess
 //----------------------------------------
 
 [Type] == "Offering to the Goddess" # [StashItem] == "true"
 
 //----------------------------------------
-//		誘人的深淵
+//		The Alluring Abyss
 //----------------------------------------
 
 [Type] == "Mortal Grief" # [StashItem] == "true"
@@ -276,7 +282,7 @@
 [Type] == "Mortal Rage" # [StashItem] == "true"
 
 //----------------------------------------
-//		生贄之尖
+//		The Apex of Sacrifice
 //----------------------------------------
 
 [Type] == "Sacrifice at Dawn" # [StashItem] == "true"
@@ -285,7 +291,7 @@
 [Type] == "Sacrifice at Noon" # [StashItem] == "true"
 
 //----------------------------------------
-//		蒼白議會
+//		The Pale Court
 //----------------------------------------
 
 [Type] == "Eber's Key" # [StashItem] == "true"
@@ -294,7 +300,7 @@
 [Type] == "Yriel's Key" # [StashItem] == "true"
 
 //----------------------------------------
-//		塑者之界
+//		The Shaper's Realm
 //----------------------------------------
 
 [Type] == "Fragment of the Chimera" # [StashItem] == "true"
@@ -302,19 +308,13 @@
 [Type] == "Fragment of the Minotaur" # [StashItem] == "true"
 [Type] == "Fragment of the Phoenix" # [StashItem] == "true"
 
-//----------------------------------------
-//		普通地圖
-//----------------------------------------
-
-[Category] == "Map" && [MapTier] >= "1" # [StashItem] == "true"
-
 //================================================================================================================================
 //
-//		技能寶石
+//		Skill Gems
 //
 //================================================================================================================================
 //----------------------------------------
-//		輔助寶石
+//		Support Skill Gems
 //----------------------------------------
 
 [Type] == "Empower Support" # [StashItem] == "true"
@@ -323,43 +323,43 @@
 
 //================================================================================================================================
 //
-//		普通物品
+//		Normal Items
 //
 //================================================================================================================================
 //----------------------------------------
-//		魚竿
+//		Fishing Rod
 //----------------------------------------
 
 [Type] == "Fishing Rod" # [StashItem] == "true"
 
 //----------------------------------------
-//		六連
+//		Six Linked
 //----------------------------------------
 
 [Sockets] == "6" && [Linked] == "6" # [StashItem] == "true"
 
 //----------------------------------------
-//		六洞
+//		Six Sockets
 //----------------------------------------
 
 [Sockets] == "6" && [Linked] <= "5" # [SellUnid] == "true"
 
 //================================================================================================================================
 //
-//		稀有物品	3.1.0
+//		Rare Items	3.1.0
 //
 //================================================================================================================================
 //=======================================================================
-//		飾品
+//		Accessories
 //=======================================================================
 //----------------------------------------
-//		項鍊
+//		Amulets
 //----------------------------------------
 
 [Category] == "Amulet" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //----------------------------------------
-//		腰帶
+//		Belts
 //----------------------------------------
 
 [Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -367,7 +367,7 @@
 [Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
-//		珠寶
+//		Jewels
 //----------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
@@ -375,11 +375,11 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //----------------------------------------
-//    箭袋
+//    Quivers
 //----------------------------------------
 
 //----------------------------------------
-//		戒指
+//		Rings
 //----------------------------------------
 
 [Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -387,10 +387,10 @@
 [Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
-//		裝備
+//		Armours
 //=======================================================================
 //----------------------------------------
-//		鞋子
+//		Boots
 //----------------------------------------
 
 [Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -398,13 +398,13 @@
 [Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_movement_velocity_+%] >= "20" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
-//		護甲
+//		Chests
 //----------------------------------------
 
 //[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [stashItem] == "true"
 
 //----------------------------------------
-//		頭盔
+//		Helmets
 //----------------------------------------
 
 [Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -412,7 +412,7 @@
 [Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
-//		手套
+//		Gloves
 //----------------------------------------
 
 [Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -420,7 +420,7 @@
 [Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
-//		盾牌
+//		Shields
 //----------------------------------------
 
 [Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
@@ -428,10 +428,10 @@
 [Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
-//		武器
+//		Weapons
 //=======================================================================
 //----------------------------------------
-//		弓
+//		Bows
 //----------------------------------------
 
 [Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
@@ -444,7 +444,7 @@
 [Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
 
 //----------------------------------------
-//		爪
+//		Claws
 //----------------------------------------
 
 [Type] == "Eye Gouger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
@@ -472,7 +472,7 @@
 [Type] == "Vaal Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//		匕首
+//		Daggers
 //----------------------------------------
 
 [Type] == "Ambusher" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
@@ -500,7 +500,7 @@
 [Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//		單手斧
+//		One Hand Axes
 //----------------------------------------
 
 [Type] == "Butcher Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
@@ -528,7 +528,7 @@
 [Type] == "Vaal Hatchet" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//		單手劍
+//		One Hand Sowrds
 //----------------------------------------
 
 [Type] == "Corsair Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
@@ -556,7 +556,7 @@
 [Type] == "Vaal Blade" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//		細劍
+//		Thrusting One Hand Swords
 //----------------------------------------
 
 [Type] == "Dragonbone Rapier" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
@@ -584,7 +584,7 @@
 [Type] == "Vaal Rapier" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//    法杖
+//    Wands
 //----------------------------------------
 
 [Type] == "Imbued Wand" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
@@ -592,23 +592,17 @@
 
 //================================================================================================================================
 //
-//		傳奇物品	3.0.0
+//		Unique Items	3.0.0
 //
 //================================================================================================================================
-//=======================================================================
-//		通用規則
-//=======================================================================
-//----------------------------------------
-//		存所有傳奇物品
-//----------------------------------------
 
 [Rarity] == "Unique" # [StashItem] == "true"
 
 //=======================================================================
-//		飾品
+//		Accessories
 //=======================================================================
 //----------------------------------------
-//		項鍊
+//		Amulets
 //----------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
@@ -623,13 +617,13 @@
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [crits_have_culling_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_purity_level] == "10" && [ForceSellItem] == "true"
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
-//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
+// [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [global_critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "112" && [ForceSellItem] == "true"
 
 //----------------------------------------
-//		腰帶
+//		Belts
 //----------------------------------------
 
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -646,13 +640,13 @@
 [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		珠寶
+//		Jewels
 //----------------------------------------
 
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_40_dex_in_radius] == "10" && [ForceSellItem] == "true"
 
 //----------------------------------------
-//		箭袋
+//		Quivers
 //----------------------------------------
 
 [Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [ground_smoke_when_hit_%] == "25" && [ForceSellItem] == "true"
@@ -665,7 +659,7 @@
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //----------------------------------------
-//		戒指
+//		Rings
 //----------------------------------------
 
 [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -686,10 +680,10 @@
 [Type] == "Unset Ring" && [Rarity] == "Unique" # [local_all_sockets_are_white] == "1" && [ForceSellItem] == "true"
 
 //=======================================================================
-//		裝備
+//		Armours
 //=======================================================================
 //----------------------------------------
-//		鞋子
+//		Boots
 //----------------------------------------
 
 [Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -714,7 +708,7 @@
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		護甲
+//		Chests
 //----------------------------------------
 
 [Type] == "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -748,7 +742,7 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		手套
+//		Gloves
 //----------------------------------------
 
 [Type] == "Arcanist Glvoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -775,7 +769,7 @@
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		頭盔
+//		Helmets
 //----------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -804,7 +798,7 @@
 [Type] == "Zealot Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		盾牌
+//		Shields
 //----------------------------------------
 
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -834,16 +828,16 @@
 [Type] == "War Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //=======================================================================
-//		藥劑
+//		Flasks
 //=======================================================================
 //----------------------------------------
-//		魔力藥劑
+//		Mana Flasks
 //----------------------------------------
 
 [Type] == "Greater Mana Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		功能藥劑
+//		Utility Flasks
 //----------------------------------------
 
 [Type] == "Quartz Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -852,10 +846,10 @@
 [Type] == "Sulphur Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //=======================================================================
-//		武器
+//		Weapons
 //=======================================================================
 //----------------------------------------
-//		弓
+//		Bows
 //----------------------------------------
 
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -869,7 +863,7 @@
 [Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		爪
+//		Claws
 //----------------------------------------
 
 [Type] == "Awl" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -884,7 +878,7 @@
 [Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		匕首
+//		Daggers
 //----------------------------------------
 
 [Type] == "Ambusher" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -897,7 +891,7 @@
 [Type] == "Stiletto" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		單手斧
+//		One Hand Axes
 //----------------------------------------
 
 [Type] == "Cleaver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -908,7 +902,7 @@
 [Type] == "Vaal Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		單手錘
+//		One Hand Maces
 //----------------------------------------
 
 [Type] == "Auric Mace" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -920,7 +914,7 @@
 [Type] == "War Hammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		單手劍
+//		One Hand Swords
 //----------------------------------------
 
 [Type] == "Corsair Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -935,7 +929,7 @@
 [Type] == "War Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		權杖
+//		Sceptres
 //----------------------------------------
 
 [Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -947,7 +941,7 @@
 [Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		長杖
+//		Staves
 //----------------------------------------
 
 [Type] == "Gnarled Branch" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -960,7 +954,7 @@
 [Type] == "Vile Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		細劍
+//		Thrusting One Hand Swords
 //----------------------------------------
 
 [Type] == "Antique Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -971,7 +965,7 @@
 [Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		雙手斧
+//		Two Hand Axes
 //----------------------------------------
 
 [Type] == "Headsman Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -982,7 +976,7 @@
 [Type] == "Woodsplitter" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		雙手錘
+//		Two Hand Maces
 //----------------------------------------
 
 [Type] == "Brass Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -993,7 +987,7 @@
 [Type] == "Sledgehammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		雙手劍
+//		Two Hand Swords
 //----------------------------------------
 
 [Type] == "Bastard Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1006,7 +1000,7 @@
 [Type] == "Reaver Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//		法杖
+//		Wands
 //----------------------------------------
 
 [Type] == "Carved Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1022,14 +1016,14 @@
 
 //================================================================================================================================
 //
-//		聯盟物品	3.0.0
+//		League Only Items	3.0.0
 //
 //================================================================================================================================
 //=======================================================================
-//		裂痕聯盟
+//		Breach League
 //=======================================================================
 //----------------------------------------
-//		祝福石
+//		Blessing Orbs
 //----------------------------------------
 
 [Type] == "Blessing of Chayula" # [StashItem] == "true"
@@ -1039,7 +1033,7 @@
 [Type] == "Blessing of Xoph" # [StashItem] == "true"
 
 //----------------------------------------
-//		裂痕石
+//		Breach Stones
 //----------------------------------------
 
 [Type] == "Chayula's Breachstone" # [StashItem] == "true"
@@ -1049,7 +1043,7 @@
 [Type] == "Xoph's Breachstone" # [StashItem] == "true"
 
 //----------------------------------------
-//    裂痕碎片
+//    Breach Stones' Splinters
 //----------------------------------------
 
 [Type] == "Splinter of Chayula" # [StashItem] == "true"
@@ -1059,16 +1053,16 @@
 [Type] == "Splinter of Xoph" # [StashItem] == "true"
 
 //=======================================================================
-//		精隨聯盟
+//		Essence League
 //=======================================================================
 //----------------------------------------
-//		遺忘的汙染器皿
+//		Remnant of Corruption
 //----------------------------------------
 
 [Type] == "Remnant of Corruption" # [StashItem] == "true"
 
 //----------------------------------------
-//		哀嚎精髓
+//		Tier 4
 //----------------------------------------
 
 [Type] == "Wailing Essence of Anger" # [StashItem] == "true"
@@ -1081,7 +1075,7 @@
 [Type] == "Wailing Essence of Zeal" # [StashItem] == "true"
 
 //----------------------------------------
-//		咆哮精髓
+//		Tier 5
 //----------------------------------------
 
 [Type] == "Screaming Essence of Anger" # [StashItem] == "true"
@@ -1106,7 +1100,7 @@
 [Type] == "Screaming Essence of Zeal" # [StashItem] == "true"
 
 //----------------------------------------
-//		尖嘯精髓
+//		Tier 6
 //----------------------------------------
 
 [Type] == "Shrieking Essence of Anger" # [StashItem] == "true"
@@ -1131,7 +1125,7 @@
 [Type] == "Shrieking Essence of Zeal" # [StashItem] == "true"
 
 //----------------------------------------
-//		破空精髓
+//		Tier 7
 //----------------------------------------
 
 [Type] == "Deafening Essence of Anger" # [StashItem] == "true"
@@ -1156,7 +1150,7 @@
 [Type] == "Deafening Essence of Zeal" # [StashItem] == "true"
 
 //----------------------------------------
-//		汙染精髓
+//		Tier 8
 //----------------------------------------
 
 [Type] == "Essence of Delirium" # [StashItem] == "true"
@@ -1165,10 +1159,10 @@
 [Type] == "Essence of Insanity" # [StashItem] == "true"
 
 //=======================================================================
-//		神諭聯盟
+//		Harbinger League
 //=======================================================================
 //----------------------------------------
-//		通貨
+//		Harbinger's Currency
 //----------------------------------------
 
 [Type] == "Ancient Orb" # [StashItem] == "true"
@@ -1179,7 +1173,7 @@
 [Type] == "Orb of Horizons" # [StashItem] == "true"
 
 //----------------------------------------
-//		通貨碎片
+//		Harbinger's Currency Shards
 //----------------------------------------
 
 [Type] == "Ancient Shard" # [StashItem] == "true"
@@ -1190,7 +1184,7 @@
 [Type] == "Horizon Shard" # [StashItem] == "true"
 
 //----------------------------------------
-//		裝備碎片
+//		Pieces
 //----------------------------------------
 
 [Type] == "First Piece of Brutality" # [StashItem] == "true"
