@@ -779,6 +779,7 @@
 [Type] == "Goliath Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Murder Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Samite Gloves" && [Rarity] == "Unique" # [local_display_socketed_gems_get_faster_cast_level] == "18" && [ForceSellItem] == "true"
 [Type] == "Silk Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sorcerer Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
