@@ -4,8 +4,8 @@
 //
 //================================================================================================================================
 
-[MapTier] >= "1" && [MapTier] <= "2" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[MapTier] >= "1" && [MapTier] <= "2" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "3" # [UpgradeToRare] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "3" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
 //================================================================================================================================
 //
@@ -16,12 +16,21 @@
 //		Ignored Map
 //=======================================================================
 //----------------------------------------
+//		Tier 1
+//----------------------------------------
+
+[Type] == "Dungeon Map" # [IgnoreMap] == "true"
+[Type] == "Graveyard Map" # [IgnoreMap] == "true"
+[Type] == "Lookout Map" # [IgnoreMap] == "true"
+
+//----------------------------------------
 //		Tier 2
 //----------------------------------------
 
 [Type] == "Alleyways Map" # [IgnoreMap] == "true"
 [Type] == "Flooded Mine Map" # [IgnoreMap] == "true"
 [Type] == "Marshes Map" # [IgnoreMap] == "true"
+[Type] == "Pen Map" # [IgnoreMap] == "true"
 
 //----------------------------------------
 //		Tier 3
