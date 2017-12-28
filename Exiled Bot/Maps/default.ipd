@@ -4,8 +4,8 @@
 //
 //================================================================================================================================
 
-[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "2" # [UpgradeToRare] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "2" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
 //================================================================================================================================
 //
@@ -19,6 +19,7 @@
 //		Tier 2
 //----------------------------------------
 
+[Type] == "Alleyways Map" # [IgnoreMap] == "true"
 [Type] == "Flooded Mine Map" # [IgnoreMap] == "true"
 
 //----------------------------------------
