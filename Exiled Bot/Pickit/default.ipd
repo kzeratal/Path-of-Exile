@@ -346,6 +346,22 @@
 
 //================================================================================================================================
 //
+//	Magic Items
+//
+//================================================================================================================================
+//=======================================================================
+//	Accessories
+//=======================================================================
+//----------------------------------------
+//	Jewels
+//----------------------------------------
+
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+
+//================================================================================================================================
+//
 //	Rare Items 3.1.0
 //
 //================================================================================================================================
@@ -370,17 +386,17 @@
 //	Jewels
 //----------------------------------------
 
-[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
 
 //----------------------------------------
 //	Quivers
 //----------------------------------------
+
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Rings
@@ -647,7 +663,7 @@
 //	Jewels
 //----------------------------------------
 
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_40_dex_in_radius] == "10" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_50_dex_in_radius] == "10" && [ForceSellItem] == "true"
 
 //----------------------------------------
 //	Quivers
@@ -659,7 +675,7 @@
 [Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Spike-Point Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [base_number_of_totems_allowed] == "1" && [ForceSellItem] == "true"
+[Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [attack_skills_additional_totems_allowed] == "1" && [ForceSellItem] == "true"
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //----------------------------------------
@@ -1017,6 +1033,7 @@
 [Type] == "Goat's Horn" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Imbued Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Quartz Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sage Wand" && [Rarity] == "Unique" # [local_display_socketed_gems_have_number_of_additional_projectiles] == "1" && [ForceSellItem] == "true"
 [Type] == "Spiraled Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Tornado Wnad" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
@@ -1025,6 +1042,18 @@
 //	League Only Items 3.1.0
 //
 //================================================================================================================================
+//=======================================================================
+//	Abyss League
+//=======================================================================
+//----------------------------------------
+//	Jewels
+//----------------------------------------
+
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+
 //=======================================================================
 //	Breach League
 //=======================================================================
