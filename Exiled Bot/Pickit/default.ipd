@@ -421,7 +421,7 @@
 //	Chests
 //----------------------------------------
 
-//[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [stashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [StashItem] == "true"
 
 //----------------------------------------
 //	Helmets
