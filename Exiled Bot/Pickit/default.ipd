@@ -252,7 +252,7 @@
 //
 //================================================================================================================================
 
-[Category] == "Map" && [MapTier] >= "6" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "4" # [StashItem] == "true"
 
 //----------------------------------------
 //	Abandoned Maps
@@ -716,6 +716,7 @@
 [Type] == "Mesh Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plated Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # [base_chaos_damage_resistance_%] >= "15" && [base_cold_damage_resistance_%] >= "15" && [ForceSellItem] == "true"
 [Type] == "Scholar Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shagreen Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -733,6 +734,7 @@
 //----------------------------------------
 
 [Type] == "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Bone Armour" && [Rarity] == "Unique" # [maximum_life_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Buckskin Tunic" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Conquest Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -796,6 +798,7 @@
 //----------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Bone Circlet" && [Rarity] == "Unique" # [spectre_maximum_life_+] == "1000" && [ForceSellItem] == "true"
 [Type] == "Festival Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Gilded Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -810,6 +813,7 @@
 [Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mind Cage" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # [extra_damage_taken_from_crit_while_no_power_charges_+%] == "-50" && [ForceSellItem] == "true"
 [Type] == "Prophet Crown" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Samite Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Secutor Helm" && [Rarity] == "Unique" # [ForceSellItem] == "true"
