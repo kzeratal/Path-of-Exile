@@ -626,7 +626,7 @@
 //----------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
-[Type] == "Agate Amulet" && [Rarity] == "Unique" # [life_regeneration_rate_+%] == "2" && [ForceSellItem] == "true"
+[Type] == "Agate Amulet" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute] == "120" && [ForceSellItem] == "true"
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [mana_regeneration_rate_per_minute_%_per_power_charge] == "10" && [ForceSellItem] == "true"
 [Type] == "Amber Amulet" && [Rarity] == "Unique" # [maximum_block_%] == "3" && [ForceSellItem] == "true"
 [Type] == "Coral Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -743,7 +743,7 @@
 [Type] == "Crusader Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Desert Brigandine" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Destiny Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Destiny Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Full Dragonscale" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -971,6 +971,7 @@
 //	Staves
 //----------------------------------------
 
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_socketed_chaos_gem_level_+] == "2" && [ForceSellItem] == "true"
 [Type] == "Gnarled Branch" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Lathi" && [Rarity] == "Unique" # [ForceSellItem] == "true"
