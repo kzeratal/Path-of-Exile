@@ -745,7 +745,7 @@
 [Type] == "Destiny Leather" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
 [Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Full Dragonscale" && [Rarity] == "Unique" # [base_maximum_life] <= "58" [ForceSellItem] == "true"
+[Type] == "Full Dragonscale" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Full Scale Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Holy Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -825,7 +825,7 @@
 [Type] == "Zealot Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Shields
+//	Shields V3.1.1d
 //----------------------------------------
 
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -833,7 +833,7 @@
 [Type] == "Brass Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Compound Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_fire] == "25" && [ForceSellItem] == "true"
 [Type] == "Enameled Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Goathide Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -842,7 +842,7 @@
 [Type] == "Laminated Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mosaic Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Painted Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" [ForceSellItem] == "true"
 [Type] == "Pine Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
