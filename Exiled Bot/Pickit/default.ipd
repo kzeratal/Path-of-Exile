@@ -710,7 +710,7 @@
 [Type] == "Clasped Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Conjurer Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Deerskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ironscale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Legion Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mesh Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -721,10 +721,10 @@
 [Type] == "Shagreen Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Silk Slippers" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Soldier Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Stealth Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Soldier Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Stealth Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Strapped Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Trapper Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Trapper Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Velvet Slippers" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
@@ -732,7 +732,7 @@
 //	Chests
 //----------------------------------------
 
-[Type] == "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bone Armour" && [Rarity] == "Unique" # [maximum_life_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Buckskin Tunic" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 // [Type] == "Carnal Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -745,15 +745,15 @@
 // [Type] == "Destiny Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Full Dragonscale" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Full Dragonscale" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Full Scale Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Holy Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Lacquered Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Latticed Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ornate Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plate Vest" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Sage's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Sage's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [local_display_socketed_gems_get_elemental_proliferation_level] == "5" && [ForceSellItem] == "true"
@@ -761,7 +761,7 @@
 [Type] == "Strapped Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 // [Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wild Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
 //	Gloves
