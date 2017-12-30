@@ -738,7 +738,7 @@
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Leather Cap" && [Rarity] == "Unique" # [base_cold_damage_resistance_%] == "40" && [ForceSellItem] == "true"
+[Type] == "Leather Cap" && [Rarity] == "Unique" # [base_cold_damage_resistance_%] <= "39" && [ForceSellItem] == "true"
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mind Cage" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -759,6 +759,7 @@
 //	Shields V3.1.1d
 //--------------------------------------------------
 
+[Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_cold_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Branded Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Brass Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -904,6 +905,7 @@
 //	Staves V3.1.1d
 //--------------------------------------------------
 
+[Type] == "Coiled Staff" && [Rarity] == "Unique" # [base_aura_area_of_effect_+%] == "18" && [ForceSellItem] == "true"
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_socketed_chaos_gem_level_+] == "2" && [ForceSellItem] == "true"
 [Type] == "Gnarled Branch" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
