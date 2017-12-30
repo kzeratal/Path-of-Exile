@@ -679,12 +679,12 @@
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Rings
+//	Rings V3.1.1d
 //----------------------------------------
 
 [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Diamond Ring" && [Rarity] == "Unique" # [unique_lose_all_power_charges_on_crit] == "1" && [ForceSellItem] == "true"
-[Type] == "Iron Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Iron Ring" && [Rarity] == "Unique" # [physical_damage_+%] == "5" && [ForceSellItem] == "true"
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [minion_skill_area_of_effect_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [stun_threshold_based_on_energy_shield_instead_of_life ] == "1" && [ForceSellItem] == "true"
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [temporal_chains_effeciveness_+%] == "-50" && [ForceSellItem] == "true"
@@ -696,7 +696,7 @@
 [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_cold_damage_%_to_convert_to_fire] == "40" && [ForceSellItem] == "true"
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_per_level] == "1" && [ForceSellItem] == "true"
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [base_lightning_damage_%_to_convert_to_cold] == "40" && [ForceSellItem] == "true"
+// [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [base_lightning_damage_%_to_convert_to_cold] == "40" && [ForceSellItem] == "true"
 [Type] == "Unset Ring" && [Rarity] == "Unique" # [local_all_sockets_are_white] == "1" && [ForceSellItem] == "true"
 
 //=======================================================================
