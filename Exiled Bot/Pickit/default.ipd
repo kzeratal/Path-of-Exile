@@ -729,39 +729,39 @@
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Chests
+//	Chests V3.1.1d
 //----------------------------------------
 
-// [Type] == "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Astral Plate" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
 [Type] == "Bone Armour" && [Rarity] == "Unique" # [maximum_life_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Buckskin Tunic" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Carnal Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Carnal Armour" && [Rarity] == "Unique" # [movement_velocity_+%_per_frenzy_charge] == "1" && [ForceSellItem] == "true"
 [Type] == "Conquest Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Copper Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Crusader Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Crusader Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Desert Brigandine" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Destiny Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Destiny Leather" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
 [Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Full Dragonscale" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Full Dragonscale" && [Rarity] == "Unique" # [base_maximum_life] <= "58" [ForceSellItem] == "true"
 [Type] == "Full Scale Armour" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Holy Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Lacquered Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [local_socketed_aura_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Latticed Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ornate Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plate Vest" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Sage's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [local_display_socketed_gems_get_elemental_proliferation_level] == "5" && [ForceSellItem] == "true"
 [Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Strapped Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Wild Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [base_chance_to_dodge_spells_%] == "10" && [local_evasion_rating_+%] <= "209" && [ForceSellItem] == "true"
 
 //----------------------------------------
 //	Gloves
