@@ -764,11 +764,11 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [base_chance_to_dodge_spells_%] == "10" && [local_evasion_rating_+%] <= "209" && [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Gloves
+//	Gloves V3.1.1d
 //----------------------------------------
 
 [Type] == "Arcanist Glvoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bronze Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bronzescale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -779,7 +779,7 @@
 [Type] == "Goathide Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Goliath Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Murder Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_energy_shield] <= "29" && [ForceSellItem] == "true"
 [Type] == "Samite Gloves" && [Rarity] == "Unique" # [local_display_socketed_gems_get_faster_cast_level] == "18" && [ForceSellItem] == "true"
 [Type] == "Silk Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
