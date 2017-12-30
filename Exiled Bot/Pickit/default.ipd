@@ -1,6 +1,6 @@
 //================================================================================================================================
 //
-//	Currency V3.1.1d 12312
+//	Currency V3.1.1d 12313
 //
 //================================================================================================================================
 //--------------------------------------------------
@@ -478,9 +478,9 @@
 //	Daggers (Spell)
 //--------------------------------------------------
 
-[Type] == "Copper Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
-[Type] == "Golden Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
-[Type] == "Platinum Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+[Type] == "Copper Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" && [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+[Type] == "Golden Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" && [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+[Type] == "Platinum Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" && [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	One Hand Axes (Physical)
