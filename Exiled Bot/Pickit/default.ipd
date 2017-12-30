@@ -1,6 +1,6 @@
 //================================================================================================================================
 //
-//	Currency
+//	Currency V3.1.1d
 //
 //================================================================================================================================
 //----------------------------------------
@@ -84,167 +84,76 @@
 
 //================================================================================================================================
 //
-//	Divine Cards
+//	Divine Cards V3.1.1d
 //
 //================================================================================================================================
 
-[Type] == "A Mother's Parting Gift" # [StashItem] == "true"
-[Type] == "Abandoned Wealth" # [StashItem] == "true"
-[Type] == "Anarchy's Price" # [StashItem] == "true"
-[Type] == "Assassin's Favour" # [StashItem] == "true"
-[Type] == "Atziri's Arsenal" # [StashItem] == "true"
-[Type] == "Blind Venture" # [StashItem] == "true"
-[Type] == "Boundless Realms" # [StashItem] == "true"
-[Type] == "Bowyer's Dream" # [StashItem] == "true"
-[Type] == "Call to the First Ones" # [StashItem] == "true"
-[Type] == "Cartographer's Delight" # [StashItem] == "true"
-[Type] == "Chaotic Disposition" # [StashItem] == "true"
-[Type] == "Coveted Possession" # [StashItem] == "true"
-[Type] == "Dialla's Subjugation" # [StashItem] == "true"
-[Type] == "Earth Drinker" # [StashItem] == "true"
-[Type] == "Emperor of Purity" # [StashItem] == "true"
-[Type] == "Emperor's Luck" # [StashItem] == "true"
-[Type] == "Gemcutter's Promise" # [StashItem] == "true"
-[Type] == "Gift of the Gemling Queen" # [StashItem] == "true"
-[Type] == "Glimmer of Hope" # [StashItem] == "true"
-[Type] == "Grave Knowledge" # [StashItem] == "true"
-[Type] == "Her Mask" # [StashItem] == "true"
-[Type] == "Heterochromia" # [StashItem] == "true"
-[Type] == "Hope" # [StashItem] == "true"
-[Type] == "House of Mirrors" # [StashItem] == "true"
-[Type] == "Hubris" # [StashItem] == "true"
-[Type] == "Humility" # [StashItem] == "true"
-[Type] == "Hunter's Resolve" # [StashItem] == "true"
-[Type] == "Hunter's Reward" # [StashItem] == "true"
-[Type] == "Jack in the Box" # [StashItem] == "true"
-[Type] == "Lantador's Lost Love" # [StashItem] == "true"
-[Type] == "Last Hope" # [StashItem] == "true"
-[Type] == "Lingering Remnants" # [StashItem] == "true"
-[Type] == "Lost Worlds" # [StashItem] == "true"
-[Type] == "Loyalty" # [StashItem] == "true"
-[Type] == "Lucky Connections" # [StashItem] == "true"
-[Type] == "Lucky Deck" # [StashItem] == "true"
-[Type] == "Lysah's Respite" # [StashItem] == "true"
-[Type] == "Mawr Blaidd" # [StashItem] == "true"
-[Type] == "Merciless Armament" # [StashItem] == "true"
-[Type] == "Might is Right" # [StashItem] == "true"
-[Type] == "Mitts" # [StashItem] == "true"
-[Type] == "Pride Before the Fall" # [StashItem] == "true"
-[Type] == "Prosperity" # [StashItem] == "true"
-[Type] == "Rain Tempter" # [StashItem] == "true"
-[Type] == "Rain of Chaos" # [StashItem] == "true"
-[Type] == "Rats" # [StashItem] == "true"
-[Type] == "Scholar of the Seas" # [StashItem] == "true"
-[Type] == "Shard of Fate" # [StashItem] == "true"
-[Type] == "Struck by Lightning" # [StashItem] == "true"
-[Type] == "The Aesthete" # [StashItem] == "true"
-[Type] == "The Arena Champion" # [StashItem] == "true"
-[Type] == "The Artist" # [StashItem] == "true"
-[Type] == "The Avenger" # [StashItem] == "true"
-[Type] == "The Battle Born" # [StashItem] == "true"
-[Type] == "The Betrayal" # [StashItem] == "true"
-[Type] == "The Body" # [StashItem] == "true"
-[Type] == "The Brittle Emperor" # [StashItem] == "true"
-[Type] == "The Calling" # [StashItem] == "true"
-[Type] == "The Cartographer" # [StashItem] == "true"
-[Type] == "The Cataclysm" # [StashItem] == "true"
-[Type] == "The Catalyst" # [StashItem] == "true"
-[Type] == "The Celestial Justicar" # [StashItem] == "true"
-[Type] == "The Chains that Bind" # [StashItem] == "true"
-[Type] == "The Coming Storm" # [StashItem] == "true"
-[Type] == "The Cursed King" # [StashItem] == "true"
-[Type] == "The Dapper Prodigy" # [StashItem] == "true"
-[Type] == "The Dark Mage" # [StashItem] == "true"
-[Type] == "The Demoness" # [StashItem] == "true"
-[Type] == "The Devastator" # [StashItem] == "true"
-[Type] == "The Doctor" # [StashItem] == "true"
-[Type] == "The Doppelganger" # [StashItem] == "true"
-[Type] == "The Dragon's Heart" # [StashItem] == "true"
-[Type] == "The Drunken Aristocrat" # [StashItem] == "true"
-[Type] == "The Encroaching Darkness" # [StashItem] == "true"
-[Type] == "The Endurance" # [StashItem] == "true"
-[Type] == "The Enlightened" # [StashItem] == "true"
-[Type] == "The Ethereal" # [StashItem] == "true"
-[Type] == "The Explorer" # [StashItem] == "true"
-[Type] == "The Fiend" # [StashItem] == "true"
-[Type] == "The Fletcher" # [StashItem] == "true"
-[Type] == "The Flora's Gift" # [StashItem] == "true"
-[Type] == "The Formless Sea" # [StashItem] == "true"
-[Type] == "The Fox" # [StashItem] == "true"
-[Type] == "The Gambler" # [StashItem] == "true"
-[Type] == "The Garish Power" # [StashItem] == "true"
-[Type] == "The Gemcutter" # [StashItem] == "true"
-[Type] == "The Gentleman" # [StashItem] == "true"
-[Type] == "The Gladiator" # [StashItem] == "true"
-[Type] == "The Harvester" # [StashItem] == "true"
-[Type] == "The Hoarder" # [StashItem] == "true"
-[Type] == "The Hunger" # [StashItem] == "true"
-[Type] == "The Immortal" # [StashItem] == "true"
-[Type] == "The Inventor" # [StashItem] == "true"
-[Type] == "The Jester" # [StashItem] == "true"
-[Type] == "The King's Heart" # [StashItem] == "true"
-[Type] == "The Last One Standing" # [StashItem] == "true"
-[Type] == "The Lich" # [StashItem] == "true"
-[Type] == "The Lion" # [StashItem] == "true"
-[Type] == "The Lord in Black" # [StashItem] == "true"
-[Type] == "The Lover" # [StashItem] == "true"
-[Type] == "The Lunaris Priestess" # [StashItem] == "true"
-[Type] == "The Mercenary" # [StashItem] == "true"
-[Type] == "The Oath" # [StashItem] == "true"
-[Type] == "The Offering" # [StashItem] == "true"
-[Type] == "The One With All" # [StashItem] == "true"
-[Type] == "The Opulent" # [StashItem] == "true"
-[Type] == "The Pack Leader" # [StashItem] == "true"
-[Type] == "The Pact" # [StashItem] == "true"
-[Type] == "The Penitent" # [StashItem] == "true"
-[Type] == "The Poet" # [StashItem] == "true"
-[Type] == "The Polymath" # [StashItem] == "true"
-[Type] == "The Porcupine" # [StashItem] == "true"
-[Type] == "The Queen" # [StashItem] == "true"
-[Type] == "The Risk" # [StashItem] == "true"
-[Type] == "The Saint's Treasure" # [StashItem] == "true"
-[Type] == "The Scavenger" # [StashItem] == "true"
-[Type] == "The Sephirot" # [StashItem] == "true"
-[Type] == "The Sigil" # [StashItem] == "true"
-[Type] == "The Soul" # [StashItem] == "true"
-[Type] == "The Spark and the Flame" # [StashItem] == "true"
-[Type] == "The Standoff" # [StashItem] == "true"
-[Type] == "The Stormcaller" # [StashItem] == "true"
-[Type] == "The Summoner" # [StashItem] == "true"
-[Type] == "The Surveyor" # [StashItem] == "true"
-[Type] == "The Survivalist" # [StashItem] == "true"
-[Type] == "The Thaumaturgist" # [StashItem] == "true"
-[Type] == "The Tower" # [StashItem] == "true"
-[Type] == "The Traitor" # [StashItem] == "true"
-[Type] == "The Trial" # [StashItem] == "true"
-[Type] == "The Tyrant" # [StashItem] == "true"
-[Type] == "The Union" # [StashItem] == "true"
-[Type] == "The Valkyrie" # [StashItem] == "true"
-[Type] == "The Valley of Steel Boxes" # [StashItem] == "true"
-[Type] == "The Vast" # [StashItem] == "true"
-[Type] == "The Void" # [StashItem] == "true"
-[Type] == "The Warlord" # [StashItem] == "true"
-[Type] == "The Watcher" # [StashItem] == "true"
-[Type] == "The Web" # [StashItem] == "true"
-[Type] == "The Wind" # [StashItem] == "true"
-[Type] == "The Wolf" # [StashItem] == "true"
-[Type] == "The Wolven King's Bite" # [StashItem] == "true"
-[Type] == "The Wolverine" # [StashItem] == "true"
-[Type] == "The Wrath" # [StashItem] == "true"
-[Type] == "The Wretched" # [StashItem] == "true"
-[Type] == "Three Faces in the Dark" # [StashItem] == "true"
-[Type] == "Time-Lost Relic" # [StashItem] == "true"
-[Type] == "Tranquillity" # [StashItem] == "true"
-[Type] == "Treasure Hunter" # [StashItem] == "true"
-[Type] == "Vinia's Token" # [StashItem] == "true"
-[Type] == "Volatile Power" # [StashItem] == "true"
-[Type] == "Wealth and Power" # [StashItem] == "true"
+[Category] == "Card" # [StashItem] == "true"
 
 //----------------------------------------
 //	Stacked Deck
 //----------------------------------------
 
 [Type] == "Stacked Deck" # [StashItem] == "true"
+
+//----------------------------------------
+//	Worthless Currency
+//----------------------------------------
+
+[Type] == "The Scholar" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Maps
+//----------------------------------------
+
+[Type] == "Cartographer's Delight" # [ForceSellItem] == "true"
+[Type] == "Rain Tempter" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Skill Gems
+//----------------------------------------
+
+[Type] == "Dying Anguish" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Normal Items
+//----------------------------------------
+
+[Type] == "The Metalsmith's Gift" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Magic Items
+//----------------------------------------
+
+[Type] == "The Carrion Crow" # [ForceSellItem] == "true"
+[Type] == "The King's Blade" # [ForceSellItem] == "true"
+[Type] == "The Lord in Black" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Rare Items
+//----------------------------------------
+
+[Type] == "Destined to Crumble" # [ForceSellItem] == "true"
+
+//----------------------------------------
+//	Worthless Unique Items
+//----------------------------------------
+
+[Type] == "Death" # [ForceSellItem] == "true"
+[Type] == "Light and Truth" # [ForceSellItem] == "true"
+[Type] == "The Dragon" # [ForceSellItem] == "true"
+[Type] == "The Feast" # [ForceSellItem] == "true"
+[Type] == "The Hermit" # [ForceSellItem] == "true"
+[Type] == "The Incantation" # [ForceSellItem] == "true"
+[Type] == "The Inoculated" # [ForceSellItem] == "true"
+[Type] == "The Lich" # [ForceSellItem] == "true"
+[Type] == "The Ruthless Ceinture" # [ForceSellItem] == "true"
+[Type] == "The Scarred Meadow" # [ForceSellItem] == "true"
+[Type] == "The Siren" # [ForceSellItem] == "true"
+[Type] == "The Surgeon" # [ForceSellItem] == "true"
+[Type] == "The Twins" # [ForceSellItem] == "true"
+[Type] == "The Wolf's Shadow" # [ForceSellItem] == "true"
+[Type] == "Thunderous Skies" # [ForceSellItem] == "true"
 
 //================================================================================================================================
 //
@@ -639,8 +548,9 @@
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [global_critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "112" && [ForceSellItem] == "true"
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [global_critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [poison_damage_+%_per_frenzy_charge] == "10" && [ForceSellItem] == "true"
 
 //----------------------------------------
 //	Belts V3.1.1d
@@ -649,9 +559,11 @@
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [damage_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [gain_soul_eater_during_flask_effect] == "1" && [ForceSellItem] == "true"
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [item_quantity_+%] >= "6" && [ForceSellItem] == "true"
+[Type] == "Chain Belt" && [Rarity] == "Unique" # [life_leech_applies_to_energy_shield_on_full_life] == "1" && [ForceSellItem] == "true"
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [trap_damage_+%] >= "30" && [ForceSellItem] == "true"
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [base_deal_no_physical_damage] == "1" && [ForceSellItem] == "true"
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [base_self_critical_strike_multiplier_-%] == "30" && [ForceSellItem] == "true"
+[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] == "15" && [ForceSellItem] == "true"
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [maximum_life_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [life_leech_from_physical_attack_damage_permyriad] >= "0.4" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] == "40" && [ForceSellItem] == "true"
@@ -684,6 +596,7 @@
 
 [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Diamond Ring" && [Rarity] == "Unique" # [unique_lose_all_power_charges_on_crit] == "1" && [ForceSellItem] == "true"
+[Type] == "Iron Ring" && [Rarity] == "Unique" # [chance_to_gain_frenzy_charge_on_stun_%] == "15" && [ForceSellItem] == "true"
 [Type] == "Iron Ring" && [Rarity] == "Unique" # [physical_damage_+%] == "5" && [ForceSellItem] == "true"
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [minion_skill_area_of_effect_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [stun_threshold_based_on_energy_shield_instead_of_life ] == "1" && [ForceSellItem] == "true"
@@ -693,6 +606,7 @@
 [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [local_ring_disable_other_ring] == "1" && [ForceSellItem] == "true"
 [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [movement_velocity_+%_when_on_low_life] >= "6" && [ForceSellItem] == "true"
 [Type] == "Ruby Ring" && [Rarity] == "Unique" # [attack_speed_+%_while_ignited] == "20" && [ForceSellItem] == "true"
+[Type] == "Ruby Ring" && [Rarity] == "Unique" # [ignite_slower_burn_%] == "65" && [ForceSellItem] == "true"
 [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_cold_damage_%_to_convert_to_fire] == "40" && [ForceSellItem] == "true"
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_per_level] == "1" && [ForceSellItem] == "true"
@@ -733,7 +647,7 @@
 //----------------------------------------
 
 [Type] == "Astral Plate" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
-[Type] == "Bone Armour" && [Rarity] == "Unique" # [maximum_life_+%] == "25" && [ForceSellItem] == "true"
+[Type] == "Bone Armour" && [Rarity] == "Unique" # [maximum_life_+%] <= "24" && [ForceSellItem] == "true"
 [Type] == "Buckskin Tunic" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Armour" && [Rarity] == "Unique" # [movement_velocity_+%_per_frenzy_charge] == "1" && [ForceSellItem] == "true"
 [Type] == "Conquest Chainmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -962,6 +876,7 @@
 [Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "2" && [ForceSellItem] == "true"
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Iron Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 // [Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1045,7 +960,7 @@
 
 //================================================================================================================================
 //
-//	League Only Items 3.1.0
+//	League Only Items 3.1.1d
 //
 //================================================================================================================================
 //=======================================================================
