@@ -271,7 +271,7 @@
 
 //================================================================================================================================
 //
-//	Rare Items 3.1.0
+//	Rare Items V3.1.1d
 //
 //================================================================================================================================
 //=======================================================================
@@ -287,9 +287,10 @@
 //	Belts
 //----------------------------------------
 
-[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Belt" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Jewels
@@ -303,17 +304,19 @@
 //	Quivers
 //----------------------------------------
 
-[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Quiver" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Rings
 //----------------------------------------
 
-[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Ring" && [Rarity] == "Rare" # [base_maximum_life] > "70" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
 //	Armours
@@ -322,166 +325,187 @@
 //	Boots
 //----------------------------------------
 
-[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_movement_velocity_+%] >= "20" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_movement_velocity_+%] >= "20" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] >= "60" && [base_movement_velocity_+%] >= "20" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] >= "60" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] >= "60" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] >= "60" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Chests
 //----------------------------------------
 
-[Category] == "Chest" && [Rarity] == "Rare" # [DPS] > "5000" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Helmets
 //----------------------------------------
 
-[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] >= "90" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [Computed Energy Shield] >= "150" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [Computed Energy Shield] >= "150" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [Computed Energy Shield] >= "150" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [Computed Energy Shield] >= "150" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Gloves
 //----------------------------------------
 
-[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] > "80" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [base_maximum_life] >= "80" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //----------------------------------------
 //	Shields
 //----------------------------------------
 
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] > "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+// [Type] == "Pinnacle Tower Shield" && [Rarity] == "Rare" # [base_maximum_life] > "120" && 
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [TotalResistances] >= "80" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
 //	Weapons
 //=======================================================================
 //----------------------------------------
-//	Bows
+//	Bows (Elemental)
 //----------------------------------------
 
-[Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
-[Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
-
-[Type] == "Imperial Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "300" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Imperial Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
-
-[Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Grove Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Highborn Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Royal Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Short Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Thicket Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
 
 //----------------------------------------
-//	Claws
+//	Bows (Physical)
 //----------------------------------------
 
-[Type] == "Eye Gouger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Eye Gouger" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Gemini Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Gemini Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Great White Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Great White Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Imperial Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Imperial Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Terror Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Terror Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Throat Stabber" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Throat Stabber" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Vaal Claw" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Vaal Claw" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Assassin Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Harbinger Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Maraketh Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Spine Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
+[Type] == "Thicket Bow" && [Rarity] == "Rare" # [Physical DPS] >= "300" && [StashItem] == "true"
 
 //----------------------------------------
-//	Daggers
+//	Claws (Elemental)
 //----------------------------------------
 
-[Type] == "Ambusher" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Ambusher" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Demon Dagger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Demon Dagger" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Ezomyte Dagger" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Ezomyte Dagger" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Gutting Knife" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Gutting Knife" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Imperial Skean" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Imperial Skean" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Platinum Kris" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Platinum Kris" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Sai" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Sai" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
-[Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Awl" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Blinder" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Cat's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Double Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Eagle Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Eye Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Fright Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gemini Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gut Ripper" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Nailed Fist" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Noble Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Sparkling Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Terror Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Throat Stabber" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Tiger's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Twin Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
 
 //----------------------------------------
-//	One Hand Axes
+//	Claws (Physical)
 //----------------------------------------
 
-[Type] == "Butcher Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
+[Type] == "Eye Gouger" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Gemini Claw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Great White Claw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Imperial Claw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Terror Claw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Throat Stabber" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Vaal Claw" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+
+//----------------------------------------
+//	Daggers (Elemental)
+//----------------------------------------
+
+[Type] == "Ambusher" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Glass Shank" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Poignard" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Royal Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Stiletto" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+
+//----------------------------------------
+//	Daggers (Physical)
+//----------------------------------------
+
+[Type] == "Ambusher" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Demon Dagger" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Ezomyte Dagger" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Gutting Knife" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Platinum Kris" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Sai" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+[Type] == "Slaughter Knife" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
+
+//----------------------------------------
+//	Daggers (Spell)
+//----------------------------------------
+
+[Type] == "Copper Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+[Type] == "Golden Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+[Type] == "Platinum Kris" && [Rarity] == "Rare" # [spell_critical_strike_chance_+%] >= "80" [base_critical_strike_multiplier_+] >= "30" && [spell_damage_+%] >= "75" && [StashItem] == "true"
+
+//----------------------------------------
+//	One Hand Axes (Physical)
+//----------------------------------------
+
 [Type] == "Butcher Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Infernal Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Infernal Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Karui Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Karui Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Reaver Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Reaver Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Royal Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Royal Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Runic Hatchet" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Runic Hatchet" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Siege Axe" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Siege Axe" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Vaal Hatchet" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Vaal Hatchet" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
-//	One Hand Sowrds
+//	One Hand Sowrds (Physical)
 //----------------------------------------
 
-[Type] == "Corsair Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Corsair Sword" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Eternal Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Eternal Sword" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Gemstone Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Gemstone Sword" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Gladius" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Gladius" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Legion Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Legion Sword" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Midnight Blade" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Midnight Blade" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Tiger Hook" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Tiger Hook" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
-
-[Type] == "Vaal Blade" && [Rarity] == "Rare" # [Elemental DPS] >= "1" && [ForceSellItem] == "true"
 [Type] == "Vaal Blade" && [Rarity] == "Rare" # [Physical DPS] >= "250" && [StashItem] == "true"
 
 //----------------------------------------
@@ -490,25 +514,18 @@
 
 [Type] == "Dragonbone Rapier" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Dragonbone Rapier" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Dragoon Sword" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Dragoon Sword" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Harpy Rapier" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Harpy Rapier" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Jewelled Foil" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Jewelled Foil" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Pecoraro" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Pecoraro" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Spiraled Foil" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Spiraled Foil" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Tempered Foil" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Tempered Foil" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
-
 [Type] == "Vaal Rapier" && [Rarity] == "Rare" # [Elemental DPS] >= "250" && [local_physical_damage_+%] == "0" && [StashItem] == "true"
 [Type] == "Vaal Rapier" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [Physical DPS] >= "250" && [StashItem] == "true"
 
@@ -521,7 +538,7 @@
 
 //================================================================================================================================
 //
-//	Unique Items	3.0.0
+//	Unique Items
 //
 //================================================================================================================================
 
