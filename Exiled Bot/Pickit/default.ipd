@@ -842,7 +842,7 @@
 [Type] == "Laminated Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mosaic Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Painted Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" [ForceSellItem] == "true"
+[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Pine Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
