@@ -716,7 +716,7 @@
 [Type] == "Mesh Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plated Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Riveted Boots" && [Rarity] == "Unique" # [base_chaos_damage_resistance_%] >= "15" && [base_cold_damage_resistance_%] >= "15" && [ForceSellItem] == "true"
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # [lose_all_charges_on_starting_movement] == "1" && [ForceSellItem] == "true"
 [Type] == "Scholar Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shagreen Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -876,7 +876,7 @@
 //	Weapons
 //=======================================================================
 //----------------------------------------
-//	Bows
+//	Bows V3.1.1d
 //----------------------------------------
 
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -884,19 +884,19 @@
 [Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Long Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Ranger Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Ranger Bow" && [Rarity] == "Unique" # [minion_damage_+%_per_10_dex] == "10" && [ForceSellItem] == "true"
 [Type] == "Recurve Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Claws
+//	Claws V3.1.1d
 //----------------------------------------
 
 [Type] == "Awl" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Fright Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Gut Ripper" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Hellion's Paw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Hellion's Paw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Nailed Fist" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Terror Claw" && [Rarity] == "Unique" # [local_chance_to_bleed_on_hit_%] == "25" && [ForceSellItem] == "true"
 [Type] == "Timeworn Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -905,7 +905,7 @@
 [Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Daggers
+//	Daggers V3.1.1d
 //----------------------------------------
 
 [Type] == "Ambusher" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -918,7 +918,7 @@
 [Type] == "Stiletto" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	One Hand Axes
+//	One Hand Axes V3.1.1d
 //----------------------------------------
 
 [Type] == "Cleaver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -929,7 +929,7 @@
 [Type] == "Vaal Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	One Hand Maces
+//	One Hand Maces V3.1.1d
 //----------------------------------------
 
 [Type] == "Auric Mace" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -941,7 +941,7 @@
 [Type] == "War Hammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	One Hand Swords
+//	One Hand Swords V3.1.1d
 //----------------------------------------
 
 [Type] == "Corsair Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -956,19 +956,19 @@
 [Type] == "War Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Sceptres
+//	Sceptres V3.1.1d
 //----------------------------------------
 
 [Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Carnal Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "2" && [ForceSellItem] == "true"
 [Type] == "Iron Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Staves
+//	Staves V3.1.1d
 //----------------------------------------
 
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_socketed_chaos_gem_level_+] == "2" && [ForceSellItem] == "true"
@@ -982,7 +982,7 @@
 [Type] == "Vile Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Thrusting One Hand Swords
+//	Thrusting One Hand Swords V3.1.1d
 //----------------------------------------
 
 [Type] == "Antique Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -993,7 +993,7 @@
 [Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Two Hand Axes
+//	Two Hand Axes V3.1.1d
 //----------------------------------------
 
 [Type] == "Headsman Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1004,7 +1004,7 @@
 [Type] == "Woodsplitter" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Two Hand Maces
+//	Two Hand Maces V3.1.1d
 //----------------------------------------
 
 [Type] == "Brass Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1015,7 +1015,7 @@
 [Type] == "Sledgehammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Two Hand Swords
+//	Two Hand Swords V3.1.1d
 //----------------------------------------
 
 [Type] == "Bastard Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1028,7 +1028,7 @@
 [Type] == "Reaver Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Wands
+//	Wands V3.1.1d
 //----------------------------------------
 
 [Type] == "Carved Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1041,7 +1041,7 @@
 [Type] == "Quartz Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sage Wand" && [Rarity] == "Unique" # [local_display_socketed_gems_have_number_of_additional_projectiles] == "1" && [ForceSellItem] == "true"
 [Type] == "Spiraled Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Tornado Wnad" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Tornado Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //================================================================================================================================
 //
