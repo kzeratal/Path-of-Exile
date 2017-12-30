@@ -703,14 +703,14 @@
 //	Armours
 //=======================================================================
 //----------------------------------------
-//	Boots
+//	Boots V3.1.1d
 //----------------------------------------
 
 [Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Clasped Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Conjurer Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Deerskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Goathide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Goathide Boots" && [Rarity] == "Unique" # [additional_dexterity] == "15" && [ForceSellItem] == "true"
 [Type] == "Ironscale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Legion Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mesh Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -721,10 +721,10 @@
 [Type] == "Shagreen Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Silk Slippers" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Soldier Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Stealth Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Soldier Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Stealth Boots" && [Rarity] == "Unique" # [local_energy_shield] >= "100" && [ForceSellItem] == "true"
 [Type] == "Strapped Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Trapper Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Trapper Boots" && [Rarity] == "Unique" # [projectile_damage_+%] == "40" && [ForceSellItem] == "true"
 [Type] == "Velvet Slippers" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
