@@ -749,7 +749,7 @@
 [Type] == "Compound Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_fire] == "25" && [ForceSellItem] == "true"
 [Type] == "Enameled Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Goathide Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Goathide Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ivory Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -758,7 +758,7 @@
 [Type] == "Painted Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Pine Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Reinforced Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -793,7 +793,8 @@
 //	Bows V3.1.1d
 //----------------------------------------
 
-[Type] == "Assassin Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_chaos] == "25" && [ForceSellItem] == "true"
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [local_physical_damage_+%] <= "170" && [unique_chin_sol_close_range_bow_damage_+%_final] == "100" && [ForceSellItem] == "true"
 [Type] == "Crude Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
