@@ -393,13 +393,13 @@
 //--------------------------------------------------
 //	Bows (Elemental)
 //--------------------------------------------------
-=
-[Type] == "Grove Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Highborn Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Imperial Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Royal Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Short Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Thicket Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+
+[Type] == "Grove Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Highborn Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Royal Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Short Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Thicket Bow" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Bows (Physical)
@@ -416,25 +416,25 @@
 //	Claws (Elemental)
 //--------------------------------------------------
 
-[Type] == "Awl" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Blinder" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Cat's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Double Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Eagle Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Eye Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Fright Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Gemini Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Gut Ripper" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Imperial Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Nailed Fist" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Noble Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Sparkling Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Terror Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Throat Stabber" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Tiger's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Twin Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Awl" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Blinder" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Cat's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Double Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Eagle Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Eye Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Fright Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gemini Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gouger" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Gut Ripper" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Hellion's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Nailed Fist" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Noble Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Sparkling Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Terror Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Throat Stabber" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Tiger's Paw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Twin Claw" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Claws (Physical)
@@ -453,13 +453,13 @@
 //	Daggers (Elemental)
 //--------------------------------------------------
 
-[Type] == "Ambusher" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Glass Shank" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Imperial Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Poignard" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Royal Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
-[Type] == "Stiletto" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= 77 && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Ambusher" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Glass Shank" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Poignard" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Royal Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Skean" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
+[Type] == "Stiletto" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "63" && [local_maximum_added_fire_damage] >= "77" && [local_maximum_added_lightning_damage] == "133" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Daggers (Physical)
