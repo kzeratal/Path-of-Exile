@@ -793,7 +793,7 @@
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //----------------------------------------
-//	Helmets
+//	Helmets V3.1.1d
 //----------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -801,7 +801,7 @@
 [Type] == "Festival Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Gilded Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Golden Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Great Crown" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Great Crown" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Great Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Harlequin Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -812,11 +812,12 @@
 [Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mind Cage" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # [base_mana_reservation_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Praetor Crown" && [Rarity] == "Unique" # [extra_damage_taken_from_crit_while_no_power_charges_+%] == "-50" && [ForceSellItem] == "true"
-[Type] == "Prophet Crown" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Prophet Crown" && [Rarity] == "Unique" # [local_display_socketed_gems_get_cast_on_death_level] == "20" && [ForceSellItem] == "true"
+[Type] == "Prophet Crown" && [Rarity] == "Unique" # [minion_attack_speed_+%_per_50_dex] == "2" && [ForceSellItem] == "true"
 [Type] == "Samite Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Secutor Helm" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Silken Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Tricorne" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Vine Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
