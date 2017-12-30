@@ -622,7 +622,7 @@
 //	Accessories
 //=======================================================================
 //----------------------------------------
-//	Amulets
+//	Amulets V3.1.1d
 //----------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
@@ -636,7 +636,7 @@
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [block_%_to_apply_to_spells] == "50" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [crits_have_culling_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_purity_level] == "10" && [ForceSellItem] == "true"
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
+// [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [global_critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
