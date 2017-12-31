@@ -4,6 +4,8 @@
 //
 //================================================================================================================================
 
+[MapTier] >= "9" && [MapTier] <= "10" # [UpgradeToRare] == "true" && [RunMap] == "true"
+[MapTier] >= "9" && [MapTier] <= "10" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 [MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToRare] == "true" && [RunMap] == "true"
 [MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
@@ -39,10 +41,6 @@
 [Type] == "Burial Chambers Map" # [IgnoreMap] == "true"
 
 //----------------------------------------
-//		Tier 4
-//----------------------------------------
-
-//----------------------------------------
 //		Tier 5
 //----------------------------------------
 
@@ -66,6 +64,12 @@
 
 [Type] == "Temple Map" # [IgnoreMap] == "true"
 [Type] == "Vault Map" # [IgnoreMap] == "true"
+
+//----------------------------------------
+//		Tier 10
+//----------------------------------------
+
+[Type] == "Pier Map" # [IgnoreMap] == "true"
 
 //----------------------------------------
 //		Bad Mods
