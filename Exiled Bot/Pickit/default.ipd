@@ -169,6 +169,7 @@
 
 [Category] == "Map" # [map_monsters_reflect_%_physical_damage] >= "1" && [map_players_block_chance_+%] < "0" && [ForceSellItem] == "true"
 [Type] == "Barrows Map" # [ForceSellItem] == "true"
+[Type] == "Ivory Temple Map" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Divine Vessel
