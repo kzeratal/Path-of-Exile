@@ -785,7 +785,7 @@
 //	Shields V3.1.1d
 //--------------------------------------------------
 
-[Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_cold_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
+[Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_resist_all_elements_%] <= "19" && [ForceSellItem] == "true"
 [Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Branded Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Brass Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
