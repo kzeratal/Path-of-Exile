@@ -1,6 +1,6 @@
 //================================================================================================================================
 //
-//	Currency V3.1.1d 01011
+//	Currency V3.1.1d 01013
 //
 //================================================================================================================================
 //--------------------------------------------------
@@ -1002,23 +1002,12 @@
 //	Jewels (Forcesell)
 //--------------------------------------------------
 
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_chill_%] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attacks_chance_to_blind_on_hit_%] >= "1" && [ForceSellItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_bleed_%] >= "1" && [ForceSellItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_energy_shield_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_mana_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [evasion_rating_+%_while_moving] >= "1" && [ForceSellItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [TotalResistances] >= "1" && [ForceSellItem] == "true"
-[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [additional_dexterity_and_intelligence] >= "1" && [ForceSellItem] == "true"
-[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
-[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Breach League
