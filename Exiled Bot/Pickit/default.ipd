@@ -1,6 +1,6 @@
 //================================================================================================================================
 //
-//	Currency V3.1.1d 01015
+//	Currency V3.1.1d 01016
 //
 //================================================================================================================================
 //--------------------------------------------------
@@ -1028,6 +1028,24 @@
 [Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 [Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [chill_effect_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [shock_effect_+%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_axes] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_claws] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_daggers] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_maces] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_staves] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_swords] <= "19" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_axes] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_claws] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_daggers] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_maces] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_staves] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_swords] <= "22" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_axes] <= "34" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_claws] <= "34" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_daggers] <= "34" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_staves] <= "34" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_maces] <= "34" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_swords] <= "34" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_bleed_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_chill_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_%] >= "1" && [ForceSellItem] == "true"
@@ -1042,6 +1060,12 @@
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [chill_effect_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [shock_effect_+%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_bows] <= "19" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_cold_damage_with_wands] <= "19" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_bows] <= "22" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_fire_damage_with_wands] <= "22" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_bows] <= "34" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [attack_maximum_added_lightning_damage_with_wands] <= "34" && [ForceSellItem] == "true"
 [Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_avoid_bleed_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_avoid_chill_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_%] >= "1" && [ForceSellItem] == "true"
