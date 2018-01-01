@@ -553,7 +553,7 @@
 //--------------------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
-[Type] == "Agate Amulet" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute] == "120" && [ForceSellItem] == "true"
+[Type] == "Agate Amulet" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_%] == "120" && [ForceSellItem] == "true"
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [mana_regeneration_rate_per_minute_%_per_power_charge] == "10" && [ForceSellItem] == "true"
 [Type] == "Amber Amulet" && [Rarity] == "Unique" # [maximum_block_%] == "3" && [ForceSellItem] == "true"
 [Type] == "Coral Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -932,6 +932,8 @@
 //	Two Hand Axes V3.1.1d
 //--------------------------------------------------
 
+[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_maximum_added_cold_damage] <= "490" && [ForceSellItem] == "true"
+[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_minimum_added_cold_damage] <= "340" && [ForceSellItem] == "true"
 [Type] == "Headsman Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Karui Chopper" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Poleaxe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -995,6 +997,28 @@
 [Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+
+//--------------------------------------------------
+//	Jewels (Forcesell)
+//--------------------------------------------------
+
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_chill_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [attacks_chance_to_blind_on_hit_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_bleed_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_avoid_ignite_%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [evasion_rating_+%_while_moving] >= "1" && [ForceSellItem] == "true"
+[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [TotalResistances] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [additional_dexterity_and_intelligence] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Breach League
