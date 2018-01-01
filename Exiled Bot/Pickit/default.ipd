@@ -1002,12 +1002,30 @@
 //	Jewels (Forcesell)
 //--------------------------------------------------
 
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_energy_shield_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_mana_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_energy_shield_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_mana_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_energy_shield_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_mana_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
 [Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_energy_shield_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_evasion_rating] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_life_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_mana_regeneration_rate_per_minute] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_maximum_mana] >= "1" && [ForceSellItem] == "true"
+[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [base_physical_damage_reduction_rating] >= "1" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Breach League
