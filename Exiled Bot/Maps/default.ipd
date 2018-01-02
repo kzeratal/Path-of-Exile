@@ -6,8 +6,8 @@
 
 [MapTier] >= "9" && [MapTier] <= "10" # [UpgradeToRare] == "true" && [RunMap] == "true"
 [MapTier] >= "9" && [MapTier] <= "10" # [UpgradeToMagic] == "true" && [RunMap] == "true"
-[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToRare] == "true" && [RunMap] == "true"
-[MapTier] >= "1" && [MapTier] <= "5" # [UpgradeToMagic] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "6" # [UpgradeToRare] == "true" && [RunMap] == "true"
+[MapTier] >= "1" && [MapTier] <= "6" # [UpgradeToMagic] == "true" && [RunMap] == "true"
 
 [Type] == "Ashen Wood Map" # [UpgradeToRare] == "true" && [RunMap] == "true"
 [Type] == "Ashen Wood Map" # [UpgradeToMagic] == "true" && [RunMap] == "true"
