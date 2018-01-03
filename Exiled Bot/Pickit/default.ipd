@@ -803,7 +803,7 @@
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Leather Cap" && [Rarity] == "Unique" # [base_cold_damage_resistance_%] <= "39" && [ForceSellItem] == "true"
+[Type] == "Leather Cap" && [Rarity] == "Unique" # [base_resist_all_elements_%] <= "39" && [ForceSellItem] == "true"
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mind Cage" && [Rarity] == "Unique" # [ForceSellItem] == "true"
