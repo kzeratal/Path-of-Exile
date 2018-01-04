@@ -1,6 +1,6 @@
 //================================================================================================================================
 //
-//	Currency V3.1.1d 01033
+//	Currency V3.1.1d <S010401>
 //
 //================================================================================================================================
 //--------------------------------------------------
@@ -886,8 +886,9 @@
 [Type] == "Crude Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Harbinger Bow" && [Rarity] == "Unique" # [consecrate_ground_on_shatter_%_chance_for_3_seconds] == "100" && [ForceSellItem] == "true"
 [Type] == "Long Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Ranger Bow" && [Rarity] == "Unique" # [minion_damage_+%_per_10_dex] == "10" && [ForceSellItem] == "true"
+[Type] == "Ranger Bow" && [Rarity] == "Unique" # [minion_damage_+%_per_10_dex] == "1" && [ForceSellItem] == "true"
 [Type] == "Recurve Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
