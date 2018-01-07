@@ -1,6 +1,6 @@
 //============================================================================================================
 //
-//	Currency V3.1.1d <S010703>
+//	Currency V3.1.1d <S010704>
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -797,22 +797,21 @@
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Helmets V3.1.1d
+//	Helmets v3.1.1d
 //--------------------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bone Circlet" && [Rarity] == "Unique" # [spectre_maximum_life_+] == "1000" && [ForceSellItem] == "true"
-[Type] == "Festival Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Festival Mask" && [Rarity] == "Unique" # [base_maximum_life] >= "20" && [base_maximum_life] <= "30" && [base_maximum_mana] >= "20" && [base_maximum_mana] <= "30" && [ForceSellItem] == "true"
 [Type] == "Gilded Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Golden Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Golden Mask" && [Rarity] == "Unique" # [cold_damage_can_ignite] == "1" && [ForceSellItem] == "true"
 [Type] == "Great Crown" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Great Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Harlequin Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Mask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Leather Cap" && [Rarity] == "Unique" # [base_resist_all_elements_%] <= "39" && [ForceSellItem] == "true"
-[Type] == "Leather Hood" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [cold_damage_+%_if_you_have_used_a_fire_skill_recently] <= "30" && [ForceSellItem] == "true"
 [Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Mind Cage" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -823,13 +822,13 @@
 [Type] == "Samite Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Secutor Helm" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Tricorne" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Tricorne" && [Rarity] == "Unique" # [base_avoid_shock_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Vine Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Visored Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Zealot Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Shields V3.1.1d
+//	Shields v3.1.1d
 //--------------------------------------------------
 
 [Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_resist_all_elements_%] <= "19" && [ForceSellItem] == "true"
