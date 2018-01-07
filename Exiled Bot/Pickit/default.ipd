@@ -1,6 +1,6 @@
 //============================================================================================================
 //
-//	Currency V3.1.1d <S010402>
+//	Currency V3.1.1d <S010701>
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -833,31 +833,40 @@
 //--------------------------------------------------
 
 [Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_resist_all_elements_%] <= "19" && [ForceSellItem] == "true"
-[Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Burnished Spiked Shield" && [Rarity] == "Unique" # [avoid_fire_damage_%] == "25" && [ForceSellItem] == "true"
 [Type] == "Branded Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Brass Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Compound Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Brass Spirit Shield" && [Rarity] == "Unique" # [curse_on_melee_block_level_X_punishment] == "15" && [ForceSellItem] == "true"
+[Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [gain_onslaught_while_at_maximum_endurance_charges] == "1" && [base_maximum_life] <= "78" && [ForceSellItem] == "true"
+[Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [gain_onslaught_while_at_maximum_endurance_charges] == "1" && [local_physical_damage_reduction_rating_+%] <= "95" && [ForceSellItem] == "true"
+[Type] == "Compound Spiked Shield" && [Rarity] == "Unique" # [unique_nearby_allies_recover_permyriad_max_life_on_death] == "200" && [ForceSellItem] == "true"
+[Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [attack_speed_+%] <= "7" && [ForceSellItem] == "true"
+[Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [base_maximum_life] <= "65" && [ForceSellItem] == "true"
+[Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [global_maximum_added_physical_damage] <= "17" && [ForceSellItem] == "true"
+[Type] == "Corrugated Buckler" && [Rarity] == "Unique" # [global_minimum_added_physical_damage] <= "10" && [ForceSellItem] == "true"
 [Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_fire] == "25" && [ForceSellItem] == "true"
-[Type] == "Enameled Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Enameled Buckler" && [Rarity] == "Unique" # [gain_onslaught_ms_on_using_a_warcry] == "4000" && [ForceSellItem] == "true"
 // [Type] == "Goathide Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Golden Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Ivory Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Golden Buckler" && [Rarity] == "Unique" # [reflect_curses] == "1" && [ForceSellItem] == "true"
+[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [gain_power_charge_when_hit_%] == "20" && [ForceSellItem] == "true"
+[Type] == "Ivory Spirit Shield" && [Rarity] == "Unique" # [local_no_block_chance] == "1" && [ForceSellItem] == "true"
 [Type] == "Laminated Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [base_all_ailment_duration_+%] == "40" && [ForceSellItem] == "true"
 [Type] == "Mosaic Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Painted Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Painted Buckler" && [Rarity] == "Unique" # [base_maximum_cold_damage_resistance_%] == "5" && [physical_damage_%_to_add_as_cold] >= "10" && [physical_damage_%_to_add_as_cold] <= "15" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
-[Type] == "Pine Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-// [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] <= "95" && [ForceSellItem] == "true"
+[Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [life_leech_from_physical_attack_damage_permyriad] == "60" && [ForceSellItem] == "true"
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [block_recovery_+%] == "20" && [base_maximum_life] <= "177" && [ForceSellItem] == "true"
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [block_recovery_+%] == "20" && [local_physical_damage_reduction_rating_+%] <= "245" && [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Reinforced Tower Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Studded Round Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Supreme Spiked Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Tarnished Spirit Shield" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Vaal Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "War Buckler" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Reinforced Tower Shield" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_against_projectiles] == "200" && [ForceSellItem] == "true"
+[Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [base_curse_duration_+%] == "25" && [ForceSellItem] == "true"
+[Type] == "Studded Round Shield" && [Rarity] == "Unique" # [curse_on_block_level_X_vulnerability] == "5" && [ForceSellItem] == "true"
+[Type] == "Supreme Spiked Shield" && [Rarity] == "Unique" # [local_display_grants_skill_bear_trap_level] == "20" && [ForceSellItem] == "true"
+[Type] == "Tarnished Spirit Shield" && [Rarity] == "Unique" # [local_socketed_minion_gem_level_+] == "2" && [ForceSellItem] == "true"
+[Type] == "Tarnished Spirit Shield" && [Rarity] == "Unique" # [local_socketed_warcry_gem_level_+] == "3" && [ForceSellItem] == "true"
+[Type] == "Vaal Buckler" && [Rarity] == "Unique" # [maximum_physical_damage_to_return_on_block] == "1000" && [ForceSellItem] == "true"
+[Type] == "War Buckler" && [Rarity] == "Unique" # [local_socketed_curse_gem_level_+] == "1" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Flasks
