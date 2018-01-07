@@ -1,6 +1,6 @@
 //============================================================================================================
 //
-//	Currency V3.1.1d <S010702>
+//	Currency V3.1.1d <S010703>
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -1044,7 +1044,7 @@
 [Type] == "Infernal Sword" && [Rarity] == "Unique" # [Elemental DPS] <= "820" && [gain_frenzy_charge_if_attack_ignites] == "1" && [ForceSellItem] == "true"
 [Type] == "Lion Sword" && [Rarity] == "Unique" # [local_display_socketed_melee_gems_have_area_radius_+%] == "15" && [ForceSellItem] == "true"
 [Type] == "Ornate Sword" && [Rarity] == "Unique" # [base_number_of_skeletons_allowed] == "1" && [ForceSellItem] == "true"
-[Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_cast_level_x_manifest_rageblade] == "1" && [ForceSellItem] == "true"
+[Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_cast_level_x_manifest_rageblade] == "15" && [ForceSellItem] == "true"
 [Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_socketed_gems_get_blood_magic_level] == "1" && [ForceSellItem] == "true"
 [Type] == "Tiger Sword" && [Rarity] == "Unique" # [add_frenzy_charge_on_critical_strike] == "1" && [local_physical_damage_+%] <= "250" && [ForceSellItem] == "true"
 [Type] == "Tiger Sword" && [Rarity] == "Unique" # [add_frenzy_charge_on_critical_strike] == "1" && [local_critical_strike_chance_+%] <= "70" && [ForceSellItem] == "true"
