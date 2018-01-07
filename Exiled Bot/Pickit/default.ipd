@@ -1,6 +1,8 @@
 //============================================================================================================
+//	Serial Number <S010705>
+//============================================================================================================
 //
-//	Currency V3.1.1d <S010704>
+//	Currency v3.1.1d
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -84,7 +86,7 @@
 
 //============================================================================================================
 //
-//	Divine Cards V3.1.1d
+//	Divine Cards v3.1.1d
 //
 //============================================================================================================
 
@@ -114,6 +116,8 @@
 //--------------------------------------------------
 
 [Type] == "Dying Anguish" # [ForceSellItem] == "true"
+[Type] == "Gift of the Gemling Queen" # [ForceSellItem] == "true"
+[Type] == "The Fox" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Normal Items
@@ -125,6 +129,7 @@
 //	Worthless Magic Items
 //--------------------------------------------------
 
+[Type] == "Struck by Lightning" # [ForceSellItem] == "true"
 [Type] == "The Carrion Crow" # [ForceSellItem] == "true"
 [Type] == "The King's Blade" # [ForceSellItem] == "true"
 [Type] == "The Lord in Black" # [ForceSellItem] == "true"
@@ -161,7 +166,9 @@
 //
 //============================================================================================================
 
-[Category] == "Map" && [MapTier] >= "4" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "4" # [Rarity] == "Normal" && [StashItem] == "true"
+// [Category] == "Map" && [MapTier] >= "4" # [Rarity] == "Magic" && [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "4" # [Rarity] == "Rare" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
@@ -169,6 +176,7 @@
 
 [Category] == "Map" # [map_monsters_reflect_%_physical_damage] >= "1" && [map_players_block_chance_+%] < "0" && [ForceSellItem] == "true"
 [Type] == "Barrows Map" # [ForceSellItem] == "true"
+[Type] == "Channel Map" # [ForceSellItem] == "true"
 [Type] == "Ivory Temple Map" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
@@ -279,7 +287,7 @@
 
 //============================================================================================================
 //
-//	Magic Items
+//	Magic Items v3.1.1d
 //
 //============================================================================================================
 //=======================================================================
@@ -289,9 +297,13 @@
 //	Jewels
 //--------------------------------------------------
 
-[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
-[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
-[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	Jewels (Forcesell)
+//--------------------------------------------------
 
 //============================================================================================================
 //
@@ -327,6 +339,35 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "1" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	Jewels (Forcesell)
+//--------------------------------------------------
+
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
 
 //--------------------------------------------------
 //	Quivers
