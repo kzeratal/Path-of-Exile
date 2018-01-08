@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S010801>
+//	Serial Number <S010802>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -179,6 +179,9 @@
 [Type] == "Channel Map" # [ForceSellItem] == "true"
 [Type] == "Ivory Temple Map" # [ForceSellItem] == "true"
 [Type] == "Lava Chamber Map" # [ForceSellItem] == "true"
+[Type] == "Maze Map" # [ForceSellItem] == "true"
+[Type] == "Temple Map" # [ForceSellItem] == "true"
+[Type] == "Vault Map" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Divine Vessel
