@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S010802>
+//	Serial Number <S010803>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -309,6 +309,31 @@
 //	Jewels (Forcesell)
 //--------------------------------------------------
 
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Magic" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Magic" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_chance_to_freeze_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_chance_to_ignite_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_chance_to_shock_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Magic" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+
 //============================================================================================================
 //
 //	Rare Items V3.1.1d
@@ -370,8 +395,8 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_global_chance_to_knockback_%] >= "1" && [ForceStashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_stun_duration_+%] >= "1" && [ForceStashItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceStashItem] == "true"
-[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
-[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceStashItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceStashItem] == "true"
 
 //--------------------------------------------------
 //	Quivers
