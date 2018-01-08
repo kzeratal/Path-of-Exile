@@ -657,7 +657,7 @@
 [Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] == "24" && [ForceSellItem] == "true"
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [cannot_gain_power_charges] == "1" && [ForceSellItem] == "true"
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [projectile_damage_+%] == "30" && [ForceSellItem] == "true"
-// [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [block_%_to_apply_to_spells] == "50" && [ForceSellItem] == "true"
+// [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [blocking_blocks_spells_%] == "50" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [crits_have_culling_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_purity_level] == "10" && [ForceSellItem] == "true"
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
