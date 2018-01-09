@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S010902>
+//	Serial Number <S011001>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -672,9 +672,9 @@
 //--------------------------------------------------
 
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [damage_+%] == "10" && [ForceSellItem] == "true"
-[Type] == "Cloth Belt" && [Rarity] == "Unique" # [gain_soul_eater_during_flask_effect] == "1" && [ForceSellItem] == "true"
-[Type] == "Cloth Belt" && [Rarity] == "Unique" # [monster_dropped_item_quantity_+%] >= "6" && [ForceSellItem] == "true"
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [life_leech_applies_to_energy_shield_on_full_life] == "1" && [ForceSellItem] == "true"
+[Type] == "Cloth Belt" && [Rarity] == "Unique" # [base_item_found_quantity_+%] >= "6" && [ForceSellItem] == "true"
+[Type] == "Cloth Belt" && [Rarity] == "Unique" # [gain_soul_eater_during_flask_effect] == "1" && [ForceSellItem] == "true"
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [trap_damage_+%] >= "30" && [ForceSellItem] == "true"
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [base_deal_no_physical_damage] == "1" && [ForceSellItem] == "true"
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [base_self_critical_strike_multiplier_-%] == "30" && [ForceSellItem] == "true"
