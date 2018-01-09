@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S011001>
+//	Serial Number <S011002>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -862,7 +862,7 @@
 [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Velvet Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Wool Gloves" && [Rarity] == "Unique" # [monster_dropped_item_quantity_+%] <= "16" && [ForceSellItem] == "true"
+[Type] == "Wool Gloves" && [Rarity] == "Unique" # [base_item_found_quantity_+%] <= "16" && [ForceSellItem] == "true"
 [Type] == "Wrapped Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
