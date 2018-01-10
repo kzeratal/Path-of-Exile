@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S011002>
+//	Serial Number <S011101>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -924,8 +924,8 @@
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] <= "95" && [ForceSellItem] == "true"
 [Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [life_leech_from_physical_attack_damage_permyriad] == "60" && [ForceSellItem] == "true"
-[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [block_recovery_+%] == "20" && [base_maximum_life] <= "177" && [ForceSellItem] == "true"
-[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [block_recovery_+%] == "20" && [local_physical_damage_reduction_rating_+%] <= "245" && [ForceSellItem] == "true"
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [base_maximum_life] <= "177" && [ForceSellItem] == "true"
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [local_physical_damage_reduction_rating_+%] <= "245" && [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_%_when_on_low_life] == "180" && [ForceSellItem] == "true"
 [Type] == "Reinforced Tower Shield" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_against_projectiles] == "200" && [ForceSellItem] == "true"
 [Type] == "Rotted Round Shield" && [Rarity] == "Unique" # [base_curse_duration_+%] == "25" && [ForceSellItem] == "true"
