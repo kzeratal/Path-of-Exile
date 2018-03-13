@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S011101>
+//	Serial Number <S18031301>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -166,9 +166,9 @@
 //
 //============================================================================================================
 
-[Category] == "Map" && [MapTier] >= "4" && [Rarity] == "Normal" # [StashItem] == "true"
-// [Category] == "Map" && [MapTier] >= "4" && [Rarity] == "Magic" # [StashItem] == "true"
-[Category] == "Map" && [MapTier] >= "4" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Normal" # [StashItem] == "true"
+// [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
@@ -751,27 +751,27 @@
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Rings V3.1.1d
+//	Rings V3.2
 //--------------------------------------------------
 
-[Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Diamond Ring" && [Rarity] == "Unique" # [unique_lose_all_power_charges_on_crit] == "1" && [ForceSellItem] == "true"
-[Type] == "Iron Ring" && [Rarity] == "Unique" # [chance_to_gain_frenzy_charge_on_stun_%] == "15" && [ForceSellItem] == "true"
-[Type] == "Iron Ring" && [Rarity] == "Unique" # [physical_damage_+%] == "5" && [ForceSellItem] == "true"
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [minion_skill_area_of_effect_+%] == "10" && [ForceSellItem] == "true"
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [stun_threshold_based_on_energy_shield_instead_of_life] == "1" && [ForceSellItem] == "true"
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [temporal_chains_effeciveness_+%] == "-50" && [ForceSellItem] == "true"
-[Type] == "Paua Ring" && [Rarity] == "Unique" # [damage_taken_goes_to_mana_%] == "8" && [ForceSellItem] == "true"
-[Type] == "Paua Ring" && [Rarity] == "Unique" # [number_of_additional_curses_allowed] == "1" && [ForceSellItem] == "true"
-[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [local_ring_disable_other_ring] == "1" && [ForceSellItem] == "true"
-[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [movement_velocity_+%_when_on_low_life] >= "6" && [ForceSellItem] == "true"
-[Type] == "Ruby Ring" && [Rarity] == "Unique" # [attack_speed_+%_while_ignited] == "20" && [ForceSellItem] == "true"
-[Type] == "Ruby Ring" && [Rarity] == "Unique" # [ignite_slower_burn_%] == "65" && [ForceSellItem] == "true"
-[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
-[Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_cold_damage_%_to_convert_to_fire] == "40" && [ForceSellItem] == "true"
-[Type] == "Topaz Ring" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_per_level] == "1" && [ForceSellItem] == "true"
+// [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Diamond Ring" && [Rarity] == "Unique" # [unique_lose_all_power_charges_on_crit] == "1" && [ForceSellItem] == "true"
+// [Type] == "Iron Ring" && [Rarity] == "Unique" # [chance_to_gain_frenzy_charge_on_stun_%] == "15" && [ForceSellItem] == "true"
+// [Type] == "Iron Ring" && [Rarity] == "Unique" # [physical_damage_+%] == "5" && [ForceSellItem] == "true"
+// [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [minion_skill_area_of_effect_+%] == "10" && [ForceSellItem] == "true"
+// [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [stun_threshold_based_on_energy_shield_instead_of_life] == "1" && [ForceSellItem] == "true"
+// [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [temporal_chains_effeciveness_+%] == "-50" && [ForceSellItem] == "true"
+// [Type] == "Paua Ring" && [Rarity] == "Unique" # [damage_taken_goes_to_mana_%] == "8" && [ForceSellItem] == "true"
+// [Type] == "Paua Ring" && [Rarity] == "Unique" # [number_of_additional_curses_allowed] == "1" && [ForceSellItem] == "true"
+// [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [local_ring_disable_other_ring] == "1" && [ForceSellItem] == "true"
+// [Type] == "Prismatic Ring" && [Rarity] == "Unique" # [movement_velocity_+%_when_on_low_life] >= "6" && [ForceSellItem] == "true"
+// [Type] == "Ruby Ring" && [Rarity] == "Unique" # [attack_speed_+%_while_ignited] == "20" && [ForceSellItem] == "true"
+// [Type] == "Ruby Ring" && [Rarity] == "Unique" # [ignite_slower_burn_%] == "65" && [ForceSellItem] == "true"
+// [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
+// [Type] == "Sapphire Ring" && [Rarity] == "Unique" # [base_cold_damage_%_to_convert_to_fire] == "40" && [ForceSellItem] == "true"
+// [Type] == "Topaz Ring" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_per_level] == "1" && [ForceSellItem] == "true"
 // [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [base_lightning_damage_%_to_convert_to_cold] == "40" && [ForceSellItem] == "true"
-[Type] == "Unset Ring" && [Rarity] == "Unique" # [local_all_sockets_are_white] == "1" && [ForceSellItem] == "true"
+// [Type] == "Unset Ring" && [Rarity] == "Unique" # [local_all_sockets_are_white] == "1" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Armours
