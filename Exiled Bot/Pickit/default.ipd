@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18031301>
+//	Serial Number <S18031401>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -86,7 +86,7 @@
 
 //============================================================================================================
 //
-//	Divine Cards v3.1.1d
+//	Divine Cards v3.2
 //
 //============================================================================================================
 
@@ -129,23 +129,31 @@
 //	Worthless Magic Items
 //--------------------------------------------------
 
+[Type] == "Prosperity" # [ForceSellItem] == "true"
+[Type] == "Shard of Fate" # [ForceSellItem] == "true"
 [Type] == "Struck by Lightning" # [ForceSellItem] == "true"
 [Type] == "The Carrion Crow" # [ForceSellItem] == "true"
 [Type] == "The King's Blade" # [ForceSellItem] == "true"
 [Type] == "The Lord in Black" # [ForceSellItem] == "true"
+[Type] == "The Rabid Rhoa" # [ForceSellItem] == "true"
+[Type] == "The Web" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Rare Items
 //--------------------------------------------------
 
 [Type] == "Destined to Crumble" # [ForceSellItem] == "true"
+[Type] == "The Warden" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Unique Items
 //--------------------------------------------------
 
+[Type] == "Birth of the Three" # [ForceSellItem] == "true"
 [Type] == "Death" # [ForceSellItem] == "true"
 [Type] == "Light and Truth" # [ForceSellItem] == "true"
+[Type] == "The Coming Storm" # [ForceSellItem] == "true"
+[Type] == "The Deceiver" # [ForceSellItem] == "true"
 [Type] == "The Dragon" # [ForceSellItem] == "true"
 [Type] == "The Feast" # [ForceSellItem] == "true"
 [Type] == "The Hermit" # [ForceSellItem] == "true"
@@ -157,7 +165,10 @@
 [Type] == "The Siren" # [ForceSellItem] == "true"
 [Type] == "The Surgeon" # [ForceSellItem] == "true"
 [Type] == "The Twins" # [ForceSellItem] == "true"
+[Type] == "The Watcher" # [ForceSellItem] == "true"
 [Type] == "The Wolf's Shadow" # [ForceSellItem] == "true"
+[Type] == "Tranquillity" # [ForceSellItem] == "true"
+[Type] == "Turn the Other Cheek" # [ForceSellItem] == "true"
 [Type] == "Thunderous Skies" # [ForceSellItem] == "true"
 
 //============================================================================================================
