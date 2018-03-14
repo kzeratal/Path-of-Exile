@@ -173,13 +173,13 @@
 
 //============================================================================================================
 //
-//	Maps
+//	Maps V3.2
 //
 //============================================================================================================
 
-[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Normal" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "5" && [Rarity] == "Normal" # [StashItem] == "true"
 // [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"
-[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "5" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
@@ -188,8 +188,10 @@
 [Category] == "Map" # [map_monsters_reflect_%_physical_damage] >= "1" && [map_players_block_chance_+%] < "0" && [ForceSellItem] == "true"
 [Type] == "Barrows Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Channel Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
+[Type] == "Dungeon Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Ivory Temple Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Lava Chamber Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
+[Type] == "Lookout Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Maze Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Temple Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 [Type] == "Vault Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
