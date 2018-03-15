@@ -712,6 +712,7 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [strength_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [trap_and_mine_maximum_added_physical_damage] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_claw_physical_damage_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_one_additional_maximum_lightning_damage_per_X_dex] == "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [minion_chance_to_dodge_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [movement_velocity_+%_while_ignited] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [number_of_additional_traps_allowed] >= "1" && [ForceSellItem] == "true"
