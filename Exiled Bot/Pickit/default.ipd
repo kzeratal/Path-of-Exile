@@ -873,6 +873,7 @@
 [Type] == "Sorcerer Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Steel Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Strapped Mitts" && [Rarity] == "Unique" # [unique_facebreaker_unarmed_physical_damage_+%_final] >= "600" && [unique_facebreaker_unarmed_physical_damage_+%_final] <= "750" && [ForceSellItem] == "true"
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Velvet Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wool Gloves" && [Rarity] == "Unique" # [base_item_found_quantity_+%] <= "16" && [ForceSellItem] == "true"
