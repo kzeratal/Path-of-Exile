@@ -1009,6 +1009,7 @@
 [Type] == "Boot Blade" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Boot Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Flaying Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # [chance_to_dodge_attacks_%_while_off_hand_is_empty] == "20" && [Elemental DPS] <= "400" && [ForceSellItem] == "true"
 [Type] == "Platinum Kris" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Royal Skean" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Skinning Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
