@@ -102,22 +102,32 @@
 //	Worthless Currency
 //--------------------------------------------------
 
+[Type] == "Coveted Possession" # [ForceSellItem] == "true"
+[Type] == "Vinia's Token" # [ForceSellItem] == "true"
 [Type] == "The Scholar" # [ForceSellItem] == "true"
+[Type] == "The Survivalist" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Maps
 //--------------------------------------------------
 
 [Type] == "Cartographer's Delight" # [ForceSellItem] == "true"
+[Type] == "Her Mask" # [ForceSellItem] == "true"
 [Type] == "Rain Tempter" # [ForceSellItem] == "true"
+[Type] == "The Explorer" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Skill Gems
 //--------------------------------------------------
 
 [Type] == "Dying Anguish" # [ForceSellItem] == "true"
+[Type] == "Gemcutter's Promise" # [ForceSellItem] == "true"
 [Type] == "Gift of the Gemling Queen" # [ForceSellItem] == "true"
+[Type] == "Grave Knowledge" # [ForceSellItem] == "true"
+[Type] == "The Cataclysm" # [ForceSellItem] == "true"
 [Type] == "The Fox" # [ForceSellItem] == "true"
+[Type] == "The Summoner" # [ForceSellItem] == "true"
+[Type] == "Volatile Power" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Normal Items
@@ -136,6 +146,10 @@
 [Type] == "The King's Blade" # [ForceSellItem] == "true"
 [Type] == "The Lord in Black" # [ForceSellItem] == "true"
 [Type] == "The Rabid Rhoa" # [ForceSellItem] == "true"
+[Type] == "The Road to Power" # [ForceSellItem] == "true"
+[Type] == "The Sigil" # [ForceSellItem] == "true"
+[Type] == "The Surgeon" # [ForceSellItem] == "true"
+[Type] == "The Twins" # [ForceSellItem] == "true"
 [Type] == "The Web" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
@@ -143,26 +157,43 @@
 //--------------------------------------------------
 
 [Type] == "Destined to Crumble" # [ForceSellItem] == "true"
+[Type] == "Lantador's Lost Love" # [ForceSellItem] == "true"
+[Type] == "The Lover" # [ForceSellItem] == "true"
 [Type] == "The Warden" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Worthless Unique Items
 //--------------------------------------------------
 
+[Type] == "A Mother's Parting Gift" # [ForceSellItem] == "true"
+[Type] == "Anarchy's Price" # [ForceSellItem] == "true"
+[Type] == "Audacity" # [ForceSellItem] == "true"
 [Type] == "Birth of the Three" # [ForceSellItem] == "true"
 [Type] == "Death" # [ForceSellItem] == "true"
 [Type] == "Light and Truth" # [ForceSellItem] == "true"
+[Type] == "Might is Right" # [ForceSellItem] == "true"
+[Type] == "The Avenger" # [ForceSellItem] == "true"
+[Type] == "The Betrayal" # [ForceSellItem] == "true"
+[Type] == "The Calling" # [ForceSellItem] == "true"
 [Type] == "The Coming Storm" # [ForceSellItem] == "true"
+[Type] == "The Conduit" # [ForceSellItem] == "true"
 [Type] == "The Deceiver" # [ForceSellItem] == "true"
 [Type] == "The Dragon" # [ForceSellItem] == "true"
+[Type] == "The Drunken Aristocrat" # [ForceSellItem] == "true"
 [Type] == "The Feast" # [ForceSellItem] == "true"
 [Type] == "The Hermit" # [ForceSellItem] == "true"
 [Type] == "The Incantation" # [ForceSellItem] == "true"
 [Type] == "The Inoculated" # [ForceSellItem] == "true"
 [Type] == "The Lich" # [ForceSellItem] == "true"
+[Type] == "The Lunaris Priestess" # [ForceSellItem] == "true"
+[Type] == "The One With All" # [ForceSellItem] == "true"
+[Type] == "The Pack Leader" # [ForceSellItem] == "true"
+[Type] == "The Pact" # [ForceSellItem] == "true"
+[Type] == "The Poet" # [ForceSellItem] == "true"
 [Type] == "The Ruthless Ceinture" # [ForceSellItem] == "true"
 [Type] == "The Scarred Meadow" # [ForceSellItem] == "true"
 [Type] == "The Siren" # [ForceSellItem] == "true"
+[Type] == "The Sun" # [ForceSellItem] == "true"
 [Type] == "The Surgeon" # [ForceSellItem] == "true"
 [Type] == "The Twins" # [ForceSellItem] == "true"
 [Type] == "The Watcher" # [ForceSellItem] == "true"
@@ -170,6 +201,8 @@
 [Type] == "Tranquillity" # [ForceSellItem] == "true"
 [Type] == "Turn the Other Cheek" # [ForceSellItem] == "true"
 [Type] == "Thunderous Skies" # [ForceSellItem] == "true"
+[Type] == "Tranquillity" # [ForceSellItem] == "true"
+[Type] == "Turn the Other Cheek" # [ForceSellItem] == "true"
 
 //============================================================================================================
 //
