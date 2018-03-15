@@ -1152,14 +1152,14 @@
 [Type] == "Sledgehammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Two Hand Swords v3.1.1d
+//	Two Hand Swords v3.2
 //--------------------------------------------------
 
 [Type] == "Bastard Sword" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Etched Greatsword" && [Rarity] == "Unique" # [chaos_damage_+%_per_level] == "1" && [ForceSellItem] == "true"
 [Type] == "Ezomyte Blade" && [Rarity] == "Unique" # [bleed_on_melee_critical_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Highland Blade" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "10" && [local_attack_speed_+%] == "20" && [ForceSellItem] == "true"
-[Type] == "Infernal Sword" && [Rarity] == "Unique" # [culling_strike_on_burning_enemies] == "true" && [Elemental DPS] <= "820" && [ForceSellItem] == "true"
+[Type] == "Infernal Sword" && [Rarity] == "Unique" # [culling_strike_on_burning_enemies] == "1" && [Elemental DPS] <= "820" && [ForceSellItem] == "true"
 [Type] == "Lion Sword" && [Rarity] == "Unique" # [local_display_socketed_melee_gems_have_area_radius_+%] == "15" && [ForceSellItem] == "true"
 [Type] == "Ornate Sword" && [Rarity] == "Unique" # [base_number_of_skeletons_allowed] == "1" && [ForceSellItem] == "true"
 [Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_cast_level_x_manifest_rageblade] == "15" && [ForceSellItem] == "true"
