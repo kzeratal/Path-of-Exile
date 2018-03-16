@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18031401>
+//	Serial Number <S18031701>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -692,7 +692,7 @@
 //	Accessories
 //=======================================================================
 //--------------------------------------------------
-//	Amulets V3.1.1d
+//	Amulets v3.2
 //--------------------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
@@ -703,7 +703,7 @@
 [Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] == "24" && [ForceSellItem] == "true"
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [cannot_gain_power_charges] == "1" && [ForceSellItem] == "true"
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [projectile_damage_+%] == "30" && [ForceSellItem] == "true"
-// [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [blocking_blocks_spells_%] == "50" && [ForceSellItem] == "true"
+[Type] == "Lapis Amulet" && [Rarity] == "Unique" # [blocking_blocks_spells_%] == "50" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [crits_have_culling_strike] == "1" && [ForceSellItem] == "true"
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_purity_level] == "10" && [ForceSellItem] == "true"
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
@@ -728,7 +728,7 @@
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [maximum_life_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [life_leech_from_physical_attack_damage_permyriad] >= "0.4" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] == "40" && [ForceSellItem] == "true"
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # [combined_attack_elemental_damage_pluspercent] == "10" && [ForceSellItem] == "true"
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [weapon_elemental_damage_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Studded Belt" && [Rarity] == "Unique" # [resist_all_elements_%_with_200_or_more_strength] >= "20" && [ForceSellItem] == "true"
 // [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
@@ -756,6 +756,7 @@
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
@@ -763,11 +764,13 @@
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_blight_hinder_duration_+%_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_cold_snap_gain_power_charge_on_kill_%_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_fireball_base_radius_up_to_+_at_longer_ranges_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_freezing_pulse_damage_+%_if_enemy_shattered_recently_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_frostbolt_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_magma_orb_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spark_number_of_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_50_int_in_radius_summon_X_melee_skeletons_as_mage_skeletons] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_zombie_slam_cooldown_speed_+%_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -963,7 +966,7 @@
 [Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_fire] == "25" && [ForceSellItem] == "true"
 [Type] == "Enameled Buckler" && [Rarity] == "Unique" # [gain_onslaught_ms_on_using_a_warcry] == "4000" && [ForceSellItem] == "true"
 [Type] == "Golden Buckler" && [Rarity] == "Unique" # [reflect_curses] == "1" && [ForceSellItem] == "true"
-[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [gain_power_charge_when_hit_%] == "20" && [ForceSellItem] == "true"
+[Type] == "Harmonic Spirit Shield" && [Rarity] == "Unique" # [add_power_charge_on_skill_hit_%] == "20" && [ForceSellItem] == "true"
 [Type] == "Ivory Spirit Shield" && [Rarity] == "Unique" # [local_no_block_chance] == "1" && [ForceSellItem] == "true"
 [Type] == "Laminated Kite Shield" && [Rarity] == "Unique" # [base_aura_area_of_effect_+%] == "20" && [ForceSellItem] == "true"
 [Type] == "Mirrored Spiked Shield" && [Rarity] == "Unique" # [base_all_ailment_duration_+%] == "40" && [ForceSellItem] == "true"
@@ -1006,11 +1009,12 @@
 //	Weapons
 //=======================================================================
 //--------------------------------------------------
-//	Bows V3.1.1d
+//	Bows v3.2
 //--------------------------------------------------
 
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_chaos] == "25" && [ForceSellItem] == "true"
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [local_physical_damage_+%] <= "170" && [unique_chin_sol_close_range_bow_damage_+%_final] == "100" && [ForceSellItem] == "true"
+[Type] == "Bone Bow" && [Rarity] == "Unique" # [physical_damage_%_to_add_as_fire] == "20" && [ForceSellItem] == "true"
 [Type] == "Crude Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1074,7 +1078,7 @@
 [Type] == "War Hammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Swords V3.1.1d
+//	One Hand Swords v3.2
 //--------------------------------------------------
 
 [Type] == "Corsair Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1082,6 +1086,7 @@
 [Type] == "Elder Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Elegant Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Gladius" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Legion Sword" && [Rarity] == "Unique" # [lightning_damage_+%_per_frenzy_charge] == "12" && [ForceSellItem] == "true"
 [Type] == "Rusted Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sabre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Twilight Blade" && [Rarity] == "Unique" # [ForceSellItem] == "true"
