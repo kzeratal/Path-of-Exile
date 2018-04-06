@@ -747,7 +747,7 @@ Show
 	Class "Boots"
 	BaseType "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Slink Boots" "Sorcerer Boots" "Stealth Boots" "Titan Greaves" "Two-Toned Boots" "Vaal Greaves"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 0
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -757,7 +757,7 @@ Show
 	Class "Gloves"
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Stealth Gloves" "Titan Gauntlets" "Vaal Gauntlets"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 0
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -767,7 +767,7 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 0
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -777,7 +777,7 @@ Show
 	Class "Quivers"
 	BaseType "Broadhead Arrow Quiver" "Spike-Point Arrow Quiver"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 0
 	SetBorderColor 255 255 119
 #-----------------------------------------
 #	Shields
