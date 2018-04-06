@@ -685,7 +685,7 @@ Show
 	Class "Bows"
 	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 100 100
 	SetTextColor 255 100 100
 #-----------------------------------------
@@ -695,7 +695,7 @@ Show
 	Class "Staves"
 	BaseType "Eclipse Staff"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 100 100
 	SetTextColor 255 100 100
 #-----------------------------------------
@@ -705,7 +705,7 @@ Show
 	Class "Two Hand Axes"
 	BaseType "Fleshripper" "Vaal Axe"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 100 100
 	SetTextColor 255 100 100
 #-----------------------------------------
@@ -715,7 +715,7 @@ Show
 	Class "Two Hand Maces"
 	BaseType "Colossus Mallet" "Coronal Maul" "Terror Maul"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 100 100
 	SetTextColor 255 100 100
 #-----------------------------------------
@@ -725,7 +725,7 @@ Show
 	Class "Two Hand Swords"
 	BaseType "Exquisite Blade"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
+	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 100 100
 	SetTextColor 255 100 100
 #=====================================================================
@@ -826,6 +826,13 @@ Show
 #=====================================================================
 #	Good Base To Identify (Armours)
 #=====================================================================
+#-----------------------------------------
+#	Body Armours
+#-----------------------------------------
+Show
+	class "Body Armours"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
 #-----------------------------------------
 #	Boots
 #-----------------------------------------
