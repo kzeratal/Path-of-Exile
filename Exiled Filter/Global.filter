@@ -768,7 +768,7 @@ Show
 	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor205 255 129
+	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
 #	Quivers
