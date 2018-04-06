@@ -584,9 +584,21 @@ Hide
 #	General Rules
 #=====================================================================
 #-----------------------------------------
-#	6-Linked Items
+#	6-Linked Items (2H Weapons)
 #-----------------------------------------
 Show
+	Class "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+	LinkedSockets 6
+	Rarity Rare
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 0 0 0 150
+	SetBorderColor 255 60 60
+	SetFontSize 45
+#-----------------------------------------
+#	6-Linked Items (Body Armours)
+#-----------------------------------------
+Show
+	Class "Body Armours"
 	LinkedSockets 6
 	Rarity Rare
 	PlayAlertSoundPositional 4 300
@@ -594,9 +606,20 @@ Show
 	SetBorderColor 255 255 119
 	SetFontSize 45
 #-----------------------------------------
-#	6-Socket Items
+#	6-Socket Items  (2H Weapons)
 #-----------------------------------------
 Show
+	Class "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords"
+	Sockets 6
+	Rarity Rare
+	PlayAlertSoundPositional 6 300
+	SetBackgroundColor 0 0 0 150
+	SetBorderColor 255 60 60
+#-----------------------------------------
+#	6-Socket Items (Body Armours)
+#-----------------------------------------
+Show
+	Class "Body Armours"
 	Sockets 6
 	Rarity Rare
 	PlayAlertSoundPositional 6 300
@@ -613,8 +636,8 @@ Show
 	BaseType "Cat's Paw" "Gemini Claw" "Great White Claw" "Hellion's Paw" "Imperial Claw" "Nailed Fist" "Noble Claw" "Sparkling Claw" "Terror Claw" "Tiger's Paw" "Vaal Claw"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Daggers
 #-----------------------------------------
@@ -623,8 +646,8 @@ Show
 	BaseType "Ambusher" "Demon Dagger" "Imperial Skean"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	One Hand Axes
 #-----------------------------------------
@@ -633,8 +656,8 @@ Show
 	BaseType "Siege Axe"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	One Hand Maces
 #-----------------------------------------
@@ -643,8 +666,8 @@ Show
 	BaseType "Behemoth Mace"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	One Hand Swords
 #-----------------------------------------
@@ -653,8 +676,8 @@ Show
 	BaseType "Corsair Sword" "Dragoon Sword" "Eternal Sword" "Harpy Rapier" "Jewelled Foil" "Midnight Blade" "Tiger Hook"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Sceptres
 #-----------------------------------------
@@ -663,8 +686,8 @@ Show
 	BaseType "Opal Sceptre" "Void Sceptre"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Wands
 #-----------------------------------------
@@ -673,8 +696,8 @@ Show
 	BaseType "Imbued Wand"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #=====================================================================
 #	Best Base To Identify (2H Weapons)
 #=====================================================================
@@ -686,8 +709,8 @@ Show
 	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Staves
 #-----------------------------------------
@@ -696,8 +719,8 @@ Show
 	BaseType "Eclipse Staff"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Two Hand Axes
 #-----------------------------------------
@@ -706,8 +729,8 @@ Show
 	BaseType "Fleshripper" "Vaal Axe"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Two Hand Maces
 #-----------------------------------------
@@ -716,8 +739,8 @@ Show
 	BaseType "Colossus Mallet" "Coronal Maul" "Terror Maul"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #-----------------------------------------
 #	Two Hand Swords
 #-----------------------------------------
@@ -726,8 +749,8 @@ Show
 	BaseType "Exquisite Blade"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 100 100
-	SetTextColor 255 100 100
+	SetBorderColor 255 60 60
+	SetTextColor 255 60 60
 #=====================================================================
 #	Best Base To Identify (Armours)
 #=====================================================================
@@ -792,14 +815,104 @@ Show
 #	Good Base To Identify (1H Weapons)
 #=====================================================================
 #-----------------------------------------
+#	Claws
+#-----------------------------------------
+Show
+	Class "Claws"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Daggers
+#-----------------------------------------
+Show
+	Class "Daggers"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
 #	One Hand Axes
 #-----------------------------------------
 Show
 	Class "One Hand Axes"
 	Rarity Rare
-	DropLevel >= 57
-	ItemLevel >= 70
-	SetTextColor 255 129 129
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	One Hand Maces
+#-----------------------------------------
+Show
+	Class "One Hand Maces"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	One Hand Swords
+#-----------------------------------------
+Show
+	Class "One Hand Swords"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Sceptres
+#-----------------------------------------
+Show
+	Class "Sceptres"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Wands
+#-----------------------------------------
+Show
+	Class "Wands"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#=====================================================================
+#	Good Base To Identify (2H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	Bows
+#-----------------------------------------
+Show
+	Class "Bows"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Staves
+#-----------------------------------------
+Show
+	Class "Staves"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Two Hand Axes
+#-----------------------------------------
+Show
+	Class "Two Hand Axes"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Two Hand Maces
+#-----------------------------------------
+Show
+	Class "Two Hand Maces"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
+#-----------------------------------------
+#	Two Hand Swords
+#-----------------------------------------
+Show
+	Class "Two Hand Swords"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 150
+	SetTextColor 255 60 60
 #=====================================================================
 #	Good Base To Identify (Accessories)
 #=====================================================================
@@ -844,8 +957,6 @@ Show
 Show
 	class "Body Armours"
 	Rarity Rare
-	DropLevel >= 60
-	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 150
 #-----------------------------------------
 #	Boots
