@@ -919,24 +919,19 @@ Hide
 #
 #=================================================================================================================================
 #------------------------------------
-#	Unique Maps
-#------------------------------------
-Show
-	Class "Maps"
-	Rarity Unique
-	SetFontSize 45
-	SetTextColor 175 96 37
-	SetBorderColor 255 255 255
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 7 300
-#------------------------------------
 #	High Tier Maps
 #------------------------------------
 Show
 	Class "Maps"
 	DropLevel >= 78
-	SetFontSize 40
-	SetTextColor 150 0 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 7 300
+#------------------------------------
+#	Middle Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 73
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 7 300
 #------------------------------------
@@ -944,16 +939,8 @@ Show
 #------------------------------------
 Show
 	Class "Maps"
-	DropLevel >= 73
-	SetTextColor 42 42 42
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 7 300
-#------------------------------------
-#	Hide maps lower than tier 5
-#------------------------------------
-Hide
-	Class "Maps"
-	DropLevel < 73
 #=================================================================================================================================
 #
 #	Special items' rules
