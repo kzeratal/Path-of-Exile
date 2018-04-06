@@ -665,7 +665,7 @@ Show
 Show
 	Class "Amulets"
 	Rarity Rare
-	SetBackgroundColor 129 205 255
+	SetTextColor 129 205 255
 #-----------------------------------------
 #	Belts
 #-----------------------------------------
