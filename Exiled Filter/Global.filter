@@ -832,6 +832,8 @@ Show
 Show
 	class "Body Armours"
 	Rarity Rare
+	DropLevel > 60
+	ItemLevel > 70
 	SetBackgroundColor 0 0 0 150
 #-----------------------------------------
 #	Boots
@@ -879,8 +881,6 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Rare
-	DropLevel < 60
-	ItemLevel > 70
 	SetFontSize 18
 #=================================================================================================================================
 #
