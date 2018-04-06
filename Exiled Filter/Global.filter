@@ -732,8 +732,8 @@ Show
 Hide
 	Class "One Hand Axes"
 	Rarity Rare
-	DropLevel <= 50
-	ItemLevel >= 75
+	DropLevel < 57
+	ItemLevel > 70
 	SetFontSize 20
 	SetTextColor 255 129 129
 #=================================================================================================================================
