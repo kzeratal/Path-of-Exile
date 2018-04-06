@@ -696,21 +696,21 @@ Show
 Show
 	Class "Boots"
 	Rarity Rare
-	SetTextColor 205 255 129
+	SetTextColor 129 255 205
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
 Show
 	Class "Gloves"
 	Rarity Rare
-	SetTextColor 205 255 129
+	SetTextColor 129 255 205
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
 Show
 	Class "Helmets"
 	Rarity Rare
-	SetTextColor 205 255 129
+	SetTextColor 129 255 205
 #========================================================================
 #	<3900>		Hide Garbage (1H Weapons)
 #========================================================================
