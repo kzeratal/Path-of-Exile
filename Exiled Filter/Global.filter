@@ -972,7 +972,7 @@ Show
 Show
 	Class "Gloves"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetTextColor 100 255 110
 #-----------------------------------------
 #	Helmets
@@ -980,7 +980,7 @@ Show
 Show
 	Class "Helmets"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetTextColor 100 255 110
 #-----------------------------------------
 #	Quivers
@@ -988,14 +988,14 @@ Show
 Show
 	Class "Quivers"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 #-----------------------------------------
 #	Shields
 #-----------------------------------------
 Show
 	Class "Shields"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 #=====================================================================
 #	Hide Garbage (1H Weapons)
 #=====================================================================
@@ -1010,7 +1010,21 @@ Hide
 	ElderItem False
 	ShaperItem False
 	SetFontSize 18
-	SetTextColor 255 129 129
+	SetTextColor 255 60 60
+#=====================================================================
+#	Hide Garbage (2H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	One Hand Axes
+#-----------------------------------------
+Hide
+	Class "Bows"
+	Rarity Rare
+	ItemLevel > 70
+	ElderItem False
+	ShaperItem False
+	SetFontSize 18
+	SetTextColor 255 60 60
 #=====================================================================
 #	Hide Garbage (Armours)
 #=====================================================================
