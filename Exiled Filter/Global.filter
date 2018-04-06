@@ -17,7 +17,7 @@
 #------------------------------------
 Show
 	Class "Maps"
-	Tier >= 11
+	DropLevel >= 78
 	PlayAlertSoundPositional 7 300
 	SetBackgroundColor 255 255 255 128
 	SetBorderColor 150 0 0
@@ -28,7 +28,7 @@ Show
 #------------------------------------
 Show
 	Class "Maps"
-	Tier >= 6
+	DropLevel >= 73
 	PlayAlertSoundPositional 7 300
 	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 190 0
