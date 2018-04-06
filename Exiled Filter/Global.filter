@@ -4,7 +4,7 @@
 #
 #============================================================================================================
 #
-#	Made by Jimmyee Kao since 2017/06/26
+#	Made by Jimmy Kao since 2017/06/26
 #	Updated to Harbinger League.
 #
 #============================================================================================================
@@ -21,8 +21,8 @@
 Show
 	LinkedSockets 6
 	Rarity Normal
-	SetFontSize 45
 	SetBorderColor 200 200 200
+	SetFontSize 45
 	PlayAlertSoundPositional 4 300
 #-----------------------------------------
 #	6-Socket Items
@@ -95,42 +95,49 @@ Show
 Hide
 	Class "Claws"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Daggers
 #-----------------------------------------
 Hide
 	Class "Daggers"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Axes
 #-----------------------------------------
 Hide
 	Class "One Hand Axes"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Maces
 #-----------------------------------------
 Hide
 	Class "One Hand Maces"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Swords
 #-----------------------------------------
 Hide
 	Class "One Hand Swords"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Sceptres
 #-----------------------------------------
 Hide
 	Class "Sceptres"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Wands
 #-----------------------------------------
 Hide
 	Class "Wands"
 	Rarity Normal
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (2H Weapons)
 #=====================================================================
@@ -140,30 +147,35 @@ Hide
 Hide
 	Class "Bows"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Staves
 #-----------------------------------------
 Hide
 	Class "Staves"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Axes
 #-----------------------------------------
 Hide
 	Class "Two Hand Axes"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Maces
 #-----------------------------------------
 Hide
 	Class "Two Hand Maces"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Swords
 #-----------------------------------------
 Hide
 	Class "Two Hand Swords"
 	Rarity Normal
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Accessories)
 #=====================================================================
@@ -173,18 +185,21 @@ Hide
 Hide
 	Class "Amulets"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Belts
 #-----------------------------------------
 Hide
 	Class "Belts"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Rings
 #-----------------------------------------
 Hide
 	Class "Rings"
 	Rarity Normal
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Armours)
 #=====================================================================
@@ -194,36 +209,42 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Boots
 #-----------------------------------------
 Hide
 	Class "Boots"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
 Hide
 	Class "Gloves"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
 Hide
 	Class "Helmets"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Quivers
 #-----------------------------------------
 Hide
 	Class "Quivers"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Shields
 #-----------------------------------------
 Hide
 	Class "Shields"
 	Rarity Normal
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Flasks)
 #=====================================================================
@@ -233,18 +254,21 @@ Hide
 Hide
 	Class "Life Flasks"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Mana Flasks
 #-----------------------------------------
 Hide
 	Class "Mana Flasks"
 	Rarity Normal
+	SetFontSize 20
 #-----------------------------------------
 #	Hybrid Flasks
 #-----------------------------------------
 Hide
 	Class "Hybrid Flasks"
 	Rarity Normal
+	SetFontSize 20
 #============================================================================================================
 #
 #	Magic Items
@@ -259,8 +283,8 @@ Hide
 Show
 	LinkedSockets 6
 	Rarity Magic
-	SetFontSize 45
 	SetBorderColor 136 136 255
+	SetFontSize 45
 	PlayAlertSoundPositional 4 300
 #-----------------------------------------
 #	6-Socket Items
@@ -325,42 +349,49 @@ Show
 Hide
 	Class "Claws"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Daggers
 #-----------------------------------------
 Hide
 	Class "Daggers"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Axes
 #-----------------------------------------
 Hide
 	Class "One Hand Axes"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Maces
 #-----------------------------------------
 Hide
 	Class "One Hand Maces"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	One Hand Swords
 #-----------------------------------------
 Hide
 	Class "One Hand Swords"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Sceptres
 #-----------------------------------------
 Hide
 	Class "Sceptres"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Wands
 #-----------------------------------------
 Hide
 	Class "Wands"
 	Rarity Magic
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (2H Weapons)
 #=====================================================================
@@ -370,30 +401,35 @@ Hide
 Hide
 	Class "Bows"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Staves
 #-----------------------------------------
 Hide
 	Class "Staves"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Axes
 #-----------------------------------------
 Hide
 	Class "Two Hand Axes"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Maces
 #-----------------------------------------
 Hide
 	Class "Two Hand Maces"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Two Hand Swords
 #-----------------------------------------
 Hide
 	Class "Two Hand Swords"
 	Rarity Magic
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Accessories)
 #=====================================================================
@@ -403,18 +439,21 @@ Hide
 Hide
 	Class "Amulets"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Belts
 #-----------------------------------------
 Hide
 	Class "Belts"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Rings
 #-----------------------------------------
 Hide
 	Class "Rings"
 	Rarity Magic
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Armours)
 #=====================================================================
@@ -424,36 +463,42 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Boots
 #-----------------------------------------
 Hide
 	Class "Boots"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
 Hide
 	Class "Gloves"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
 Hide
 	Class "Helmets"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Quivers
 #-----------------------------------------
 Hide
 	Class "Quivers"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Shields
 #-----------------------------------------
 Hide
 	Class "Shields"
 	Rarity Magic
+	SetFontSize 20
 #=====================================================================
 #	Hide Garbage (Flasks)
 #=====================================================================
@@ -463,18 +508,21 @@ Hide
 Hide
 	Class "Life Flasks"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Mana Flasks
 #-----------------------------------------
 Hide
 	Class "Mana Flasks"
 	Rarity Magic
+	SetFontSize 20
 #-----------------------------------------
 #	Hybrid Flasks
 #-----------------------------------------
 Hide
 	Class "Hybrid Flasks"
 	Rarity Magic
+	SetFontSize 20
 #============================================================================================================
 #
 #	Rare Items
