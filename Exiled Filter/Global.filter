@@ -58,17 +58,19 @@ Show
 Show
 	LinkedSockets 6
 	Rarity Normal
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 	SetFontSize 45
-	PlayAlertSoundPositional 4 300
 #-----------------------------------------
 #	6-Socket Items
 #-----------------------------------------
 Show
 	Sockets 6
 	Rarity Normal
-	SetBorderColor 200 200 200
 	PlayAlertSoundPositional 6 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 200 200 200
 #=====================================================================
 #	Item Level No Matter (Accessories)
 #=====================================================================
@@ -79,6 +81,7 @@ Show
 	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Normal
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Belts
@@ -87,6 +90,7 @@ Show
 	Class "Belts"
 	BaseType "Crystal Belt" "Leather Belt"
 	Rarity Normal
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Rings
@@ -95,6 +99,7 @@ Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Normal
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 #=====================================================================
 #	Item Level No Matter (Armours)
@@ -106,6 +111,7 @@ Show
 #	Class "Boots"
 #	BaseType "Sorcerer Boots"
 #	Rarity Normal
+#	SetBackgroundColor 255 255 255 128
 #	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Gloves
@@ -114,6 +120,7 @@ Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Normal
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Helmets
@@ -122,6 +129,7 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet"
 	Rarity Normal
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 200 200 200
 #=====================================================================
 #	Hide Garbage (1H Weapons)
@@ -320,17 +328,19 @@ Hide
 Show
 	LinkedSockets 6
 	Rarity Magic
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 	SetFontSize 45
-	PlayAlertSoundPositional 4 300
 #-----------------------------------------
 #	6-Socket Items
 #-----------------------------------------
 Show
 	Sockets 6
 	Rarity Magic
-	SetBorderColor 136 136 255
 	PlayAlertSoundPositional 6 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 136 136 255
 #=====================================================================
 #	Item Level No Matter (Accessories)
 #=====================================================================
@@ -341,6 +351,7 @@ Show
 	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Magic
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Belts
@@ -349,6 +360,7 @@ Show
 	Class "Belts"
 	BaseType "Crystal Belt"
 	Rarity Magic
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Rings
@@ -357,6 +369,7 @@ Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Magic
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 #=====================================================================
 #	Item Level No Matter (Armours)
@@ -368,6 +381,7 @@ Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Magic
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Helmets
@@ -376,6 +390,7 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet"
 	Rarity Magic
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 136 136 255
 #=====================================================================
 #	Hide Garbage (1H Weapons)
@@ -574,17 +589,19 @@ Hide
 Show
 	LinkedSockets 6
 	Rarity Rare
-	SetFontSize 45
-	SetBorderColor 255 255 119
 	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 255 119
+	SetFontSize 45
 #-----------------------------------------
 #	6-Socket Items
 #-----------------------------------------
 Show
 	Sockets 6
 	Rarity Rare
-	SetBorderColor 255 255 119
 	PlayAlertSoundPositional 6 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 255 119
 #=====================================================================
 #	Best Base To Identify (1H Weapons)
 #=====================================================================
@@ -595,6 +612,7 @@ Show
 	Class "Claws"
 	BaseType "Cat's Paw" "Gemini Claw" "Great White Claw" "Hellion's Paw" "Imperial Claw" "Nailed Fist" "Noble Claw" "Sparkling Claw" "Terror Claw" "Tiger's Paw" "Vaal Claw"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -604,6 +622,7 @@ Show
 	Class "Daggers"
 	BaseType "Ambusher" "Demon Dagger" "Imperial Skean"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -613,6 +632,7 @@ Show
 	Class "One Hand Axes"
 	BaseType "Siege Axe"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -622,6 +642,7 @@ Show
 	Class "One Hand Maces"
 	BaseType "Behemoth Mace"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -631,6 +652,7 @@ Show
 	Class "One Hand Swords"
 	BaseType "Corsair Sword" "Dragoon Sword" "Eternal Sword" "Harpy Rapier" "Jewelled Foil" "Midnight Blade" "Tiger Hook"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -640,6 +662,7 @@ Show
 	Class "Sceptres"
 	BaseType "Opal Sceptre" "Void Sceptre"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -649,6 +672,7 @@ Show
 	Class "Wands"
 	BaseType "Imbued Wand"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #=====================================================================
@@ -661,6 +685,7 @@ Show
 	Class "Bows"
 	BaseType "Harbinger Bow" "Maraketh Bow"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -670,6 +695,7 @@ Show
 	Class "Staves"
 	BaseType "Eclipse Staff"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -679,6 +705,7 @@ Show
 	Class "Two Hand Axes"
 	BaseType "Fleshripper" "Vaal Axe"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -688,6 +715,7 @@ Show
 	Class "Two Hand Maces"
 	BaseType "Colossus Mallet" "Coronal Maul" "Terror Maul"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #-----------------------------------------
@@ -697,6 +725,7 @@ Show
 	Class "Two Hand Swords"
 	BaseType "Exquisite Blade"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 129 129
 	SetTextColor 255 129 129
 #=====================================================================
@@ -709,6 +738,7 @@ Show
 	Class "Body Armours"
 	BaseType "Assassin's Garb" "Exquisite Leather" "Glorious Plate" "Saintly Chainmail" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 255 119
 #-----------------------------------------
 #	Boots
@@ -717,6 +747,7 @@ Show
 	Class "Boots"
 	BaseType "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Slink Boots" "Sorcerer Boots" "Stealth Boots" "Titan Greaves" "Two-Toned Boots" "Vaal Greaves"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -726,6 +757,7 @@ Show
 	Class "Gloves"
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Stealth Gloves" "Titan Gauntlets" "Vaal Gauntlets"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -735,6 +767,7 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 205 255 129
 	SetTextColor 205 255 129
 #-----------------------------------------
@@ -744,6 +777,7 @@ Show
 	Class "Quivers"
 	BaseType "Broadhead Arrow Quiver" "Spike-Point Arrow Quiver"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 255 119
 #-----------------------------------------
 #	Shields
@@ -752,6 +786,7 @@ Show
 	Class "Shields"
 	BaseType "Archon Kite Shield" "Champion Kite Shield" "Colossal Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetBorderColor 255 255 119
 #=====================================================================
 #	Good Base To Identify (Accessories)
@@ -762,6 +797,7 @@ Show
 Show
 	Class "Amulets"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 205 255
 #-----------------------------------------
 #	Belts
@@ -769,6 +805,7 @@ Show
 Show
 	Class "Belts"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 205 255
 #-----------------------------------------
 #	Jewel
@@ -776,6 +813,7 @@ Show
 Show
 	Class "Jewel"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 205 255
 #-----------------------------------------
 #	Rings
@@ -783,6 +821,7 @@ Show
 Show
 	Class "Rings"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 205 255
 #=====================================================================
 #	Good Base To Identify (Armours)
@@ -793,6 +832,7 @@ Show
 Show
 	Class "Boots"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 255 205
 #-----------------------------------------
 #	Gloves
@@ -800,6 +840,7 @@ Show
 Show
 	Class "Gloves"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 255 205
 #-----------------------------------------
 #	Helmets
@@ -807,6 +848,7 @@ Show
 Show
 	Class "Helmets"
 	Rarity Rare
+	SetBackgroundColor 255 255 255 128
 	SetTextColor 129 255 205
 #=====================================================================
 #	Hide Garbage (1H Weapons)
