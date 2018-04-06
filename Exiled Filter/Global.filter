@@ -789,6 +789,18 @@ Show
 	SetBackgroundColor 0 0 0 150
 	SetBorderColor 255 255 119
 #=====================================================================
+#	Good Base To Identify (1H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	One Hand Axes
+#-----------------------------------------
+Show
+	Class "One Hand Axes"
+	Rarity Rare
+	DropLevel >= 57
+	ItemLevel >= 70
+	SetTextColor 255 129 129
+#=====================================================================
 #	Good Base To Identify (Accessories)
 #=====================================================================
 #-----------------------------------------
@@ -832,8 +844,8 @@ Show
 Show
 	class "Body Armours"
 	Rarity Rare
-	DropLevel > 60
-	ItemLevel > 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 150
 #-----------------------------------------
 #	Boots
@@ -868,8 +880,6 @@ Show
 Hide
 	Class "One Hand Axes"
 	Rarity Rare
-	DropLevel < 57
-	ItemLevel > 70
 	SetFontSize 18
 	SetTextColor 255 129 129
 #=====================================================================
