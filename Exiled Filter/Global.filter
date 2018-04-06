@@ -924,7 +924,7 @@ Hide
 Show
 	Class "Maps"
 	DropLevel >= 78
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 100 100 100
 	SetTextColor 150 0 0
 	PlayAlertSound 7 300
 #------------------------------------
@@ -933,7 +933,7 @@ Show
 Show
 	Class "Maps"
 	DropLevel >= 73
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 100 100 100
 	SetTextColor 255 255 119
 	PlayAlertSound 7 300
 #------------------------------------
@@ -941,7 +941,7 @@ Show
 #------------------------------------
 Show
 	Class "Maps"
-	SetBackgroundColor 255 255 255
+	SetBackgroundColor 100 100 100
 	SetTextColor 0 0 0
 	PlayAlertSound 7 300
 #=================================================================================================================================
