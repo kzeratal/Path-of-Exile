@@ -18,7 +18,9 @@
 Show
 	Class "Maps"
 	DropLevel >= 78
-	SetBackgroundColor 200 200 200
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 150 0 0
+	SetFontSize 45
 	SetTextColor 150 0 0
 	PlayAlertSound 7 300
 #------------------------------------
@@ -27,16 +29,20 @@ Show
 Show
 	Class "Maps"
 	DropLevel >= 73
-	SetBackgroundColor 200 200 200
-	SetTextColor 255 255 119
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 190 0
+	SetFontSize 45
+	SetTextColor 255 190 0
 	PlayAlertSound 7 300
 #------------------------------------
 #	Low Tier Maps
 #------------------------------------
 Show
 	Class "Maps"
-	SetBackgroundColor 200 200 200
-	SetTextColor 0 0 0
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 255 255
+	SetFontSize 45
+	SetTextColor 255 255 255
 	PlayAlertSound 7 300
 #============================================================================================================
 #
