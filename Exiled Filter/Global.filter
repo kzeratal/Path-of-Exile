@@ -991,6 +991,10 @@ Show
 Hide
 	Class "One Hand Axes"
 	Rarity Rare
+	DropLevel < 57
+	ItemLevel > 70
+	ElderItem False
+	ShaperItem False
 	SetFontSize 18
 	SetTextColor 255 129 129
 #=====================================================================
@@ -1002,6 +1006,10 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Rare
+	DropLevel < 60
+	ItemLevel > 70
+	ElderItem False
+	ShaperItem False
 	SetFontSize 18
 #=================================================================================================================================
 #
