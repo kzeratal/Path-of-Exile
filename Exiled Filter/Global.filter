@@ -612,7 +612,7 @@ Show
 	Class "Body Armours"
 	BaseType "Assassin's Garb" "Exquisite Leather" "Glorious Plate" "Saintly Chainmail" "Triumphant Lamellar" "Vaal Regalia" "Widowsilk Robe" "Zodiac Leather"
 	Rarity Rare
-	SetBackgroundColor 254 170 0
+	SetBorderColor 255 255 119
 #-----------------------------------------
 #	Boots
 #-----------------------------------------
@@ -647,7 +647,7 @@ Show
 	Class "Quivers"
 	BaseType "Broadhead Arrow Quiver" "Spike-Point Arrow Quiver"
 	Rarity Rare
-	SetBackgroundColor 254 170 0
+	SetBorderColor 255 255 119
 #-----------------------------------------
 #	Shields
 #-----------------------------------------
@@ -655,7 +655,7 @@ Show
 	Class "Shields"
 	BaseType "Archon Kite Shield" "Champion Kite Shield" "Colossal Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Lacquered Buckler" "Titanium Spirit Shield"
 	Rarity Rare
-	SetBackgroundColor 254 170 0
+	SetBorderColor 255 255 119
 #========================================================================
 #	Good Base To Identify (Accessories)
 #========================================================================
@@ -711,131 +711,29 @@ Show
 	Class "Helmets"
 	Rarity Rare
 	SetTextColor 129 255 205
-#========================================================================
-#	<3900>		Hide Garbage (1H Weapons)
-#========================================================================
-#-----------------------------------------
-#	 3900		Claws
-#-----------------------------------------
-Hide
-	Class "Claws"
-	Rarity Rare
-#-----------------------------------------
-#	 3901		Daggers
-#-----------------------------------------
-Hide
-	Class "Daggers"
-	Rarity Rare
-#-----------------------------------------
-#	 3902		One Hand Axes
-#-----------------------------------------
-Hide
-	Class "One Hand Axes"
-	Rarity Rare
-#-----------------------------------------
-#	 3903		One Hand Maces
-#-----------------------------------------
-Hide
-	Class "One Hand Maces"
-	Rarity Rare
-#-----------------------------------------
-#	 3904		One Hand Swords
-#-----------------------------------------
-Hide
-	Class "One Hand Swords"
-	Rarity Rare
-#-----------------------------------------
-#	 3905		Sceptres
-#-----------------------------------------
-Hide
-	Class "Sceptres"
-	Rarity Rare
-#-----------------------------------------
-#	 3906		Wands
-#-----------------------------------------
-Hide
-	Class "Wands"
-	DropLevel < 55
-	Rarity Rare
-#========================================================================
-#	<3910>		Hide Garbage (1H Weapons)
-#========================================================================
-#-----------------------------------------
-#	 3910		Bows
-#-----------------------------------------
-Hide
-	Class "Bows"
-	Rarity Rare
-#-----------------------------------------
-#	 3911		Staves
-#-----------------------------------------
-Hide
-	Class "Staves"
-	Rarity Rare
-#-----------------------------------------
-#	 3912		Two Hand Axes
-#-----------------------------------------
-Hide
-	Class "Two Hand Axes"
-	Rarity Rare
-#-----------------------------------------
-#	 3913		Two Hand Maces
-#-----------------------------------------
-Hide
-	Class "Two Hand Maces"
-	Rarity Rare
-#-----------------------------------------
-#	 3914		Two Hand Swords
-#-----------------------------------------
-Hide
-	Class "Two Hand Swords"
-	Rarity Rare
-#========================================================================
-#	<3920>		Hide Garbage (Armours)
-#========================================================================
-#-----------------------------------------
-#	 3920		Body Armours
-#-----------------------------------------
-Hide
-	Class "Body Armours"
-	DropLevel < 50
-	Rarity Rare
-#-----------------------------------------
-#	 3921		Quivers
-#-----------------------------------------
-Hide
-	Class "Quivers"
-	Rarity Rare
-#-----------------------------------------
-#	 3922		Shields
-#-----------------------------------------
-Hide
-	Class "Shields"
-	Rarity Rare
 #=================================================================================================================================
 #
-#	[4000]		Currencies
+#	Currencies
 #
 #=================================================================================================================================
 #========================================================================
-#	<4000>		Craft Socket 
+#	Craft Socket 
 #========================================================================
 #-----------------------------------------
-#	 4000		Low Value
+#	Low Value
 #-----------------------------------------
 #========================================================================
-#	<4000>		Craft Magic Mod
+#	Craft Magic Mod
 #========================================================================
 #-----------------------------------------
-#	 4000		Low Value
+#	Low Value
 #-----------------------------------------
 Show
 	Class "Currency"
 	BaseType "Orb of Augmentation" "Orb of Transmutation"
 	SetBorderColor 170 158 130
-
 #-----------------------------------------
-#	 4001		Mid Value
+#	Mid Value
 #-----------------------------------------
 Show
 	Class "Currency"
@@ -844,15 +742,13 @@ Show
 	SetBorderColor 170 158 130
 
 #------------------------------------
-#	 4001		Low Valuable
+#	Low Valuable
 #------------------------------------
 Show
 	Class "Currency"
 	BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Silver Coin"
 	SetFontSize 45
 	SetBorderColor 170 158 130
-
-
 #------------------------------------
 #	Middle valuable currencies
 #------------------------------------
@@ -901,20 +797,14 @@ Show
 	SetTextColor 114 0 83
 	SetBorderColor 114 0 83
 #========================================================================
-#	<4900>		Hide Currencies
+#	Hide Currencies
 #========================================================================
 #-----------------------------------------
-#	 4900		Shard
+#	Shard
 #-----------------------------------------
 Hide
 	Class "Currency"
 	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
-#-----------------------------------------
-#	 4901		Scroll Of Wisdom
-#-----------------------------------------
-Hide
-	Class "Currency"
-	BaseType "Scroll of Wisdom"
 #=================================================================================================================================
 #
 #	SKill Gems' rules
@@ -954,7 +844,6 @@ Show
 	SetBorderColor 255 255 255
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 7 300
-
 #------------------------------------
 #	High Tier Maps
 #------------------------------------
