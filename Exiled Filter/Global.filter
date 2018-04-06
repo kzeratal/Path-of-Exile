@@ -75,7 +75,7 @@ Show
 #-----------------------------------------
 Show
 	Class "Gloves"
-	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Normal
 	SetBorderColor 200 200 200
 #-----------------------------------------
@@ -305,7 +305,7 @@ Show
 #-----------------------------------------
 Show
 	Class "Gloves"
-	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Sorcerer Gloves" "Spiked Gloves"
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Magic
 	SetBorderColor 136 136 255
 #-----------------------------------------
