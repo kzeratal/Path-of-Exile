@@ -748,8 +748,8 @@ Show
 	BaseType "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Slink Boots" "Sorcerer Boots" "Stealth Boots" "Titan Greaves" "Two-Toned Boots" "Vaal Greaves"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 0
-	SetBorderColor 205 255 129
-	SetTextColor 205 255 129
+	SetBorderColor 30 150 0
+	SetTextColor 30 150 0
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
@@ -758,8 +758,8 @@ Show
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Stealth Gloves" "Titan Gauntlets" "Vaal Gauntlets"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 0
-	SetBorderColor 205 255 129
-	SetTextColor 205 255 129
+	SetBorderColor 30 150 0
+	SetTextColor 30 150 0
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
@@ -768,8 +768,8 @@ Show
 	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 0
-	SetBorderColor 205 255 129
-	SetTextColor 205 255 129
+	SetBorderColor 30 150 0
+	SetTextColor 30 150 0
 #-----------------------------------------
 #	Quivers
 #-----------------------------------------
@@ -832,24 +832,24 @@ Show
 Show
 	Class "Boots"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
-	SetTextColor 129 255 205
+	SetBackgroundColor 0 0 0 0
+	SetTextColor 30 150 0
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
 Show
 	Class "Gloves"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
-	SetTextColor 129 255 205
+	SetBackgroundColor 0 0 0 0
+	SetTextColor 30 150 0
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
 Show
 	Class "Helmets"
 	Rarity Rare
-	SetBackgroundColor 255 255 255 128
-	SetTextColor 129 255 205
+	SetBackgroundColor 0 0 0 0
+	SetTextColor 30 150 0
 #=====================================================================
 #	Hide Garbage (1H Weapons)
 #=====================================================================
