@@ -955,7 +955,7 @@ Show
 #	Body Armours
 #-----------------------------------------
 Show
-	class "Body Armours"
+	Class "Body Armours"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 150
 #-----------------------------------------
