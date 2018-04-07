@@ -59,7 +59,7 @@ Show
 	LinkedSockets 6
 	Rarity Normal
 	PlayAlertSoundPositional 4 300
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 	SetFontSize 45
 #-----------------------------------------
@@ -69,7 +69,7 @@ Show
 	Sockets 6
 	Rarity Normal
 	PlayAlertSoundPositional 6 300
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #=====================================================================
 #	Item Level No Matter (Accessories)
@@ -81,7 +81,7 @@ Show
 	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Normal
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Belts
@@ -90,7 +90,7 @@ Show
 	Class "Belts"
 	BaseType "Crystal Belt" "Leather Belt"
 	Rarity Normal
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Rings
@@ -99,7 +99,7 @@ Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Normal
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #=====================================================================
 #	Item Level No Matter (Armours)
@@ -111,7 +111,7 @@ Show
 #	Class "Boots"
 #	BaseType "Sorcerer Boots"
 #	Rarity Normal
-#	SetBackgroundColor 0 0 0 150
+#	SetBackgroundColor 0 0 0 200
 #	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Gloves
@@ -120,7 +120,7 @@ Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Normal
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #-----------------------------------------
 #	Helmets
@@ -129,7 +129,7 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet"
 	Rarity Normal
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
 #=====================================================================
 #	Hide Garbage (1H Weapons)
@@ -140,6 +140,7 @@ Show
 Hide
 	Class "Claws"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Daggers
@@ -147,6 +148,7 @@ Hide
 Hide
 	Class "Daggers"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Axes
@@ -154,6 +156,7 @@ Hide
 Hide
 	Class "One Hand Axes"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Maces
@@ -161,6 +164,7 @@ Hide
 Hide
 	Class "One Hand Maces"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Swords
@@ -168,6 +172,7 @@ Hide
 Hide
 	Class "One Hand Swords"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Sceptres
@@ -175,6 +180,7 @@ Hide
 Hide
 	Class "Sceptres"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Wands
@@ -182,6 +188,7 @@ Hide
 Hide
 	Class "Wands"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (2H Weapons)
@@ -192,6 +199,7 @@ Hide
 Hide
 	Class "Bows"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Staves
@@ -199,6 +207,7 @@ Hide
 Hide
 	Class "Staves"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Axes
@@ -206,6 +215,7 @@ Hide
 Hide
 	Class "Two Hand Axes"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Maces
@@ -213,6 +223,7 @@ Hide
 Hide
 	Class "Two Hand Maces"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Swords
@@ -220,6 +231,7 @@ Hide
 Hide
 	Class "Two Hand Swords"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Accessories)
@@ -230,6 +242,7 @@ Hide
 Hide
 	Class "Amulets"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Belts
@@ -237,6 +250,7 @@ Hide
 Hide
 	Class "Belts"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Rings
@@ -244,6 +258,7 @@ Hide
 Hide
 	Class "Rings"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Armours)
@@ -254,6 +269,7 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Boots
@@ -261,6 +277,7 @@ Hide
 Hide
 	Class "Boots"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Gloves
@@ -268,6 +285,7 @@ Hide
 Hide
 	Class "Gloves"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Helmets
@@ -275,6 +293,7 @@ Hide
 Hide
 	Class "Helmets"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Quivers
@@ -282,6 +301,7 @@ Hide
 Hide
 	Class "Quivers"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Shields
@@ -289,6 +309,7 @@ Hide
 Hide
 	Class "Shields"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Flasks)
@@ -299,6 +320,7 @@ Hide
 Hide
 	Class "Life Flasks"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Mana Flasks
@@ -306,6 +328,7 @@ Hide
 Hide
 	Class "Mana Flasks"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Hybrid Flasks
@@ -313,6 +336,7 @@ Hide
 Hide
 	Class "Hybrid Flasks"
 	Rarity Normal
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #============================================================================================================
 #
@@ -329,7 +353,7 @@ Show
 	LinkedSockets 6
 	Rarity Magic
 	PlayAlertSoundPositional 4 300
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 	SetFontSize 45
 #-----------------------------------------
@@ -339,7 +363,7 @@ Show
 	Sockets 6
 	Rarity Magic
 	PlayAlertSoundPositional 6 300
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 #=====================================================================
 #	Item Level No Matter (Accessories)
@@ -351,7 +375,7 @@ Show
 	Class "Amulets"
 	BaseType "Marble Amulet"
 	Rarity Magic
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Belts
@@ -360,7 +384,7 @@ Show
 	Class "Belts"
 	BaseType "Crystal Belt"
 	Rarity Magic
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Rings
@@ -369,7 +393,7 @@ Show
 	Class "Rings"
 	BaseType "Opal Ring" "Steel Ring"
 	Rarity Magic
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 #=====================================================================
 #	Item Level No Matter (Armours)
@@ -381,7 +405,7 @@ Show
 	Class "Gloves"
 	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
 	Rarity Magic
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
 #-----------------------------------------
 #	Helmets
@@ -390,8 +414,20 @@ Show
 	Class "Helmets"
 	BaseType "Bone Helmet"
 	Rarity Magic
-	SetBackgroundColor 0 0 0 150
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
+#=====================================================================
+#	Item Level 82+ (Accessories)
+#=====================================================================
+#-----------------------------------------
+#	Abyss Jewel
+#-----------------------------------------
+Show
+	Class "Abyss Jewel"
+	Rarity Magic
+	ItemLevel >= 82
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 50 180 255
 #=====================================================================
 #	Hide Garbage (1H Weapons)
 #=====================================================================
@@ -401,6 +437,7 @@ Show
 Hide
 	Class "Claws"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Daggers
@@ -408,6 +445,7 @@ Hide
 Hide
 	Class "Daggers"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Axes
@@ -415,6 +453,7 @@ Hide
 Hide
 	Class "One Hand Axes"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Maces
@@ -422,6 +461,7 @@ Hide
 Hide
 	Class "One Hand Maces"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	One Hand Swords
@@ -429,6 +469,7 @@ Hide
 Hide
 	Class "One Hand Swords"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Sceptres
@@ -436,6 +477,7 @@ Hide
 Hide
 	Class "Sceptres"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Wands
@@ -443,6 +485,7 @@ Hide
 Hide
 	Class "Wands"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (2H Weapons)
@@ -453,6 +496,7 @@ Hide
 Hide
 	Class "Bows"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Staves
@@ -460,6 +504,7 @@ Hide
 Hide
 	Class "Staves"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Axes
@@ -467,6 +512,7 @@ Hide
 Hide
 	Class "Two Hand Axes"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Maces
@@ -474,6 +520,7 @@ Hide
 Hide
 	Class "Two Hand Maces"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Two Hand Swords
@@ -481,6 +528,7 @@ Hide
 Hide
 	Class "Two Hand Swords"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Accessories)
@@ -491,6 +539,7 @@ Hide
 Hide
 	Class "Amulets"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Belts
@@ -498,6 +547,7 @@ Hide
 Hide
 	Class "Belts"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Rings
@@ -505,6 +555,7 @@ Hide
 Hide
 	Class "Rings"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Armours)
@@ -515,6 +566,7 @@ Hide
 Hide
 	Class "Body Armours"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Boots
@@ -522,6 +574,7 @@ Hide
 Hide
 	Class "Boots"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Gloves
@@ -529,6 +582,7 @@ Hide
 Hide
 	Class "Gloves"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Helmets
@@ -536,6 +590,7 @@ Hide
 Hide
 	Class "Helmets"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Quivers
@@ -543,6 +598,7 @@ Hide
 Hide
 	Class "Quivers"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Shields
@@ -550,6 +606,7 @@ Hide
 Hide
 	Class "Shields"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
 #	Hide Garbage (Flasks)
@@ -560,6 +617,7 @@ Hide
 Hide
 	Class "Life Flasks"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Mana Flasks
@@ -567,6 +625,7 @@ Hide
 Hide
 	Class "Mana Flasks"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #-----------------------------------------
 #	Hybrid Flasks
@@ -574,6 +633,7 @@ Hide
 Hide
 	Class "Hybrid Flasks"
 	Rarity Magic
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #============================================================================================================
 #
