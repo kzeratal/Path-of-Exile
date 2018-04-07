@@ -874,7 +874,7 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 255 119
 #=====================================================================
-#	ItemLevel 70+ (1H Weapons)
+#	Item Level 70+ (1H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Claws
@@ -947,7 +947,7 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetTextColor 255 70 70
 #=====================================================================
-#	ItemLevel 70+ (2H Weapons)
+#	Item Level 70+ (2H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Bows
@@ -1000,7 +1000,7 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetTextColor 255 70 70
 #=====================================================================
-#	ItemLevel 70+ (Armours)
+#	Item Level 70+ (Armours)
 #=====================================================================
 #-----------------------------------------
 #	Body Armours
@@ -1021,7 +1021,7 @@ Show
 	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
 #=====================================================================
-#	Hide ItemLevel 70+ Garbage (1H Weapons)
+#	Hide Item Level 70+ Garbage (1H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Claws
@@ -1115,7 +1115,7 @@ Hide
 	SetFontSize 18
 	SetTextColor 255 70 70
 #=====================================================================
-#	Hide ItemLevel 70+ Garbage (2H Weapons)
+#	Hide Item Level 70+ Garbage (2H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Bows
@@ -1183,7 +1183,7 @@ Hide
 	SetFontSize 18
 	SetTextColor 255 70 70
 #=====================================================================
-#	Hide ItemLevel 70+ Garbage (Armours)
+#	Hide Item Level 70+ Garbage (Armours)
 #=====================================================================
 #-----------------------------------------
 #	Body Armours
@@ -1210,7 +1210,109 @@ Hide
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #=====================================================================
-#	Good Base To Identify (Accessories)
+#	(1H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	Claws
+#-----------------------------------------
+Show
+	Class "Claws"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Daggers
+#-----------------------------------------
+Show
+	Class "Daggers"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Axes
+#-----------------------------------------
+Show
+	Class "One Hand Axes"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Maces
+#-----------------------------------------
+Show
+	Class "One Hand Maces"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Swords
+#-----------------------------------------
+Show
+	Class "One Hand Swords"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Sceptres
+#-----------------------------------------
+Show
+	Class "Sceptres"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Wands
+#-----------------------------------------
+Show
+	Class "Wands"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#=====================================================================
+#	(2H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	Bows
+#-----------------------------------------
+Show
+	Class "Bows"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Staves
+#-----------------------------------------
+Show
+	Class "Staves"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Axes
+#-----------------------------------------
+Show
+	Class "Two Hand Axes"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Maces
+#-----------------------------------------
+Show
+	Class "Two Hand Maces"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Swords
+#-----------------------------------------
+Show
+	Class "Two Hand Swords"
+	Rarity Rare
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 255 70 70
+#=====================================================================
+#	(Accessories)
 #=====================================================================
 #-----------------------------------------
 #	Amulets
@@ -1218,34 +1320,34 @@ Hide
 Show
 	Class "Amulets"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
-	SetTextColor 129 205 255
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 50 180 255
 #-----------------------------------------
 #	Belts
 #-----------------------------------------
 Show
 	Class "Belts"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
-	SetTextColor 129 205 255
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 50 180 255
 #-----------------------------------------
 #	Jewel
 #-----------------------------------------
 Show
 	Class "Jewel"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
-	SetTextColor 129 205 255
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 50 180 255
 #-----------------------------------------
 #	Rings
 #-----------------------------------------
 Show
 	Class "Rings"
 	Rarity Rare
-	SetBackgroundColor 0 0 0 150
-	SetTextColor 129 205 255
+	SetBackgroundColor 0 0 0 200
+	SetTextColor 50 180 255
 #=====================================================================
-#	Good Base To Identify (Armours)
+#	(Armours)
 #=====================================================================
 #-----------------------------------------
 #	Body Armours
@@ -1253,7 +1355,6 @@ Show
 Show
 	Class "Body Armours"
 	Rarity Rare
-	ItemLevel < 70
 	SetBackgroundColor 0 0 0 200
 #-----------------------------------------
 #	Boots
@@ -1293,64 +1394,63 @@ Show
 	Class "Shields"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-#=====================================================================
-#	Hide Garbage (1H Weapons)
-#=====================================================================
-#-----------------------------------------
-#	One Hand Axes
-#-----------------------------------------
-Hide
-	Class "One Hand Axes"
-	Rarity Rare
-	ElderItem False
-	ShaperItem False
-	SetFontSize 18
-	SetTextColor 255 60 60
-#=====================================================================
-#	Hide Garbage (2H Weapons)
-#=====================================================================
-#-----------------------------------------
-#	Bows
-#-----------------------------------------
-Hide
-	Class "Bows"
-	Rarity Rare
-	ElderItem False
-	ShaperItem False
-	SetFontSize 18
-	SetTextColor 255 60 60
-#=====================================================================
-#	Hide Garbage (Armours)
-#=====================================================================
-#-----------------------------------------
-#	Body Armours
-#-----------------------------------------
-Hide
-	Class "Body Armours"
-	Rarity Rare
-	ElderItem False
-	ShaperItem False
-	SetFontSize 18
-#=================================================================================================================================
+#============================================================================================================
 #
 #	Currencies
 #
-#=================================================================================================================================
-#========================================================================
-#	Craft Socket 
-#========================================================================
+#============================================================================================================
+Show
+	Class "Currency"
+	BaseType "Scroll of Wisdom"
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#=====================================================================
+#	Tier 1 Currencies
+#=====================================================================
+#------------------------------------
+#	Mirror of Kalandra
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Mirror of Kalandra"
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#------------------------------------
+#	Eternal Orb
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Eternal Orb"
+	PlayAlertSoundPositional 4 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#=====================================================================
+#	Tier 2 Currencies
+#=====================================================================
+#------------------------------------
+#	
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Exalted Orb" "Divine Orb"
+	SetFontSize 45
+	SetBorderColor 170 158 130
+	PlayAlertSound 3 300
 #-----------------------------------------
-#	Low Value
-#-----------------------------------------
-#========================================================================
-#	Craft Magic Mod
-#========================================================================
-#-----------------------------------------
-#	Low Value
+#	Tier 1 Currencies
 #-----------------------------------------
 Show
 	Class "Currency"
 	BaseType "Orb of Augmentation" "Orb of Transmutation"
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130
 #-----------------------------------------
 #	Mid Value
@@ -1378,15 +1478,7 @@ Show
 	SetFontSize 45
 	SetBorderColor 170 158 130
 	PlayAlertSound 2 300
-#------------------------------------
-#	High valuable currencies
-#------------------------------------
-Show
-	Class "Currency"
-	BaseType "Exalted Orb" "Divine Orb" "Eternal Orb"
-	SetFontSize 45
-	SetBorderColor 170 158 130
-	PlayAlertSound 3 300
+
 #------------------------------------
 #	Cartographer's sextant
 #------------------------------------
@@ -1469,17 +1561,6 @@ Show
 #------------------------------------
 Show
 	Class "Fishing Rods"
-	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 4 300
-#------------------------------------
-#	Mirror of Kalandra
-#------------------------------------
-Show
-	Class "Currency"
-	BaseType "Mirror of Kalandra"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
