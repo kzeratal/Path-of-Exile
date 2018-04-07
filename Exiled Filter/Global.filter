@@ -1041,6 +1041,87 @@ Hide
 	SetFontSize 18
 	SetTextColor 255 70 70
 #=====================================================================
+#	Hide ItemLevel 70+ Garbage (2H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	Bows
+#-----------------------------------------
+Hide
+	Class "Bows"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Staves
+#-----------------------------------------
+Hide
+	Class "Staves"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Axes
+#-----------------------------------------
+Hide
+	Class "Two Hand Axes"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Maces
+#-----------------------------------------
+Hide
+	Class "Two Hand Maces"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Two Hand Swords
+#-----------------------------------------
+Hide
+	Class "Two Hand Swords"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#=====================================================================
+#	Hide ItemLevel 70+ Garbage (Armours)
+#=====================================================================
+#-----------------------------------------
+#	Body Armours
+#-----------------------------------------
+Hide
+	Class "Body Armours"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#-----------------------------------------
+#	Shields
+#-----------------------------------------
+Hide
+	Class "Shields"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#=====================================================================
 #	Good Base To Identify (Accessories)
 #=====================================================================
 #-----------------------------------------
