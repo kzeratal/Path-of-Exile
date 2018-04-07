@@ -1396,19 +1396,11 @@ Show
 	SetBackgroundColor 0 0 0 200
 #============================================================================================================
 #
-#	Currencies
+#	Currency
 #
 #============================================================================================================
-Show
-	Class "Currency"
-	BaseType "Scroll of Wisdom"
-	PlayAlertSoundPositional 4 300
-	SetBackgroundColor 255 255 255
-	SetBorderColor 255 0 0
-	SetFontSize 45
-	SetTextColor 255 0 0
 #=====================================================================
-#	Tier 1 Currencies
+#	Tier 1 Currency
 #=====================================================================
 #------------------------------------
 #	Mirror of Kalandra
@@ -1416,7 +1408,7 @@ Show
 Show
 	Class "Currency"
 	BaseType "Mirror of Kalandra"
-	PlayAlertSoundPositional 4 300
+	PlayAlertSoundPositional ShMirror 300
 	SetBackgroundColor 255 255 255
 	SetBorderColor 255 0 0
 	SetFontSize 45
@@ -1427,164 +1419,228 @@ Show
 Show
 	Class "Currency"
 	BaseType "Eternal Orb"
-	PlayAlertSoundPositional 4 300
+	PlayAlertSoundPositional ShGeneral 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#------------------------------------
+#	Albino Rhoa Feather
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Albino Rhoa Feather"
+	PlayAlertSoundPositional ShGeneral 300
 	SetBackgroundColor 255 255 255
 	SetBorderColor 255 0 0
 	SetFontSize 45
 	SetTextColor 255 0 0
 #=====================================================================
-#	Tier 2 Currencies
+#	Tier 2 Currency
 #=====================================================================
 #------------------------------------
-#	
+#	Exalted Orb
 #------------------------------------
 Show
 	Class "Currency"
-	BaseType "Exalted Orb" "Divine Orb"
+	BaseType "Exalted Orb"
+	PlayAlertSoundPositional ShExalted 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
 	SetFontSize 45
-	SetBorderColor 170 158 130
-	PlayAlertSound 3 300
-#-----------------------------------------
-#	Tier 1 Currencies
-#-----------------------------------------
-Show
-	Class "Currency"
-	BaseType "Orb of Augmentation" "Orb of Transmutation"
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 170 158 130
-#-----------------------------------------
-#	Mid Value
-#-----------------------------------------
-Show
-	Class "Currency"
-	BaseType "Orb of Alteration"
-	SetFontSize 40
-	SetBorderColor 170 158 130
-
+	SetTextColor 255 0 0
 #------------------------------------
-#	Low Valuable
-#------------------------------------
+#	Divine Orb
+#------------------------------------	
 Show
 	Class "Currency"
-	BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Silver Coin"
+	BaseType "Divine Orb"	
+	PlayAlertSoundPositional ShDivine 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
 	SetFontSize 45
-	SetBorderColor 170 158 130
-#------------------------------------
-#	Middle valuable currencies
-#------------------------------------
-Show
-	Class "Currency"
-	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Orb of Alchemy" "Orb of Chance" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
-	SetFontSize 45
-	SetBorderColor 170 158 130
-	PlayAlertSound 2 300
-
+	SetTextColor 255 0 0
+#=====================================================================
+#	Tier 3 Currency
+#=====================================================================
 #------------------------------------
 #	Cartographer's sextant
 #------------------------------------
 Show
 	Class "Currency"
 	BaseType "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
-	SetFontSize 45
+	PlayAlertSoundPositional 14 300
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130
-	PlayAlertSound 14 300
-#========================================================================
-#	Breach currency
-#========================================================================
-#------------------------------------
-#	Breach Splinter
-#------------------------------------
-Show
-	Class "Currency"
-	BaseType "Splinter of Chayula" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
-	SetTextColor 114 0 83
-	SetBorderColor 114 0 83
-#------------------------------------
-#	Breach blessing
-#------------------------------------
-Show
-	Class "Currency"
-	BaseType "Blessing of Chayula" "Blessing of Esh" "Blessing of Tul" "Blessing of Uul-Netol" "Blessing of Xoph"
 	SetFontSize 45
-	SetTextColor 114 0 83
-	SetBorderColor 114 0 83
-#========================================================================
-#	Hide Currencies
-#========================================================================
+#------------------------------------
+#	Regular Currency
+#------------------------------------	
+Show
+	Class "Currency"
+	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Orb of Alchemy" "Orb of Chance" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
+	SetFontSize 45
+#=====================================================================
+#	Tier 4 Currency
+#=====================================================================
+Show
+	Class "Currency"
+	BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Silver Coin"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
+	SetFontSize 45
+#=====================================================================
+#	Tier 5 Currency
+#=====================================================================
+Show
+	Class "Currency"
+	BaseType "Orb of Augmentation" "Orb of Transmutation"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
+#=====================================================================
+#	Tier 6 Currency
+#=====================================================================
+Show
+	Class "Currency"
+	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Portal Scroll" "Scroll of Wisdom"
+	SetBackgroundColor 0 0 0 200
+#=====================================================================
+#	Hide Currency
+#=====================================================================
 #-----------------------------------------
-#	Shard
+#	Currency Shard
 #-----------------------------------------
 Hide
 	Class "Currency"
 	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
-#=================================================================================================================================
+	SetBackgroundColor 0 0 0 200
+#============================================================================================================
 #
-#	SKill Gems' rules
+#	Skill Gems
 #
-#=================================================================================================================================
+#============================================================================================================
+#=====================================================================
+#	Support Skill Gems
+#=====================================================================
 #------------------------------------
-#	Show	regular skill gems
+#	Petential Skill Gems
 #------------------------------------
 Show
 	Class "Support Skill Gems"
 	BaseType "Enhance Support" "Enlighten Support" "Empower Support"
+	SetBackgroundColor 0 0 0 200
+#=====================================================================
+#	Active Skill Gems
+#=====================================================================
 #------------------------------------
-#	Show	Vaal gems
+#	Vaal Skill Gems
 #------------------------------------
 Show
 	Class "Active Skill Gems"
 	BaseType "Vaal"
+	SetBackgroundColor 0 0 0 200
+#=====================================================================
+#	Hide Skill Gems
+#=====================================================================
 #------------------------------------
-#	Hide regular skill gems
+#	Regular Skill Gems
 #------------------------------------
 Hide
 	Class "Active Skill Gems" "Support Skill Gems"
 	Quality 0
-#=================================================================================================================================
+	SetBackgroundColor 0 0 0 200
+#============================================================================================================
 #
-#	Special items' rules
+#	League Items
 #
-#=================================================================================================================================
+#============================================================================================================
+#=====================================================================
+#	Standard
+#=====================================================================
 #------------------------------------
 #	Fishing rods
 #------------------------------------
 Show
 	Class "Currency"
 	BaseType "Albino Rhoa Feather"
+	PlayAlertSoundPositional ShGeneral 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 4 300
+	SetTextColor 255 0 0
+#=====================================================================
+#	Bestiary
+#=====================================================================
 #------------------------------------
-#	Fishing rods
+#	Necromancy Net
 #------------------------------------
 Show
-	Class "Fishing Rods"
+	Class "Currency"
+	BaseType "Necromancy Net"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 4 300
-#=================================================================================================================================
-#
-#	General rules
-#
-#=================================================================================================================================
 #------------------------------------
-#	Harbinger league
+#	Thaumaturgical Net
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Thaumaturgical Net"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
+#------------------------------------
+#	Regular Net
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Net"
+	SetBackgroundColor 0 0 0 200
+#=====================================================================
+#	Breach League
+#=====================================================================
+#------------------------------------
+#	Splinter
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Splinter of Chayula" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 114 0 83
+	SetTextColor 114 0 83
+#------------------------------------
+#	Blessing Orb
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Blessing of Chayula" "Blessing of Esh" "Blessing of Tul" "Blessing of Uul-Netol" "Blessing of Xoph"
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 114 0 83
+	SetFontSize 45
+	SetTextColor 114 0 83
+#=====================================================================
+#	Harbinger League
+#=====================================================================
+#------------------------------------
+#	Mirror Shard
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Mirror Shard"
+	PlayAlertSoundPositional ShGeneral 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#------------------------------------
+#	Currency Shard
 #------------------------------------
 Show
 	Class "Currency"
 	BaseType "Ancient Shard" "Exalted Shard"
-	SetFontSize 45
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130
-	PlayAlertSound 2 300
-Show
-	Class "Currency"
-	BaseType "Mirror Shard"
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 4 300
