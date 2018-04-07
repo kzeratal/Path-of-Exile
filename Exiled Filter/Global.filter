@@ -814,7 +814,7 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 255 119
 #=====================================================================
-#	Good Base To Identify (1H Weapons)
+#	ItemLevel 70+ (1H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Claws
@@ -822,65 +822,72 @@ Show
 Show
 	Class "Claws"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Daggers
 #-----------------------------------------
 Show
 	Class "Daggers"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	One Hand Axes
 #-----------------------------------------
 Show
 	Class "One Hand Axes"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	One Hand Maces
 #-----------------------------------------
 Show
 	Class "One Hand Maces"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	One Hand Swords
 #-----------------------------------------
 Show
 	Class "One Hand Swords"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Sceptres
 #-----------------------------------------
 Show
 	Class "Sceptres"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Wands
 #-----------------------------------------
 Show
 	Class "Wands"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #=====================================================================
-#	Good Base To Identify (2H Weapons)
+#	ItemLevel 70+ (2H Weapons)
 #=====================================================================
 #-----------------------------------------
 #	Bows
@@ -888,45 +895,151 @@ Show
 Show
 	Class "Bows"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Staves
 #-----------------------------------------
 Show
 	Class "Staves"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Two Hand Axes
 #-----------------------------------------
 Show
 	Class "Two Hand Axes"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Two Hand Maces
 #-----------------------------------------
 Show
 	Class "Two Hand Maces"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
 #-----------------------------------------
 #	Two Hand Swords
 #-----------------------------------------
 Show
 	Class "Two Hand Swords"
 	Rarity Rare
-	ItemLevel < 70
+	DropLevel >= 60
+	ItemLevel >= 70
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 255 60 60
+	SetTextColor 255 70 70
+#=====================================================================
+#	ItemLevel 70+ (Armours)
+#=====================================================================
+#-----------------------------------------
+#	Body Armours
+#-----------------------------------------
+Show
+	Class "Body Armours"
+	Rarity Rare
+	DropLevel >= 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+#-----------------------------------------
+#	Shields
+#-----------------------------------------
+Show
+	Class "Shields"
+	Rarity Rare
+	DropLevel >= 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+#=====================================================================
+#	Hide ItemLevel 70+ Garbage (1H Weapons)
+#=====================================================================
+#-----------------------------------------
+#	Claws
+#-----------------------------------------
+Hide
+	Class "Claws"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Daggers
+#-----------------------------------------
+Hide
+	Class "Daggers"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Axes
+#-----------------------------------------
+Hide
+	Class "One Hand Axes"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Maces
+#-----------------------------------------
+Hide
+	Class "One Hand Maces"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	One Hand Swords
+#-----------------------------------------
+Hide
+	Class "One Hand Swords"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Sceptres
+#-----------------------------------------
+Hide
+	Class "Sceptres"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
+#-----------------------------------------
+#	Wands
+#-----------------------------------------
+Hide
+	Class "Wands"
+	Rarity Rare
+	DropLevel < 60
+	ItemLevel >= 70
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+	SetTextColor 255 70 70
 #=====================================================================
 #	Good Base To Identify (Accessories)
 #=====================================================================
