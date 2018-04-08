@@ -71,6 +71,7 @@ Show
 	PlayAlertSoundPositional 6 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 200 200 200
+	SetFontSize 45
 #=====================================================================
 #	Item Level No Matter (Accessories)
 #=====================================================================
@@ -365,6 +366,7 @@ Show
 	PlayAlertSoundPositional 6 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 136 136 255
+	SetFontSize 45
 #=====================================================================
 #	Item Level No Matter (Accessories)
 #=====================================================================
@@ -677,6 +679,7 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 60 60
 	SetTextColor 255 60 60
+	SetFontSize 45
 #-----------------------------------------
 #	6-Socket Items (Body Armours)
 #-----------------------------------------
@@ -687,6 +690,7 @@ Show
 	PlayAlertSoundPositional 6 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 255 119
+	SetFontSize 45
 #=====================================================================
 #	Best Base To Identify (1H Weapons)
 #=====================================================================
