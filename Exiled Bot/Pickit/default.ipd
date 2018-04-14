@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18031701>
+//	Serial Number <S18041401>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -206,28 +206,19 @@
 
 //============================================================================================================
 //
-//	Maps V3.2
+//	Maps v3.2
 //
 //============================================================================================================
 
-[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "5" && [Rarity] == "Normal" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "4" && [Rarity] == "Normal" # [StashItem] == "true"
 // [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"
-[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "5" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "4" && [Rarity] == "Rare" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
 //--------------------------------------------------
 
 [Category] == "Map" # [map_monsters_reflect_%_physical_damage] >= "1" && [map_players_block_chance_+%] < "0" && [ForceSellItem] == "true"
-[Type] == "Barrows Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Channel Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Dungeon Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Ivory Temple Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Lava Chamber Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Lookout Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Maze Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Temple Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
-[Type] == "Vault Map" && [Rarity] != "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Divine Vessel
@@ -279,7 +270,7 @@
 
 //============================================================================================================
 //
-//	Skill Gems
+//	Skill Gems v3.2
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -457,6 +448,7 @@
 //	Rings
 //--------------------------------------------------
 
+[Category] == "Ring" && [Rarity] == "Rare" # [StashItem] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [TotalResistances] >= "80" && [StashItem] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
