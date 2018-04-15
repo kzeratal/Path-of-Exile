@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18041401>
+//	Serial Number <S18041501>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -449,10 +449,11 @@
 //--------------------------------------------------
 
 [Category] == "Ring" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [TotalResistances] >= "80" && [StashItem] == "true"
-[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
-[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] >= "70" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] <= "69" && [ForceSellItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [TotalResistances] <= "79" && [ForceSellItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_cold_damage_resistance_%] >= "1" && [base_cold_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_fire_damage_resistance_%] >= "1" && [base_fire_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
+[Type] == "Breach Ring" && [Rarity] == "Rare" # [base_lightning_damage_resistance_%] >= "1" && [base_lightning_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
 
 //=======================================================================
 //	Armours
