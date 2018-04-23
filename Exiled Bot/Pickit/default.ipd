@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18041501>
+//	Serial Number <S18042401>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -721,7 +721,7 @@
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [maximum_life_+%] == "10" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [life_leech_from_physical_attack_damage_permyriad] >= "0.4" && [ForceSellItem] == "true"
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] == "40" && [ForceSellItem] == "true"
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # [weapon_elemental_damage_+%] == "10" && [ForceSellItem] == "true"
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [combined_attack_elemental_damage_pluspercent] == "10" && [ForceSellItem] == "true"
 [Type] == "Studded Belt" && [Rarity] == "Unique" # [resist_all_elements_%_with_200_or_more_strength] >= "20" && [ForceSellItem] == "true"
 // [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
@@ -936,6 +936,7 @@
 [Type] == "Samite Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Secutor Helm" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [raging_spirits_always_ignite] == "true" && [ForceSellItem] == "true"
 [Type] == "Tricorne" && [Rarity] == "Unique" # [base_avoid_shock_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Vine Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Visored Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
