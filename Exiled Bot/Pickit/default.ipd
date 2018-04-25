@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18042401>
+//	Serial Number <S18042501>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -911,14 +911,14 @@
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Helmets v3.1.1d
+//	Helmets v3.2
 //--------------------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Bone Circlet" && [Rarity] == "Unique" # [spectre_maximum_life_+] == "1000" && [ForceSellItem] == "true"
 [Type] == "Festival Mask" && [Rarity] == "Unique" # [base_maximum_life] >= "20" && [base_maximum_life] <= "30" && [base_maximum_mana] >= "20" && [base_maximum_mana] <= "30" && [ForceSellItem] == "true"
 [Type] == "Gilded Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Golden Mask" && [Rarity] == "Unique" # [cold_damage_cannot_freeze] == "1" && [ForceSellItem] == "true"
+[Type] == "Golden Mask" && [Rarity] == "Unique" # [base_resist_all_elements_%] >= "26" && [base_resist_all_elements_%] <= "30" && [ForceSellItem] == "true"
 [Type] == "Great Crown" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Great Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -936,14 +936,14 @@
 [Type] == "Samite Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Secutor Helm" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Soldier Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [raging_spirits_always_ignite] == "true" && [ForceSellItem] == "true"
+[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [raging_spirits_always_ignite] == "1" && [ForceSellItem] == "true"
 [Type] == "Tricorne" && [Rarity] == "Unique" # [base_avoid_shock_%] == "100" && [ForceSellItem] == "true"
 [Type] == "Vine Circlet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Visored Sallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Zealot Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Shields v3.1.1d
+//	Shields v3.2
 //--------------------------------------------------
 
 [Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_resist_all_elements_%] <= "19" && [ForceSellItem] == "true"
@@ -968,7 +968,7 @@
 [Type] == "Painted Buckler" && [Rarity] == "Unique" # [base_maximum_cold_damage_resistance_%] == "5" && [physical_damage_%_to_add_as_cold] >= "10" && [physical_damage_%_to_add_as_cold] <= "15" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] <= "95" && [ForceSellItem] == "true"
-[Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [life_leech_from_physical_attack_damage_permyriad] == "60" && [ForceSellItem] == "true"
+[Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [life_leech_from_physical_attack_damage_permyriad] == "6" && [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [base_maximum_life] <= "177" && [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [local_physical_damage_reduction_rating_+%] <= "245" && [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_%_when_on_low_life] == "180" && [ForceSellItem] == "true"
@@ -1020,7 +1020,7 @@
 [Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Claws V3.1.1d
+//	Claws v3.2
 //--------------------------------------------------
 
 [Type] == "Awl" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1035,7 +1035,7 @@
 [Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Daggers V3.1.1d
+//	Daggers v3.2
 //--------------------------------------------------
 
 [Type] == "Ambusher" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1049,7 +1049,7 @@
 [Type] == "Stiletto" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Axes V3.1.1d
+//	One Hand Axes v3.2
 //--------------------------------------------------
 
 [Type] == "Cleaver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1060,7 +1060,7 @@
 [Type] == "Vaal Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Maces V3.1.1d
+//	One Hand Maces v3.2
 //--------------------------------------------------
 
 [Type] == "Auric Mace" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1088,7 +1088,7 @@
 [Type] == "War Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Sceptres V3.1.1d
+//	Sceptres v3.2
 //--------------------------------------------------
 
 [Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1101,7 +1101,7 @@
 [Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Staves V3.1.1d
+//	Staves v3.2
 //--------------------------------------------------
 
 [Type] == "Coiled Staff" && [Rarity] == "Unique" # [base_aura_area_of_effect_+%] == "18" && [ForceSellItem] == "true"
