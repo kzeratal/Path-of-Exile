@@ -392,7 +392,7 @@ Show
 	Rarity Magic
 	ItemLevel >= 82
 	SetBackgroundColor 0 0 0 200
-	SetBorderColor 50 180 255
+	SetBorderColor 170 220 30
 #=====================================================================
 #	Hide Garbage (1H Weapons)
 #=====================================================================
@@ -800,8 +800,8 @@ Show
 	BaseType "Crusader Boots" "Dragonscale Boots" "Murder Boots" "Slink Boots" "Sorcerer Boots" "Stealth Boots" "Titan Greaves" "Two-Toned Boots" "Vaal Greaves"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetBorderColor 100 255 110
-	SetTextColor 100 255 110
+	SetBorderColor 35 175 75
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
@@ -810,8 +810,8 @@ Show
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Stealth Gloves" "Titan Gauntlets" "Vaal Gauntlets"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetBorderColor 100 255 110
-	SetTextColor 100 255 110
+	SetBorderColor 35 175 75
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
@@ -820,8 +820,8 @@ Show
 	BaseType "Bone Helmet" "Deicide Mask" "Eternal Burgonet" "Ezomyte Burgonet" "Hubris Circlet" "Lion Pelt" "Mind Cage" "Nightmare Bascinet" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Silken Hood" "Sinner Tricorne"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetBorderColor 100 255 110
-	SetTextColor 100 255 110
+	SetBorderColor 35 175 75
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Quivers
 #-----------------------------------------
@@ -1288,7 +1288,7 @@ Show
 	Class "Amulets"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 50 180 255
+	SetTextColor 170 220 30
 #-----------------------------------------
 #	Belts
 #-----------------------------------------
@@ -1296,7 +1296,7 @@ Show
 	Class "Belts"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 50 180 255
+	SetTextColor 170 220 30
 #-----------------------------------------
 #	Jewel
 #-----------------------------------------
@@ -1304,7 +1304,7 @@ Show
 	Class "Jewel"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 50 180 255
+	SetTextColor 170 220 30
 #-----------------------------------------
 #	Rings
 #-----------------------------------------
@@ -1312,7 +1312,7 @@ Show
 	Class "Rings"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 50 180 255
+	SetTextColor 170 220 30
 #=====================================================================
 #	(Armours)
 #=====================================================================
@@ -1330,7 +1330,7 @@ Show
 	Class "Boots"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 100 255 110
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Gloves
 #-----------------------------------------
@@ -1338,7 +1338,7 @@ Show
 	Class "Gloves"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 100 255 110
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Helmets
 #-----------------------------------------
@@ -1346,7 +1346,7 @@ Show
 	Class "Helmets"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
-	SetTextColor 100 255 110
+	SetTextColor 35 175 75
 #-----------------------------------------
 #	Quivers
 #-----------------------------------------
@@ -1555,9 +1555,10 @@ Show
 Show
 	Class "Divination Card"
 	BaseType "The Doctor" "The Fiend" "Her Mask"
+	PlayAlertSoundPositional 8 300
 	SetBackgroundColor 0 0 0 200
-	SetBorderColor 255 255 255
-	SetTextColor 0 0 0
+	SetBorderColor 14 186 255
+	SetFontSize 45
 #-----------------------------------------
 #	Regular Divination Card
 #-----------------------------------------
