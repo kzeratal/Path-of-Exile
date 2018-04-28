@@ -9,43 +9,6 @@
 #
 #============================================================================================================
 #
-#	Maps Rules
-#
-#============================================================================================================
-#------------------------------------
-#	High Tier Maps
-#------------------------------------
-Show
-	Class "Maps"
-	DropLevel >= 78
-	PlayAlertSoundPositional 7 300
-	SetBackgroundColor 255 255 255 128
-	SetBorderColor 150 0 0
-	SetFontSize 45
-	SetTextColor 150 0 0
-#------------------------------------
-#	Middle Tier Maps
-#------------------------------------
-Show
-	Class "Maps"
-	DropLevel >= 73
-	PlayAlertSoundPositional 7 300
-	SetBackgroundColor 255 255 255 128
-	SetBorderColor 255 190 0
-	SetFontSize 45
-	SetTextColor 255 190 0
-#------------------------------------
-#	Low Tier Maps
-#------------------------------------
-Show
-	Class "Maps"
-	PlayAlertSoundPositional 7 300
-	SetBackgroundColor 255 255 255 128
-	SetBorderColor 255 255 255
-	SetFontSize 45
-	SetTextColor 255 255 255
-#============================================================================================================
-#
 #	Normal Items
 #
 #============================================================================================================
@@ -1521,6 +1484,66 @@ Hide
 	Class "Currency"
 	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
 	SetBackgroundColor 0 0 0 200
+#============================================================================================================
+#
+#	Maps Rules
+#
+#============================================================================================================
+#------------------------------------
+#	Red Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 78
+	PlayAlertSoundPositional 7 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 150 0 0
+	SetFontSize 45
+	SetTextColor 150 0 0
+#------------------------------------
+#	Shaped Yellow Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 73
+	ShapedMap True
+	PlayAlertSoundPositional 7 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 150 0 0
+	SetFontSize 45
+	SetTextColor 150 0 0
+#------------------------------------
+#	Yellow Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	DropLevel >= 73
+	PlayAlertSoundPositional 7 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 190 0
+	SetFontSize 45
+	SetTextColor 255 190 0
+#------------------------------------
+#	Shaped White Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	ShapedMap True
+	PlayAlertSoundPositional 7 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 190 0
+	SetFontSize 45
+	SetTextColor 255 190 0
+#------------------------------------
+#	White Tier Maps
+#------------------------------------
+Show
+	Class "Maps"
+	PlayAlertSoundPositional 7 300
+	SetBackgroundColor 255 255 255 128
+	SetBorderColor 255 255 255
+	SetFontSize 45
+	SetTextColor 255 255 255
 #============================================================================================================
 #
 #	Divination Card
