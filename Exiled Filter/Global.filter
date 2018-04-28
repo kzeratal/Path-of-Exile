@@ -5,7 +5,7 @@
 #============================================================================================================
 #
 #	Made by Jimmy Kao since 2017/06/26
-#	Updated to Harbinger League.
+#	Updated to Bestiary League.
 #
 #============================================================================================================
 #
@@ -1523,6 +1523,29 @@ Hide
 	SetBackgroundColor 0 0 0 200
 #============================================================================================================
 #
+#	Divination Card
+#
+#============================================================================================================
+#-----------------------------------------
+#	T1 Divination Card
+#-----------------------------------------
+Show
+	Class "Divination Card"
+	BaseType "The Doctor" "The Fiend" "T
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 255 255 255
+	SetTextColor 0 0 0
+#-----------------------------------------
+#	Regular Divination Card
+#-----------------------------------------
+Show
+	Class "Divination Card"
+	SetBackgroundColor 0 0 0 200
+#-----------------------------------------
+#	Hide Gargabe Divination Card
+#-----------------------------------------
+#============================================================================================================
+#
 #	Skill Gems
 #
 #============================================================================================================
@@ -1639,11 +1662,21 @@ Show
 	SetFontSize 45
 	SetTextColor 255 0 0
 #------------------------------------
-#	Currency Shard
+#	Valuable Currency Shard
 #------------------------------------
 Show
 	Class "Currency"
-	BaseType "Ancient Shard" "Exalted Shard"
+	BaseType "Ancient Shard" "Annulment Shard" "Exalted Shard" "Harbinger's Shard"
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 170 158 130
+	SetFontSize 45
+#------------------------------------
+#	Regular Currency Shard
+#------------------------------------
+Show
+	Class "Currency"
+	BaseType "Binding Shard" "Chaos Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard"
 	PlayAlertSoundPositional 2 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130
