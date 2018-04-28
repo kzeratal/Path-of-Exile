@@ -1531,7 +1531,7 @@ Hide
 #-----------------------------------------
 Show
 	Class "Divination Card"
-	BaseType "The Doctor" "The Fiend" "T
+	BaseType "The Doctor" "The Fiend" "Her Mask"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 255 255
 	SetTextColor 0 0 0
