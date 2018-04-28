@@ -1554,7 +1554,7 @@ Show
 #-----------------------------------------
 Show
 	Class "Divination Card"
-	BaseType "The Doctor" "The Fiend" "Her Mask"
+	BaseType "House of Mirrors" "Pride Before the Fall" "The Brittle Emperor" "The Devastator" "The Doctor" "The Fiend" "The King's Heart" "The Vast"
 	PlayAlertSoundPositional 8 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 14 186 255
@@ -1564,10 +1564,17 @@ Show
 #-----------------------------------------
 Show
 	Class "Divination Card"
+	BaseType "Humility" "Shard of Fate" "The Endurance"
 	SetBackgroundColor 0 0 0 200
+	SetBorderColor 14 186 255
 #-----------------------------------------
 #	Hide Gargabe Divination Card
 #-----------------------------------------
+Hide
+	Class "Divination Card"
+	BaseType "Destined to Crumble" "The Carrion Crow" "The Metalsmith's Gift"
+	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
 #============================================================================================================
 #
 #	Skill Gems
