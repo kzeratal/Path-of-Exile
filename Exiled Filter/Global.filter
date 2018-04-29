@@ -1482,7 +1482,7 @@ Show
 #-----------------------------------------
 Hide
 	Class "Currency"
-	BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
+	BaseType "Scroll Fragment" "Alchemy Shard" "Alteration Shard" "Transmutation Shard"
 	SetBackgroundColor 0 0 0 200
 #============================================================================================================
 #
@@ -1682,7 +1682,7 @@ Show
 #	Harbinger League
 #=====================================================================
 #------------------------------------
-#	Mirror Shard
+#	Tier 1 Currency Shard
 #------------------------------------
 Show
 	Class "Currency"
@@ -1693,7 +1693,7 @@ Show
 	SetFontSize 45
 	SetTextColor 255 0 0
 #------------------------------------
-#	Valuable Currency Shard
+#	Tier 2 Currency Shard
 #------------------------------------
 Show
 	Class "Currency"
@@ -1703,12 +1703,10 @@ Show
 	SetBorderColor 170 158 130
 	SetFontSize 45
 #------------------------------------
-#	Regular Currency Shard
+#	Tier 3 Currency Shard
 #------------------------------------
 Show
 	Class "Currency"
 	BaseType "Binding Shard" "Chaos Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard"
-	PlayAlertSoundPositional 2 300
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130
-	SetFontSize 45
