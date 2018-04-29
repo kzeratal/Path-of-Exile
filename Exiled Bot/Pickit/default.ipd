@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18042501>
+//	Serial Number <S18042901>
 //============================================================================================================
 //
 //	Currency v3.1.1d
@@ -112,7 +112,6 @@
 //--------------------------------------------------
 
 [Type] == "Cartographer's Delight" # [ForceSellItem] == "true"
-[Type] == "Her Mask" # [ForceSellItem] == "true"
 [Type] == "Rain Tempter" # [ForceSellItem] == "true"
 [Type] == "The Explorer" # [ForceSellItem] == "true"
 
