@@ -1,8 +1,8 @@
 //============================================================================================================
-//	Serial Number <S18042901>
+//	Serial Number <S18042902>
 //============================================================================================================
 //
-//	Currency v3.1.1d
+//	Currency v3.2
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -208,10 +208,49 @@
 //	Maps v3.2
 //
 //============================================================================================================
+//=======================================================================
+//	Regular Maps
+//=======================================================================
+//--------------------------------------------------
+//	Tier 1
+//--------------------------------------------------
 
-[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "4" && [Rarity] == "Normal" # [StashItem] == "true"
-// [Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"
-[Category] == "Map" && [MapTier] >= "1" && [MapTier] <= "4" && [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Beach Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Dungeon Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Graveyard Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Lookout Map" # [Rarity] != "Magic" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	Tier 2
+//--------------------------------------------------
+
+[Type] == "Alleyways Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Arid Lake Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Desert Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Flooded Mine Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Marshes Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Pen Map" # [Rarity] != "Magic" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	Tier 3
+//--------------------------------------------------
+
+[Type] == "Arcade Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Burial Chambers Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Cage Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Cells Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Excavation Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Iceberg Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Leyline Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Peninsula Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Port Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Springs Map" # [Rarity] != "Magic" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	Tier 4
+//--------------------------------------------------
+
+[Type] == "Volcano Map" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
