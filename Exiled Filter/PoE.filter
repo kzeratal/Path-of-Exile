@@ -1560,7 +1560,7 @@ Show
 	SetBorderColor 14 186 255
 	SetFontSize 45
 #-----------------------------------------
-#	Regular Divination Card
+#	T2 Divination Card
 #-----------------------------------------
 Show
 	Class "Divination Card"
@@ -1568,11 +1568,17 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 14 186 255
 #-----------------------------------------
+#	Regular Divination Card
+#-----------------------------------------
+Show
+	Class "Divination Card"
+	SetBackgroundColor 0 0 0 200
+#-----------------------------------------
 #	Hide Gargabe Divination Card
 #-----------------------------------------
 Hide
 	Class "Divination Card"
-	BaseType "Destined to Crumble" "The Carrion Crow" "The Metalsmith's Gift"
+	BaseType "Destined to Crumble" "The Betrayal" "The Carrion Crow" "The Metalsmith's Gift" "The Incantation"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
 #============================================================================================================
