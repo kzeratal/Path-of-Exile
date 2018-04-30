@@ -1472,7 +1472,7 @@ Show
 #=====================================================================
 Show
 	Class "Currency"
-	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Portal Scroll" "Scroll of Wisdom"
+	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Perandus Coin" "Portal Scroll" "Scroll of Wisdom"
 	SetBackgroundColor 0 0 0 200
 #=====================================================================
 #	Hide Currency
