@@ -1568,12 +1568,6 @@ Show
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 14 186 255
 #-----------------------------------------
-#	Regular Divination Card
-#-----------------------------------------
-Show
-	Class "Divination Card"
-	SetBackgroundColor 0 0 0 200
-#-----------------------------------------
 #	Hide Gargabe Divination Card
 #-----------------------------------------
 Hide
@@ -1581,6 +1575,12 @@ Hide
 	BaseType "Destined to Crumble" "The Betrayal" "The Carrion Crow" "The Metalsmith's Gift" "The Incantation"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
+#-----------------------------------------
+#	Regular Divination Card
+#-----------------------------------------
+Show
+	Class "Divination Card"
+	SetBackgroundColor 0 0 0 200
 #============================================================================================================
 #
 #	Skill Gems
