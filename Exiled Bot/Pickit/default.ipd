@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18042902>
+//	Serial Number <S18050101>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -740,12 +740,12 @@
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [avoid_stun_%] == "100" && [ForceSellItem] == "true"
 // [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [extra_gore] == "1" && [ForceSellItem] == "true"
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "112" && [ForceSellItem] == "true"
+[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "12" && [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [critical_strike_chance_+%] == "100" && [ForceSellItem] == "true"
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [poison_damage_+%_per_frenzy_charge] == "10" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Belts V3.1.1d
+//	Belts v3.2
 //--------------------------------------------------
 
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [damage_+%] == "10" && [ForceSellItem] == "true"
@@ -764,7 +764,7 @@
 // [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels
+//	Jewels v3.2
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [chance_to_gain_unholy_might_on_melee_kill_%] >= "1" && [ForceSellItem] == "true"
@@ -783,15 +783,18 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [trap_trigger_radius_+%] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels (Passsive Tree)
+//	Jewels (Passsive Tree) v3.2
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_str_to_int] >= "1" && [ForceSellItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true"
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_int_to_dex] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels (Potential)
+//	Jewels (Potential) v3.2
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_blight_hinder_duration_+%_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -812,6 +815,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_additional_ignite_stacks_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_dual_strike_main_hand_deals_double_damage_%_with_40_dex_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_ethereal_knives_number_of_additional_projectiles_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_frost_blades_melee_damage_penetrates_%_cold_resistance_with_40_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_ice_shot_explosion_skill_area_of_effect_+%_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_shrapnel_shot_cone_%_chance_to_deal_double_damage_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -819,7 +823,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Quivers
+//	Quivers v3.2
 //--------------------------------------------------
 
 [Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [ground_smoke_when_hit_%] == "25" && [ForceSellItem] == "true"
@@ -832,7 +836,7 @@
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Rings V3.2
+//	Rings v3.2
 //--------------------------------------------------
 
 // [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
