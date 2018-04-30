@@ -320,7 +320,7 @@
 
 //============================================================================================================
 //
-//	Rare Items V3.1.1d
+//	Rare Items v3.2
 //
 //============================================================================================================
 //=======================================================================
@@ -351,40 +351,94 @@
 //	Boots
 //--------------------------------------------------
 
-[Category] == "Boots" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] == "0" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Chest
 //--------------------------------------------------
 
-[Category] == "Chest" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] == "0" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Gloves
 //--------------------------------------------------
 
-[Category] == "Gloves" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] == "0" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Helmets
 //--------------------------------------------------
 
-[Category] == "Helm" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Helm" && [Rarity] == "Rare" # [Computed Energy Shield] == "0" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Sheilds
 //--------------------------------------------------
 
-[Category] == "Shield" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Shield" && [Rarity] == "Rare" # [Computed Energy Shield] == "0" && [StashItem] == "true"
 
 //=======================================================================
 //	Weapons
 //=======================================================================
 //--------------------------------------------------
-//	2Handed
+//	One Hand Axes (Physical)
 //--------------------------------------------------
 
-[Category] == "2Handed" && [Rarity] == "Rare" # [SellItem] == "true"
+[Type] == "Arming Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Boarding Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Butcher Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Broad Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Ceremonial Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Chest Splitter" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Cleaver" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Decorative Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Engraved Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Etched Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Infernal Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Jade Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Jasper Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Karui Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Reaver Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Royal Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Runic Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Rusted Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Siege Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Spectral Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Tomahawk" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Vaal Hatchet" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "War Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Wraith Axe" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Wrist Chopper" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+
+//--------------------------------------------------
+//	One Hand Maces (Physical)
+//--------------------------------------------------
+
+[Type] == "Ancestral Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Auric Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Barbed Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Battle Hammer" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Behemoth Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Bladed Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Ceremonial Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Dragon Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Dream Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Driftwood Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Flanged Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Gavel" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Legion Hammer" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Nightmare Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Ornate Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Pernarch" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Petrified Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Phantom Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Rock Breaker" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Spiked Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Stone Hammer" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Tenderizer" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Tribal Club" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "War Hammer" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
+[Type] == "Wyrm Mace" && [Rarity] == "Rare" # [Elemental DPS] == "0" && [StashItem] == "true"
 
 //============================================================================================================
 //
