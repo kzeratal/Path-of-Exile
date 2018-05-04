@@ -694,7 +694,7 @@ Show
 #-----------------------------------------
 Show
 	Class "One Hand Axes"
-	BaseType "Siege Axe"
+	BaseType "Infernal Axe" "Runic Hatchet" "Siege Axe" "Vaal Hatchet"
 	Rarity Rare
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 255 60 60
