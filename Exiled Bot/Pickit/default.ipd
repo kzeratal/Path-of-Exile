@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18050501>
+//	Serial Number <S18050502>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -468,7 +468,6 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceSellItem] == "true"
-[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [spectre_duration] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_freeze_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_ignite_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_shock_%] >= "1" && [ForceSellItem] == "true"
@@ -757,6 +756,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [minion_maximum_life_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_life_increases_applies_to_mana_doubled] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [spectres_critical_strike_chance_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [base_damage_taken_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -791,6 +791,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_freezing_pulse_damage_+%_if_enemy_shattered_recently_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_frostbolt_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_magma_orb_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_rallying_cry_damage_taken_goes_to_mana_%_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spark_number_of_additional_projectiles_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_50_int_in_radius_summon_X_melee_skeletons_as_mage_skeletons] >= "1" && [ForceSellItem] == "true"
@@ -800,8 +801,10 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_glacial_hammer_melee_splash_with_cold_damage_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_molten_strike_number_of_additional_projectiles_with_50_str_in_radius] >= "1" && [fire_damage_+%] <= "14" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "1" && [projectile_damage_+%] <= "9" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_additional_ignite_stacks_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_dual_strike_main_hand_deals_double_damage_%_with_40_dex_in_radius] >= "1" && [ForceSellItem] == "true"
