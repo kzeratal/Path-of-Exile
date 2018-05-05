@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18050201>
+//	Serial Number <S18050501>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -350,6 +350,7 @@
 //--------------------------------------------------
 
 [Type] == "Crystal Belt" # [StashItem] == "true"
+[Type] == "Leather Belt" && [Rarity] == "Normal" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Jewels
@@ -364,9 +365,20 @@
 [Type] == "Opal Ring" # [StashItem] == "true"
 [Type] == "Steel Ring" # [StashItem] == "true"
 
+//=======================================================================
+//	Weapons
+//=======================================================================
+//--------------------------------------------------
+//	One Hand Maces
+//--------------------------------------------------
+
+[Type] == "Gavel" && [Rarity] == "Normal" # [StashItem] == "true"
+[Type] == "Rock Breaker" && [Rarity] == "Normal" # [StashItem] == "true"
+[Type] == "Stone Hammer" && [Rarity] == "Normal" # [StashItem] == "true"
+
 //============================================================================================================
 //
-//	Magic Items v3.1.1d
+//	Magic Items v3.2
 //
 //============================================================================================================
 //=======================================================================
@@ -411,7 +423,7 @@
 
 //============================================================================================================
 //
-//	Rare Items V3.1.1d
+//	Rare Items v3.2
 //
 //============================================================================================================
 //=======================================================================
@@ -456,6 +468,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_stun_recovery_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [mana_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_mana_+%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [spectre_duration] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_freeze_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_ignite_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_chance_to_shock_%] >= "1" && [ForceSellItem] == "true"
@@ -510,23 +523,6 @@
 [Category] == "Boots" && [Rarity] == "Rare" # [Computed Energy Shield] >= "60" && [base_movement_velocity_+%] >= "20" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //--------------------------------------------------
-//	Chests
-//--------------------------------------------------
-
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [TotalResistances] >= "80" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Armor] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [TotalResistances] >= "80" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Energy Shield] >= "600" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [TotalResistances] >= "80" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Chest" && [Rarity] == "Rare" # [Computed Evasion] >= "1500" && [base_maximum_life] >= "90" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-
-//--------------------------------------------------
 //	Helmets
 //--------------------------------------------------
 
@@ -551,16 +547,6 @@
 [Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] == "0" && [StashItem] == "true"
 [Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] == "0" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 [Category] == "Gloves" && [Rarity] == "Rare" # [Computed Energy Shield] >= "100" && [base_cold_damage_resistance_%] == "0" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-
-//--------------------------------------------------
-//	Shields
-//--------------------------------------------------
-
-// [Type] == "Pinnacle Tower Shield" && [Rarity] == "Rare" # [base_maximum_life] > "120" && 
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [TotalResistances] >= "80" && [StashItem] == "true"
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_fire_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_cold_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
-[Category] == "Shield" && [Rarity] == "Rare" # [base_maximum_life] >= "100" && [base_fire_damage_resistance_%] >= "30" && [base_lightning_damage_resistance_%] >= "30" && [StashItem] == "true"
 
 //=======================================================================
 //	Weapons
@@ -772,10 +758,12 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_life_increases_applies_to_mana_doubled] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [base_damage_taken_+%] >= "1" && [ForceSellItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [strength_+%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [trap_and_mine_maximum_added_physical_damage] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_claw_physical_damage_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_cold_damage_increases_applies_to_physical_damage] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_one_additional_maximum_lightning_damage_per_X_dex] == "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [minion_chance_to_dodge_%] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [movement_velocity_+%_while_ignited] >= "1" && [ForceSellItem] == "true"
@@ -807,11 +795,13 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_50_int_in_radius_summon_X_melee_skeletons_as_mage_skeletons] >= "1" && [ForceSellItem] == "true"
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_zombie_slam_cooldown_speed_+%_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_cleave_fortify_on_hit_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_glacial_hammer_melee_splash_with_cold_damage_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true"
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_additional_ignite_stacks_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "1" && [ForceSellItem] == "true"
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_dual_strike_main_hand_deals_double_damage_%_with_40_dex_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -862,7 +852,7 @@
 //	Armours
 //=======================================================================
 //--------------------------------------------------
-//	Boots V3.1.1d
+//	Boots v3.2
 //--------------------------------------------------
 
 [Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -888,7 +878,7 @@
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Chests V3.1.1d
+//	Chests v3.2
 //--------------------------------------------------
 
 [Type] == "Astral Plate" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
@@ -923,7 +913,7 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [base_chance_to_dodge_spells_%] == "10" && [local_evasion_rating_+%] <= "209" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Gloves V3.1.1d
+//	Gloves v3.2
 //--------------------------------------------------
 
 [Type] == "Arcanist Glvoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -947,6 +937,7 @@
 [Type] == "Steelscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Strapped Mitts" && [Rarity] == "Unique" # [unique_facebreaker_unarmed_physical_damage_+%_final] >= "600" && [unique_facebreaker_unarmed_physical_damage_+%_final] <= "750" && [ForceSellItem] == "true"
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Vaal Gauntlets" && [Rarity] == "Unique" # [local_display_grants_skill_doryanis_touch_level] == "20" && [ForceSellItem] == "true"
 [Type] == "Velvet Gloves" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Wool Gloves" && [Rarity] == "Unique" # [base_item_found_quantity_+%] <= "16" && [ForceSellItem] == "true"
 [Type] == "Wrapped Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1138,6 +1129,7 @@
 [Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "2" && [ForceSellItem] == "true"
 [Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
 [Type] == "Iron Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Opal Sceptre" && [Rarity] == "Unique" # [local_display_grants_skill_scorching_ray_level] == "25" && [ForceSellItem] == "true"
 // [Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
