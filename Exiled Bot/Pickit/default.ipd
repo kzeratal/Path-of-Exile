@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18050502>
+//	Serial Number <S18051001>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -905,6 +905,7 @@
 [Type] == "Latticed Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ornate Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plate Vest" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # [gain_x_es_on_trap_triggered_by_an_enemy] == "50" && [ForceSellItem] == "true"
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1049,6 +1050,7 @@
 [Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Harbinger Bow" && [Rarity] == "Unique" # [consecrate_ground_on_shatter_%_chance_for_3_seconds] == "100" && [ForceSellItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Unique" # [player_far_shot] == "1" && [local_attack_speed_+%] <= "19" && [ForceSellItem] == "true"
 [Type] == "Long Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ranger Bow" && [Rarity] == "Unique" # [minion_damage_+%_per_10_dex] == "1" && [ForceSellItem] == "true"
 [Type] == "Recurve Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
