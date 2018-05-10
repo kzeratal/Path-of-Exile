@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18051001>
+//	Serial Number <S18051002>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -1056,6 +1056,8 @@
 [Type] == "Recurve Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Spine Bow" && [Rarity] == "Unique" # [chaos_damage_can_shock] == "1" && [local_attack_speed_+%] <= "14" [ForceSellItem] == "true"
+[Type] == "Spine Bow" && [Rarity] == "Unique" # [chaos_damage_can_shock] == "1" && [local_maximum_added_lightning_damage] <= "315" [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Claws v3.2
