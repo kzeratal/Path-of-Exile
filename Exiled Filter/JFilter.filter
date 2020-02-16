@@ -1,57 +1,333 @@
 #############################################################################################
 #                                                                                           #
-#          Show Normal Items                                                                #
+#			Armours = Square                                                                #
+#			Currency = Star                                                                 #
+#			Map = Circle                                                                    #
+#			Map Fragment = Diamond                                                          #
+#			Others = Hexagon                                                                #
 #                                                                                           #
 #############################################################################################
-
-#############################################################################################
 #                                                                                           #
-#          Show Magic Items                                                                 #
+#          General Rule                                                                     #
 #                                                                                           #
 #############################################################################################
-
-#############################################################################################
-#                                                                                           #
-#          Show Rare Items                                                                  #
-#                                                                                           #
-#############################################################################################
-#          Influenced                                                 #
+#          Normal Items                                               #
 #######################################################################
+#          Influenced Items                     #
+#################################################
+Show
+	Rarity Normal
+	HasInfluence "Crusader" "Elder" "Hunter" "Redeemer" "Shaper" "Warlord"
+
+	MinimapIcon 2 White Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect White
+
+	SetBackgroundColor 0 0 25
+	SetBorderColor 200 200 200
+	SetFontSize 45
+#################################################
+#          Six-Linked                           #
+#################################################
+Show
+	Rarity Normal
+	LinkedSockets 6
+
+	MinimapIcon 2 White Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect White
+
+	SetBorderColor 200 200 200
+	SetFontSize 45
+#################################################
+#          Six Sockets                          #
+#################################################
+Show
+	Rarity Normal
+	Sockets 6
+
+	MinimapIcon 2 White Square
+	PlayAlertSoundPositional 6 300
+	PlayEffect White
+
+	SetBorderColor 200 200 200
+	SetFontSize 45
+#######################################################################
+#          Magic Items                                                #
+#######################################################################
+#          Influenced Items                     #
+#################################################
+Show
+	Rarity Magic
+	HasInfluence "Crusader" "Elder" "Hunter" "Redeemer" "Shaper" "Warlord"
+
+	MinimapIcon 2 Blue Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect Blue
+
+	SetBackgroundColor 0 0 25
+	SetBorderColor 136 136 255
+	SetFontSize 45
+#################################################
+#          Six-Linked                           #
+#################################################
+Show
+	Rarity Magic
+	LinkedSockets 6
+
+	MinimapIcon 2 Blue Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect Blue
+
+	SetBorderColor 136 136 255
+	SetFontSize 45
+#################################################
+#          Six Sockets                          #
+#################################################
+Show
+	Rarity Magic
+	Sockets 6
+
+	MinimapIcon 2 Blue Square
+	PlayAlertSoundPositional 6 300
+	PlayEffect Blue
+
+	SetBorderColor 136 136 255
+	SetFontSize 45
+#######################################################################
+#          Rare Items                                                 #
+#######################################################################
+#          Influenced Items                     #
+#################################################
 Show
 	Rarity Rare
 	HasInfluence "Crusader" "Elder" "Hunter" "Redeemer" "Shaper" "Warlord"
 
 	MinimapIcon 2 Yellow Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect Yellow
+
+	SetBackgroundColor 75 75 75
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#################################################
+#          Veiled Items                         #
+#################################################
+Show
+	Rarity Rare
+	HasExplicitMod "Veil"
+
+	MinimapIcon 2 Yellow Square
 	PlayEffect Yellow
 	SetBorderColor 255 255 119
 	SetFontSize 45
-#######################################################################
-#          One Hand Swords                                            #
-#######################################################################
+#################################################
+#          Six-Linked                           #
+#################################################
 Show
 	Rarity Rare
-	Class "One Hand Swords"
-	BaseType "Corsair Sword" "Dragoon Sword" "Harpy Rapier" "Jewelled Foil" "Vaal Rapier"
-#######################################################################
+	LinkedSockets 6
+
+	MinimapIcon 2 Yellow Square
+	PlayAlertSoundPositional 4 300
+	PlayEffect Yellow
+
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#################################################
+#          Six Sockets                          #
+#################################################
+Show
+	Rarity Rare
+	Sockets 6
+
+	MinimapIcon 2 Yellow Square
+	PlayAlertSoundPositional 6 300
+	PlayEffect Yellow
+
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#############################################################################################
+#                                                                                           #
+#          Show Normal Items                                                                #
+#                                                                                           #
+#############################################################################################
 #          Accessories                                                #
 #######################################################################
+#          Rings                                #
+#################################################
+Show
+	Rarity Normal
+	Class "Rings"
+	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+
+	MinimapIcon 2 White Square
+	PlayEffect White
+#######################################################################
+#          Armours                                                    #
+#######################################################################
+#          Helmets                              #
+#################################################
+Show
+	Rarity Normal
+	Class "Helmets"
+	BaseType "Royal Burgonet"
+	ItemLevel >= 85
+
+	MinimapIcon 2 White Square
+	PlayEffect White
+#######################################################################
+#          Weapons                                                    #
+#######################################################################
+#          One Hand Swords                      #
+#################################################
+#Show
+#	Rarity Normal
+#	Class "One Hand Swords"
+#	BaseType "Jewelled Foil"
+#	ItemLevel 83
+#
+#	MinimapIcon 2 White Square
+#	PlayEffect White
+#################################################
+#          One Hand Maces                       #
+#################################################
+Show
+	Rarity Normal
+	Class "One Hand Maces"
+	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+
+	MinimapIcon 2 White Square
+	PlayEffect White
+#############################################################################################
+#                                                                                           #
+#          Show Magic Items                                                                 #
+#                                                                                           #
+#############################################################################################
+#          Accessories                                                #
+#######################################################################
+#          Rings                                #
+#################################################
+Show
+	Rarity Magic
+	Class "Rings"
+	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue
+#######################################################################
+#          Armours                                                    #
+#######################################################################
+#          Helmets                              #
+#################################################
+Show
+	Rarity Magic
+	Class "Helmets"
+	BaseType "Royal Burgonet"
+	ItemLevel >= 85
+	
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue
+#######################################################################
+#          Weapons                                                    #
+#######################################################################
+#          One Hand Swords                      #
+#################################################
+#Show
+#	Rarity Magic
+#	Class "One Hand Swords"
+#	BaseType "Jewelled Foil"
+#	ItemLevel 83
+#
+#	MinimapIcon 2 Blue Square
+#	PlayEffect Blue
+#############################################################################################
+#                                                                                           #
+#          Show Rare Items                                                                  #
+#                                                                                           #
+#############################################################################################
+#          Accessories                                                #
+#######################################################################
+#          Amulets                              #
+#################################################
 Show
 	Rarity Rare
-	Class "Amulet" "Belt" "Ring"
+	Class "Amulets"
 
-	SetBackgroundColor 0 0 0 200
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#################################################
+#          Belts                                #
+#################################################
+Show
+	Rarity Rare
+	Class "Belts"
+
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#################################################
+#          Quivers                              #
+#################################################
+Show
+	Rarity Rare
+	Class "Quivers"
+	BaseType "Ornate Quiver" "Spike-Point Arrow Quiver"
+#################################################
+#          Rings # 1                            #
+#################################################
+Show
+	Rarity Rare
+	Class "Rings"
+	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow
+	SetBorderColor 255 255 119
+	SetFontSize 45
+#################################################
+#          Rings # 2                            #
+#################################################
+Show
+	Rarity Rare
+	Class "Rings"
+
 	SetBorderColor 255 255 119
 	SetFontSize 45
 #######################################################################
-#          Shields                                                    #
+#          Armours                                                    #
 #######################################################################
+#          Shields                              #
+#################################################
 Show
 	Rarity Rare
 	Class "Shields"
 	BaseType "Colossal Tower Shield"
+#######################################################################
+#          Weapons                                                    #
+#######################################################################
+#          Bows                                 #
+#################################################
+Show
+	Rarity Rare
+	Class "Bows"
+	BaseType "Harbinger Bow" "Maraketh Bow" "Thicket Bow"
+#################################################
+#          One Hand Swords                      #
+#################################################
+Show
+	Rarity Rare
+	Class "One Hand Swords"
+	BaseType "Corsair Sword" "Dragoon Sword" "Harpy Rapier" "Jewelled Foil" "Vaal Rapier"
+#################################################
+#          Wands                                #
+#################################################
+Show
+	Rarity Rare
+	Class "Wands"
+	BaseType "Convoking Wand" "Imbued Wand"
 #############################################################################################
 #                                                                                           #
-#          Unique Items                                                                     #
+#          Show Unique Items                                                                #
 #                                                                                           #
 #############################################################################################
 #          General Rules                        #
@@ -67,181 +343,578 @@ Show
 	SetFontSize 45
 #############################################################################################
 #                                                                                           #
-#          Regular Items                                                                    #
-#                                                                                           #
-#############################################################################################
-#          Six-Linked                           #
-#################################################
-Show
-	LinkedSockets 6
-
-	MinimapIcon 0 White Star
-	PlayAlertSoundPositional 4
-	PlayEffect White
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 200 200 200
-	SetFontSize 45
-#################################################
-#          Six Sockets                          #
-#################################################
-Show
-	Sockets 6
-
-	MinimapIcon 1 White Star
-	PlayAlertSoundPositional 6
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 200 200 200
-	SetFontSize 45
-#############################################################################################
-#                                                                                           #
 #          Hide Normal Items                                                                #
 #                                                                                           #
 #############################################################################################
-#          1H Weapons                                                 #
-#######################################################################
-Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
-	Rarity Normal
-
-	SetBackgroundColor 0 0 0 200
-	SetFontSize 18
-#######################################################################
-#          2H Weapons                                                 #
-#######################################################################
-Hide
-	Class "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-	Rarity Normal
-
-	SetBackgroundColor 0 0 0 200
-	SetFontSize 18
-#######################################################################
 #          Accessories                                                #
 #######################################################################
+#          Amulets                              #
+#################################################
 Hide
-	Class "Amulets" "Belts" "Rings"
 	Rarity Normal
+	Class "Amulets"
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Belts                                #
+#################################################
+Hide
+	Rarity Normal
+	Class "Belts"
+
+	SetFontSize 18
+#################################################
+#          Rings                                #
+#################################################
+Hide
+	Rarity Normal
+	Class "Rings"
+
+	SetFontSize 18
+#################################################
+#          Quivers                              #
+#################################################
+Hide
+	Rarity Normal
+	Class "Quivers"
+
 	SetFontSize 18
 #######################################################################
 #          Armours                                                    #
 #######################################################################
+#          Body Armours                         #
+#################################################
 Hide
-	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
 	Rarity Normal
+	Class "Body Armours"
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Boots                                #
+#################################################
+Hide
+	Rarity Normal
+	Class "Boots"
+
+	SetFontSize 18
+#################################################
+#          Gloves                               #
+#################################################
+Hide
+	Rarity Normal
+	Class "Gloves"
+
+	SetFontSize 18
+#################################################
+#          Helmets                              #
+#################################################
+Hide
+	Rarity Normal
+	Class "Helmets"
+
+	SetFontSize 18
+#################################################
+#          Shields                              #
+#################################################
+Hide
+	Rarity Normal
+	Class "Shields"
+
+	SetFontSize 18
+#######################################################################
+#          Weapons (1H)                                               #
+#######################################################################
+#          Claws                                #
+#################################################
+Hide
+	Rarity Normal
+	Class "Claws"
+
+	SetFontSize 18
+#################################################
+#          Daggers                              #
+#################################################
+Hide
+	Rarity Normal
+	Class "Daggers"
+
+	SetFontSize 18
+#################################################
+#          One Hand Axes                        #
+#################################################
+Hide
+	Rarity Normal
+	Class "One Hand Axes"
+
+	SetFontSize 18
+#################################################
+#          One Hand Maces                       #
+#################################################
+Hide
+	Rarity Normal
+	Class "One Hand Maces"
+
+	SetFontSize 18
+#################################################
+#          One Hand Swords                      #
+#################################################
+Hide
+	Rarity Normal
+	Class "One Hand Swords"
+
+	SetFontSize 18
+#################################################
+#          Sceptres                             #
+#################################################
+Hide
+	Rarity Normal
+	Class "Sceptres"
+
+	SetFontSize 18
+#################################################
+#          Wands                                #
+#################################################
+Hide
+	Rarity Normal
+	Class "Wands"
+
+	SetFontSize 18
+#######################################################################
+#          Weapons (2H)                                               #
+#######################################################################
+#          Bows                                 #
+#################################################
+Hide
+	Rarity Normal
+	Class "Bows"
+
+	SetFontSize 18
+#################################################
+#          Staves                               #
+#################################################
+Hide
+	Rarity Normal
+	Class "Staves"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Axes                        #
+#################################################
+Hide
+	Rarity Normal
+	Class "Two Hand Axes"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Maces                       #
+#################################################
+Hide
+	Rarity Normal
+	Class "Two Hand Maces"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Swords                      #
+#################################################
+Hide
+	Rarity Normal
+	Class "Two Hand Swords"
+
+	SetFontSize 18
+#################################################
+#          Warstaves                            #
+#################################################
+Hide
+	Rarity Normal
+	Class "Warstaves"
+
 	SetFontSize 18
 #######################################################################
 #          Flasks                                                     #
 #######################################################################
+#          Hybrid Flasks                        #
+#################################################
 Hide
-	Class "Flask"
 	Rarity Normal
+	Class "Hybrid Flasks"
+	ItemLevel >= 78
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Life Flasks                          #
+#################################################
+Hide
+	Rarity Normal
+	Class "Life Flasks"
+	ItemLevel >= 78
+
+	SetFontSize 18
+#################################################
+#          Mana Flasks                          #
+#################################################
+Hide
+	Rarity Normal
+	Class "Mana Flasks"
+	ItemLevel >= 78
+
 	SetFontSize 18
 #############################################################################################
 #                                                                                           #
 #          Hide Magic Items                                                                 #
 #                                                                                           #
 #############################################################################################
-#          1H Weapons                                                 #
-#######################################################################
-Hide
-	Class "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Sceptres" "Wands"
-	Rarity Magic
-
-	SetBackgroundColor 0 0 0 200
-	SetFontSize 18
-#######################################################################
-#          2H Weapons                                                 #
-#######################################################################
-Hide
-	Class "Bows" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
-	Rarity Magic
-
-	SetBackgroundColor 0 0 0 200
-	SetFontSize 18
-#######################################################################
 #          Accessories                                                #
 #######################################################################
+#          Amulets                              #
+#################################################
 Hide
-	Class "Amulets" "Belts" "Rings"
 	Rarity Magic
+	Class "Amulets"
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Belts                                #
+#################################################
+Hide
+	Rarity Magic
+	Class "Belts"
+
+	SetFontSize 18
+#################################################
+#          Rings                                #
+#################################################
+Hide
+	Rarity Magic
+	Class "Rings"
+
+	SetFontSize 18
+#################################################
+#          Quivers                              #
+#################################################
+Hide
+	Rarity Magic
+	Class "Quivers"
+
 	SetFontSize 18
 #######################################################################
 #          Armours                                                    #
 #######################################################################
+#          Body Armours                         #
+#################################################
 Hide
-	Class "Body Armours" "Boots" "Gloves" "Helmets" "Quivers" "Shields"
 	Rarity Magic
+	Class "Body Armours"
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Boots                                #
+#################################################
+Hide
+	Rarity Magic
+	Class "Boots"
+
+	SetFontSize 18
+#################################################
+#          Gloves                               #
+#################################################
+Hide
+	Rarity Magic
+	Class "Gloves"
+
+	SetFontSize 18
+#################################################
+#          Helmets                              #
+#################################################
+Hide
+	Rarity Magic
+	Class "Helmets"
+
+	SetFontSize 18
+#################################################
+#          Shields                              #
+#################################################
+Hide
+	Rarity Magic
+	Class "Shields"
+
+	SetFontSize 18
+#######################################################################
+#          Weapons (1H)                                               #
+#######################################################################
+#          Claws                                #
+#################################################
+Hide
+	Rarity Magic
+	Class "Claws"
+
+	SetFontSize 18
+#################################################
+#          Daggers                              #
+#################################################
+Hide
+	Rarity Magic
+	Class "Daggers"
+
+	SetFontSize 18
+#################################################
+#          One Hand Axes                        #
+#################################################
+Hide
+	Rarity Magic
+	Class "One Hand Axes"
+
+	SetFontSize 18
+#################################################
+#          One Hand Maces                       #
+#################################################
+Hide
+	Rarity Magic
+	Class "One Hand Maces"
+
+	SetFontSize 18
+#################################################
+#          One Hand Swords                      #
+#################################################
+Hide
+	Rarity Magic
+	Class "One Hand Swords"
+
+	SetFontSize 18
+#################################################
+#          Sceptres                             #
+#################################################
+Hide
+	Rarity Magic
+	Class "Sceptres"
+
+	SetFontSize 18
+#################################################
+#          Wands                                #
+#################################################
+Hide
+	Rarity Magic
+	Class "Wands"
+
+	SetFontSize 18
+#######################################################################
+#          Weapons (2H)                                               #
+#######################################################################
+#          Bows                                 #
+#################################################
+Hide
+	Rarity Magic
+	Class "Bows"
+
+	SetFontSize 18
+#################################################
+#          Staves                               #
+#################################################
+Hide
+	Rarity Magic
+	Class "Staves"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Axes                        #
+#################################################
+Hide
+	Rarity Magic
+	Class "Two Hand Axes"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Maces                       #
+#################################################
+Hide
+	Rarity Magic
+	Class "Two Hand Maces"
+
+	SetFontSize 18
+#################################################
+#          Two Hand Swords                      #
+#################################################
+Hide
+	Rarity Magic
+	Class "Two Hand Swords"
+
+	SetFontSize 18
+#################################################
+#          Warstaves                            #
+#################################################
+Hide
+	Rarity Magic
+	Class "Warstaves"
+
 	SetFontSize 18
 #######################################################################
 #          Flasks                                                     #
 #######################################################################
+#          Hybrid Flasks                        #
+#################################################
 Hide
-	Class "Flask"
 	Rarity Magic
+	Class "Hybrid Flasks"
+	ItemLevel >= 78
 
-	SetBackgroundColor 0 0 0 200
+	SetFontSize 18
+#################################################
+#          Life Flasks                          #
+#################################################
+Hide
+	Rarity Magic
+	Class "Life Flasks"
+	ItemLevel >= 78
+
+	SetFontSize 18
+#################################################
+#          Mana Flasks                          #
+#################################################
+Hide
+	Rarity Magic
+	Class "Mana Flasks"
+	ItemLevel >= 78
+
 	SetFontSize 18
 #############################################################################################
 #                                                                                           #
 #          Hide Rare Items                                                                  #
 #                                                                                           #
 #############################################################################################
-#          One Hand Swords                                            #
+#          Accessories                                                #
 #######################################################################
+#          Quivers                              #
+#################################################
 Hide
 	Rarity Rare
-	Class "One Hand Swords"
+	Class "Quivers"
+
+	SetFontSize 18
 #######################################################################
-#          Shields                                                    #
+#          Armours                                                    #
 #######################################################################
-Hide
-	Rarity Rare
-	Class "Shields"
-#######################################################################
-#          Body Armours                                               #
-#######################################################################
+#          Body Armours                         #
+#################################################
 Hide
 	Rarity Rare
 	Class "Body Armours"
+
+	SetFontSize 18
+#################################################
+#          Shields                              #
+#################################################
+Hide
+	Rarity Rare
+	Class "Shields"
+
+	SetFontSize 18
 #######################################################################
-#          Staves                                                     #
+#          Weapons (1H)                                               #
 #######################################################################
+#          Claws                                #
+#################################################
+Hide
+	Rarity Rare
+	Class "Claws"
+
+	SetFontSize 18
+#################################################
+#          Daggers                              #
+#################################################
+Hide
+	Rarity Rare
+	Class "Daggers"
+
+	SetFontSize 18
+#################################################
+#          One Hand Axes                        #
+#################################################
+Hide
+	Rarity Rare
+	Class "One Hand Axes"
+
+	SetFontSize 18
+#################################################
+#          One Hand Maces                       #
+#################################################
+Hide
+	Rarity Rare
+	Class "One Hand Maces"
+
+	SetFontSize 18
+#################################################
+#          One Hand Swords                      #
+#################################################
+Hide
+	Rarity Rare
+	Class "One Hand Swords"
+
+	SetFontSize 18
+#################################################
+#          Sceptres                             #
+#################################################
+Hide
+	Rarity Rare
+	Class "Sceptres"
+
+	SetFontSize 18
+#################################################
+#          Wands                                #
+#################################################
+Hide
+	Rarity Rare
+	Class "Wands"
+
+	SetFontSize 18
+#######################################################################
+#          Weapons (2H)                                               #
+#######################################################################
+#          Bows                                 #
+#################################################
+Hide
+	Rarity Rare
+	Class "Bows"
+
+	SetFontSize 18
+#################################################
+#          Staves                               #
+#################################################
 Hide
 	Rarity Rare
 	Class "Staves"
-#######################################################################
-#          Two Hand Axes                                              #
-#######################################################################
+
+	SetFontSize 18
+#################################################
+#          Two Hand Axes                        #
+#################################################
 Hide
 	Rarity Rare
 	Class "Two Hand Axes"
-#######################################################################
-#          Two Hand Maces                                             #
-#######################################################################
+
+	SetFontSize 18
+#################################################
+#          Two Hand Maces                       #
+#################################################
 Hide
 	Rarity Rare
 	Class "Two Hand Maces"
-#######################################################################
-#          Two Hand Swords                                            #
-#######################################################################
+
+	SetFontSize 18
+#################################################
+#          Two Hand Swords                      #
+#################################################
 Hide
 	Rarity Rare
 	Class "Two Hand Swords"
-#######################################################################
-#          Warstaves                                                  #
-#######################################################################
+
+	SetFontSize 18
+#################################################
+#          Warstaves                            #
+#################################################
 Hide
 	Rarity Rare
 	Class "Warstaves"
+
+	SetFontSize 18
 #############################################################################################
 #                                                                                           #
 #          Hide Unique Items                                                                #
@@ -255,24 +928,37 @@ Hide
 #############################################################################################
 #          Tier 1 Currency                                            #
 #######################################################################
-#          Mirror of Kalandra                   #
+#          Ancient Orb                          #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Mirror of Kalandra"
+	BaseType "Ancient Orb"
 
 	MinimapIcon 0 Red Star
-	PlayAlertSoundPositional ShMirror 300
+	PlayAlertSoundPositional ShGeneral 300
 	SetBackgroundColor 255 255 255
 	SetBorderColor 255 0 0
 	SetFontSize 45
 	SetTextColor 255 0 0
 #################################################
-#          Eternal Orb & Feather                #
+#          Awakener's Orb                       #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Eternal Orb" "Albino Rhoa Feather"
+	BaseType "Awakener's Orb"
+
+	MinimapIcon 0 Red Star
+	PlayAlertSoundPositional ShGeneral 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#################################################
+#          Eternal Orb                          #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Eternal Orb"
 
 	MinimapIcon 0 Red Star
 	PlayAlertSoundPositional ShGeneral 300
@@ -306,17 +992,262 @@ Show
 	SetBorderColor 255 0 0
 	SetFontSize 45
 	SetTextColor 255 0 0
-#######################################################################
-#          Tier 2 Currency                                            #
-#######################################################################
-#          Regular Currency                     #
+#################################################
+#          Feather                              #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Blessed Orb" "Cartographer's Chisel" "Chaos Orb" "Gemcutter's Prism" "Orb of Alchemy" "Orb of Fusing" "Orb of Scouring" "Orb of Regret" "Regal Orb" "Vaal Orb"
+	BaseType "Albino Rhoa Feather"
+
+	MinimapIcon 0 Red Star
+	PlayAlertSoundPositional 12 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#################################################
+#          Mirror of Kalandra                   #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Mirror of Kalandra"
+
+	MinimapIcon 0 Red Star
+	PlayAlertSoundPositional ShMirror 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#################################################
+#          Orb of Annulment                     #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Annulment"
+
+	MinimapIcon 0 Red Star
+	PlayAlertSoundPositional ShGeneral 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	SetTextColor 255 0 0
+#######################################################################
+#          Tier 1 Currency Shards                                     #
+#######################################################################
+#          Ancient Shard                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Ancient Shard"
+
+	MinimapIcon 1 Red Star
+	PlayAlertSoundPositional 11 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+#################################################
+#          Annulment Shard                      #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Annulment Shard"
+
+	MinimapIcon 1 Red Star
+	PlayAlertSoundPositional 11 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+#################################################
+#          Exalted Shard                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Exalted Shard"
+
+	MinimapIcon 1 Red Star
+	PlayAlertSoundPositional 11 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+#################################################
+#          Mirror Shard                         #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Mirror Shard"
+
+	MinimapIcon 0 Red Star
+	PlayAlertSoundPositional 11 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+#######################################################################
+#          Tier 2 Currency                                            #
+#######################################################################
+#          Blessed Orb                          #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Blessed Orb"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShBlessed 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Cartographer's Chisel                #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Cartographer's Chisel"
 
 	MinimapIcon 1 Yellow Star
 	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Chaos Orb                            #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Chaos Orb"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShChaos 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Gemcutter's Prism                    #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Gemcutter's Prism"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Harbinger's Orb                      #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Harbinger's Orb"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Alchemy                       #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Alchemy"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShAlchemy 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Binding                       #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Binding"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Fusing                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Fusing"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShFusing 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Horizons                      #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Horizons"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Regret                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Regret"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Scouring                      #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Scouring"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional 2 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Regal Orb                            #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Regal Orb"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShRegal 300
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Vaal Orb                             #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Vaal Orb"
+
+	MinimapIcon 1 Yellow Star
+	PlayAlertSoundPositional ShVaal 300
 	SetBackgroundColor 254 170 0
 	SetBorderColor 0 0 0
 	SetFontSize 45
@@ -335,67 +1266,380 @@ Show
 	SetFontSize 45
 	SetTextColor 0 0 0
 #######################################################################
-#          Tier 3 Currency                                            #
+#          Tier 2 Currency Shards                                     #
 #######################################################################
-#          Regular Currency                     #
+#          Alchemy Shard                        #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Alteration" "Orb of Augmentation" "Orb of Chance" "Silver Coin" "Perandus Coin"
+	BaseType "Alchemy Shard"
+
+	MinimapIcon 2 Yellow Star
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Binding Shard                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Binding Shard"
+
+	MinimapIcon 2 Yellow Star
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Chaos Shard                          #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Chaos Shard"
+
+	MinimapIcon 2 Yellow Star
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Harbinger's Shard                    #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Harbinger's Shard"
+
+	MinimapIcon 2 Yellow Star
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Horizon Shard                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Horizon Shard"
+
+	MinimapIcon 2 Yellow Star
+	SetBackgroundColor 254 170 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Regal Shard                          #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Regal Shard"
 
 	MinimapIcon 2 Yellow Star
 	SetBackgroundColor 254 170 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 #######################################################################
-#          Tier 4 Currency                                            #
+#          Tier 3 Currency                                            #
 #######################################################################
-#          Regular Currency                     #
+#          Armourer's Scrap                     #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Transmutation"
+	BaseType "Armourer's Scrap"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Blacksmith's Whetstone               #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Blacksmith's Whetstone"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Chromatic Orb                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Chromatic Orb"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Engineer's Orb                       #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Engineer's Orb"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Glassblower's Bauble                 #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Glassblower's Bauble"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Jeweller's Orb                       #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Jeweller's Orb"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Alteration                    #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Alteration"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Augmentation                  #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Augmentation"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Chance                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Chance"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Orb of Transmutation                 #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Orb of Transmutation"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Perandus Coin                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Perandus Coin"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#################################################
+#          Silver Coin                          #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Silver Coin"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+#######################################################################
+#          Tier 3 Currency Shards                                     #
+#######################################################################
+#          Alteration Shard                     #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Alteration Shard"
 
 	SetBackgroundColor 170 158 130
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 #################################################
-#          Scrolls                              #
+#          Engineer's Shard                     #
 #################################################
 Show
 	Class "Currency"
-	BaseType "Portal Scroll" "Scroll of Wisdom"
+	BaseType "Engineer's Shard"
 
 	SetBackgroundColor 170 158 130
 	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Transmutation Shard                  #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Transmutation Shard"
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#######################################################################
+#          Tier 4 Currency                                            #
+#######################################################################
+#          Portal Scroll                        #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Portal Scroll" 
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#################################################
+#          Scroll of Wisdom                     #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Scroll of Wisdom" 
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+#######################################################################
+#          Tier 4 Currency Shards                                     #
+#######################################################################
+#          Scroll Fragment                      #
+#################################################
+Hide
+	Class "Currency"
+	BaseType "Scroll Fragment" 
+
+	SetBackgroundColor 170 158 130
+	SetBorderColor 0 0 0
+	SetFontSize 18
 	SetTextColor 0 0 0
 #############################################################################################
 #                                                                                           #
 #          Divination Card                                                                  #
 #                                                                                           #
 #############################################################################################
-#################################################
-#          T1 Divination Card                   #
+#          Tier 1 Divination Card                                     #
+#######################################################################
+#          Head Hunter                          #
 #################################################
 Show
 	Class "Divination Card"
-	BaseType "House of Mirrors" "Pride Before the Fall" "The Brittle Emperor" "The Devastator" "The Doctor" "The Fiend" "The King's Heart" "The Vast"
+	BaseType "The Demon" "The Doctor" "The Fiend"
 
 	MinimapIcon 0 Blue Star
 	PlayAlertSoundPositional 8 300
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 14 186 255
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
 	SetFontSize 45
+	SetTextColor 0 0 200
 #################################################
-#          T2 Divination Card                   #
+#          Mirror of Kalandra                   #
 #################################################
 Show
 	Class "Divination Card"
-	BaseType "Humility" "Shard of Fate" "The Endurance"
+	BaseType "House of Mirrors" "Seven Years Bad Luck"
 
-	MinimapIcon 1 Blue Star
-	SetBackgroundColor 0 0 0 200
-	SetBorderColor 14 186 255
+	MinimapIcon 0 Blue Star
+	PlayAlertSoundPositional 8 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetFontSize 45
+	SetTextColor 0 0 200
+#######################################################################
+#          Tier 2 Divination Card                                     #
+#######################################################################
+#          Exalted Orb                          #
+#################################################
+Show
+	Class "Divination Card"
+	BaseType "Abandoned Wealth" "Alluring Bounty" "The Hoarder" "The Saint's Treasure"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
+#################################################
+#          Unique Belts                         #
+#################################################
+Show
+	Class "Divination Card"
+	BaseType "The Wretched"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
+#################################################
+#          Unique Body Armours                  #
+#################################################
+Show
+	Class "Divination Card"
+	BaseType "Humility" "The Price of Loyalty" "Pride Before the Fall" "Pride of the First Ones" "The King's Heart" "The Offering"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
+#################################################
+#          Unique Quivers                       #
+#################################################
+Show
+	Class "Divination Card"
+	BaseType "Etched in Blood"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
+#################################################
+#          Skill Gems                           #
+#################################################
+Show
+	Class "Divination Card"
+	BaseType "The Dragon's Heart" "Wealth and Power"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
+#################################################
+#          Stacked Deck                         #
+#################################################
+Show
+	Class "Currency"
+	BaseType "Stacked Deck"
+
+	MinimapIcon 2 Blue Star
+	PlayAlertSoundPositional 9 300
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 200
+	SetTextColor 0 0 200
 #################################################
 #          Worthless Divination Card            #
 #################################################
@@ -403,15 +1647,7 @@ Hide
 	Class "Divination Card"
 	BaseType "Destined to Crumble" "Struck by Lightning" "The Carrion Crow" "The King's Blade" "The Metalsmith's Gift"
 
-	SetBackgroundColor 0 0 0 200
 	SetFontSize 18
-#################################################
-#          Regular Divination Card              #
-#################################################
-Show
-	Class "Divination Card"
-
-	SetBackgroundColor 0 0 0 200
 #############################################################################################
 #                                                                                           #
 #          Maps                                                                             #
@@ -426,10 +1662,10 @@ Show
 	CustomAlertSound "MapDrop.wav"
 	MinimapIcon 2 Red Circle
 	PlayEffect Red
-	SetBackgroundColor 255 255 255 200
-	SetBorderColor 150 0 0
+	SetBackgroundColor 255 255 255
+	SetBorderColor 230 25 0
 	SetFontSize 45
-	SetTextColor 150 0 0
+	SetTextColor 230 25 0
 #######################################################################
 #          Mid Tier Maps                                              #
 #######################################################################
@@ -440,7 +1676,7 @@ Show
 	CustomAlertSound "MapDrop.wav"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 205 140 0
 	SetFontSize 45
 	SetTextColor 205 140 0
@@ -454,7 +1690,7 @@ Show
 	CustomAlertSound "MapDrop.wav"
 	MinimapIcon 2 White Circle
 	PlayEffect White
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 0 0
 	SetFontSize 45
 	SetTextColor 0 0 0
@@ -465,6 +1701,19 @@ Show
 #############################################################################################
 #          Perfect Level Gems                                         #
 #######################################################################
+#          Awakened Skill Gems                  #
+#################################################
+Show
+	Class "Gems"
+	BaseType "Awakened"
+
+	MinimapIcon 0 Green Hexagon
+	PlayEffect Green
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 150 0
+	SetFontSize 45
+	SetTextColor 0 150 0
+#################################################
 #          Regular Skill Gems                   #
 #################################################
 Show
@@ -474,7 +1723,7 @@ Show
 	CustomAlertSound "GemDrop.wav"
 	MinimapIcon 0 Green Hexagon
 	PlayEffect Green
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 150 0
 	SetFontSize 45
 	SetTextColor 0 150 0
@@ -489,10 +1738,16 @@ Show
 	CustomAlertSound "GemDrop.wav"
 	MinimapIcon 0 Green Hexagon
 	PlayEffect Green
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 150 0
 	SetFontSize 45
 	SetTextColor 0 150 0
+#################################################
+#          Vaal Skill Gems                      #
+#################################################
+Show
+	Class "Gems"
+	BaseType "Vaal"
 #######################################################################
 #          Perfect Quality Gems                                       #
 #######################################################################
@@ -505,7 +1760,7 @@ Show
 	CustomAlertSound "GemDrop.wav"
 	MinimapIcon 0 Green Hexagon
 	PlayEffect Green
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 150 0
 	SetFontSize 45
 	SetTextColor 0 150 0
@@ -521,7 +1776,7 @@ Show
 	CustomAlertSound "GemDrop.wav"
 	MinimapIcon 1 Green Hexagon
 	PlayEffect Green
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 150 0
 	SetTextColor 0 150 0
 #################################################
@@ -535,7 +1790,7 @@ Show
 	CustomAlertSound "GemDrop.wav"
 	MinimapIcon 1 Green Hexagon
 	PlayEffect Green
-	SetBackgroundColor 255 255 255 200
+	SetBackgroundColor 255 255 255
 	SetBorderColor 0 150 0
 	SetTextColor 0 150 0
 #######################################################################
@@ -617,45 +1872,6 @@ Show
 	SetBorderColor 200 200 200
 	SetFontSize 45
 	SetTextColor 200 200 200
-#######################################################################
-#          Harbinger League                                           #
-#######################################################################
-#          Tier 1 Currency                      #
-#################################################
-Show
-	Class "Currency"
-	BaseType "Orb of Annulment" "Mirror Shard"
-
-	PlayAlertSoundPositional ShGeneral 300
-	SetBackgroundColor 255 255 255
-	SetBorderColor 255 0 0
-	SetFontSize 45
-	SetTextColor 255 0 0
-#################################################
-#          Tier 2 Currency                      #
-#################################################
-Show
-	Class "Currency"
-	BaseType "Ancient Shard" "Annulment Shard" "Exalted Shard" "Harbinger's Shard" "Orb of Horizons"
-
-	MinimapIcon 1 Yellow Star
-	PlayAlertSoundPositional 2 300
-	SetBackgroundColor 254 170 0 200
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetTextColor 0 0 0
-#################################################
-#          Tier 3 Currency                      #
-#################################################
-Show
-	Class "Currency"
-	BaseType "Binding Shard" "Chaos Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard"
-
-	MinimapIcon 2 Yellow Star
-	SetBackgroundColor 254 170 0 200
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetTextColor 0 0 0
 #######################################################################
 #          Legion League                                              #
 #######################################################################
